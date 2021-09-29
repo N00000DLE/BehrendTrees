@@ -1,0 +1,16 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = btrees
+btrees = element btrees {entry+}
+
+entry = element entry {num, tn, cname, sname, treeType, desc, long, lat, elev}
+
+num = attribute num {xsd:integer}
+tn = attribute tn {xsd:integer | "N/A"}
+cname = element cname {text}
+sname = element sname {text}
+treeType = element treeType {"D" | "C"}
+desc = element desc {text}
+long = element long {xsd:float}
+lat = element lat {xsd:float}
+elev = element elev {xsd:float}
