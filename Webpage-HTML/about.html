@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+    background-color: #d0d4d4;
+    font-family: Sans-serif;
+	margin: 0;
+}
+
+#navbanner {
+    background-color: #5f7a6b;
+    color: black;
+}
+
+#navbar {
+    width: 90%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+#navbar ul li a{
+    text-decoration:none;
+    color: white;
+    text-transform: uppercase;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+  background-color: white;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+
+
+<div class="about-section">
+  <h1>The Team</h1>
+  <p>Meet the team behind the Behrend Trees project!</p>
+</div>
+
+<h2 style="text-align:center"></h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ghess\Documents\College\digit400\bTrees\destinee.jpg" alt="Destinee" style="width:100%">
+      <div class="container">
+        <h2>Destinee Kellner</h2>
+        <p class="title">*Team Role Here*</p>
+        <p> Destinee Kellner is a Senior at PSU Behrend studying DIGIT. In her free time she enjoys playing video 
+		games, anime and art.</p>
+		<p>- "I chose to do the Btrees project because I am passionate about nature and always thought the trees 
+		around campus were really interesting."</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ghess\Documents\College\digit400\bTrees\avatar.png" alt="Grace" style="width:100%">
+      <div class="container">
+        <h2>Grace Dill</h2>
+        <p class="title">*Team Role Here*</p>
+        <p>Grace Dill is a junior at Penn State Behrend and is pursuing a Digital Media Arts and Technology 
+		degree. She has interests in video games, graphic design, and nature. </p>
+		<p>- "My goal for entering the project was to display the Penn State Behrend arboretum so the general 
+		public could view the beautiful nature of our campus in a digital format."</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\ghess\Documents\College\digit400\bTrees\garrettSelf.jpg" alt="Garrett" style="width:100%">
+      <div class="container">
+        <h2>Garrett Hess</h2>
+        <p class="title">*Team Role Here*</p>
+        <p>Garrett is a senior at Penn State Behrend, pursuing a degree in DIGIT 
+		(Digital Media Arts and Technology). Garrett plans to pursue his creativity after graduation, 
+		and to use it to teach, benefit, and inspire others.  He has an interest in photography, 
+		film, writing, and design.</p>
+        <p>- "As someone who has always loved the outdoors, this project seemed like a no-brainer, 
+		and natural fit for me. I love the idea of bringing more awareness to the amazing variety of trees that 
+		Behrend and the Arboretum have cultivated."</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>
