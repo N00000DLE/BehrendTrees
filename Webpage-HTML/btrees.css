@@ -1,10 +1,12 @@
 body {
     background-color: #d0d4d4;
     font-family: Sans-serif;
+    margin: 0;
 }
 #navbanner {
     background-color: #5f7a6b;
     color: black;
+    margin: 0;  
 }
 #navbar {
     width: 90%;
@@ -19,8 +21,24 @@ body {
     display: inline-block;
     margin: 0 40px;
 }
-#navbar ul li a{
-    text-decoration:none;
+#navbar ul li a {
+    text-decoration: none;
     color: white;
     text-transform: uppercase;
+}
+#imageslider {
+   alignment:center
+}
+#frontpagecontent {
+    padding: 25px;
+}
+#frontchild {
+    border: 2px dashed black;
+    float: right;
+    width: 50%;
+}
+#frontparent {
+    float: left;
+    width: 50%;
+    background: blue;
 }
