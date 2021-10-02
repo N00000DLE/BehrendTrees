@@ -11,7 +11,7 @@ body {
 #navbar {
     width: 90%;
     margin: auto;
-    padding: 25px 0;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,7 +19,7 @@ body {
 #navbar ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 15px;
 }
 #navbar ul li a {
     text-decoration: none;
@@ -29,25 +29,50 @@ body {
 #logo{
     width:50px;
     height:50px;
+    padding: 10px 0;
+    align-items: center;
 }
-
 #bannerimage{
     width: 100%;
-    height:856px;
+    height: 30%;
+    display: block;
 }
 #imageslider {
+   width: 100%;
+   display: block;
+   text-align:center;  
+   
+}
+#webtitle{
    text-align:center;
+   width:100%; 
+   position: absolute;
+   top: 35%;
+   color: white;
+   text-transform: uppercase;
+   Text-shadow: 2px 2px black;
+   font-size:75px;
 }
-#frontpagecontent {
-    padding: 35px;
+#content {
+    padding: 40px;
+    height: 100%;
+    margin: 20px;
 }
-#frontchild {
-    border: 2px dashed black;
-    float: right;
-    width: 50%;
+#goal {
+    text-align: center;
+    width: 100%;
+    color: #2f3e46;
+    font-size: 21px;
 }
-#frontparent {
-    float: left;
-    width: 45%;
-    border: 2px dashed black
-}
+
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+   
