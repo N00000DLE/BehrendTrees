@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../articleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<newspaperArticle>
+    <meta>
+        <publisher>The Behrend Beacon</publisher>
+        <issueDate>2002-10-11</issueDate>
+        <issuePage>1</issuePage>
+    </meta>
+    <body>
+        <header><title>Greener Behrend Task Force tackles campus ecological issues</title> by
+                <author>Erin McCarty</author> news editor</header>
+        <p>On Monday, Bruno's unveiled the Ecomug, a reusable mug emblazoned with a reminder to
+            reduce, reuse, and recycle. Students can buy the mug, full of coffee or pop, for a
+            dollar and refill it for 80 cents. It comes with a hook allowing it to be attached to
+            bookbags, making it easy to transport.</p>
+        <p>Bruno's disposes an estimated 10,000 cups a week, so the mugs have the potential to
+            greatly reduce waste on campus. Nonetheless, it was one of the smaller projects
+            undertaken by the <org>Greener Behrend Task Force</org>, which focuses on campus
+            sustainability issues.</p>
+        <p>"It's the message that's so important," said <person>Dr. Thomas Wortman</person>, chair
+            of the task force. "A project like this will create some commitment."</p>
+        <p><person>Wortman</person> is also pleased that the project was a collaborative effort
+            between the <org>task force</org> and <org>Housing and Food Services</org>. Students in
+            Jeanette Schnars' environmental science class conceived the idea. The cups were designed
+            specifically for Behrend, but they are expected to spread throughout the rest of the
+            Penn State system.</p>
+        <p>Since it formed last year, the <org>task force</org> has developed more than 20 projects
+            designed for Behrend's ecological benefit. Right now, it is focusing on two major
+            projects. First, it is writing a grant with <org>Erie County Recycling</org> to get
+            money for a composting machine. This machine would be the first of its kind in Erie
+            County, and the resulting compost would be used as fertilizer in various areas around
+            campus.</p>
+        <p>Second, it is working to inventory what trees are on campus; decide where trees should be
+            planted; re-beautify the entrance area; develop a map of trees on campus; and have
+            Behrend declared an arboretum. At least one specimen of each of the 50 state trees
+            resides at Behrend.</p>
+        <p>"There is a major push for all things trees." said <person>Wortman</person>. "This is
+            exactly the time for us to celebrate the arboreal heritage of the campus."</p>
+        <p>As the <org>task force</org> tackles major issues, students can display their ecological
+            awareness in a variety of simple ways. For instance, they can take advantage of the new
+            printing system in Behrend's computer centers that prints on both sides of the paper and
+            make efforts not to print unnecessary items.</p>
+        <p> The <org>task force</org> identifies seven major sections within the sustainahility
+            issue: reducing energy use: conserving water: minimizing waste: increasing the
+            healthfulness of food and reducing its waste; protecting and preserving natural areas;
+            using environmentally friendly practices; and promoting ecological stewardship within
+            the community.</p>
+        <p>"It's important to do the little things. - said <person>Wortman</person>. "Anything we do
+            locally has a direct impact on everything_ outside hcie It's not wally about a greener
+            Behrend: it ., about a greener everything."</p>
+        <p><person>Wortman</person> went on to say that we, the beneficiaries of the Behrend
+            family's generosity, have an obligation to the gift they gave us. He feels that they
+            would he proud of the steps that are being taken to preserve the natural beauty of the
+            campus.</p>
+        <p>"Ecology is not a political issue," said <person>Wortman</person>. "It's for everybody."
+            The <org>task force</org> is seeking more participants, especially students. For more
+            information, please refer to the website www.greencampus.psu.edu</p>
+
+
+    </body>
+</newspaperArticle>
