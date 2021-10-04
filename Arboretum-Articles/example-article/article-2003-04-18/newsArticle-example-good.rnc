@@ -6,16 +6,13 @@ publisher = element publisher {text}
 issueDate = element issueDate {xsd:date |xsd:gYear | xsd:gYearMonth}
 issuePage = element issuePage {xsd:integer}
 source = element source {xsd:anyURI}
-group = attribute group {xsd:ID}
 person = element person {text}
 body= element body {title, p+}
 title = element title {mixed{header, author}}
 header = element header {text}
 author = element author {text}
 p = element p {n?, mixed {(org |person )*}}
-org = element org { group*, text}
-
-
+org = element org {text}
 n = attribute n {xsd:integer}
 
 # ged: later on I will add more attributes for each organization 
