@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="newsArticle-example-good.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../articleSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <newspaperArticle>
     <meta>
         <publisher>The Behrend Beacon</publisher>
