@@ -2,7 +2,7 @@
 <?xml-model href="Master_Tree_Schema_Final.rnc" type="application/relax-ng-compact-syntax"?>
 
 <btrees>
-    <entry num="1" tn="67">
+    <entry xml:id="tree-1" tn="67">
         <cname>Scarlet Oak</cname>
         <sname>Quercus coccinea</sname>
         <treeType>deciduous</treeType>
@@ -32,7 +32,7 @@
         <lat>42.119949</lat>
         <elev>229.720596</elev>
     </entry>
-    <entry num="2" tn="9">
+    <entry xml:id="tree-2" tn="9">
         <cname>Flowering Dogwood</cname>
         <sname>Cornus florida</sname>
         <treeType>deciduous</treeType>
@@ -54,7 +54,7 @@
         <elev>259.431549</elev>
 
     </entry>
-    <entry num="3" tn="4">
+    <entry xml:id="tree-3" tn="4">
         <cname>Common Bald Cypress</cname>
         <sname>Taxodium distichum</sname>
         <treeType>deciduous</treeType>
@@ -75,7 +75,7 @@
         <elev>262.819214</elev>
 
     </entry>
-    <entry num="4" tn="5">
+    <entry xml:id="tree-4" tn="5">
         <!--Needs New Desc-->
         <cname>Persian Ironwood</cname>
         <sname>Parrotia persica</sname>
@@ -93,7 +93,7 @@
         <elev>264.589233</elev>
 
     </entry>
-    <entry num="5" tn="6">
+    <entry xml:id="tree-5" tn="6">
         <!--Invasive-->
         <cname>Norway Maple</cname>
         <sname>Acer plataNides</sname>
@@ -113,7 +113,7 @@
         <long>-79.987173</long>
         <lat>42.119418</lat>
         <elev>265.466858</elev> 40-60 feet Europe, Western Asia Samara </entry>
-    <entry num="6" tn="2">
+    <entry xml:id="tree-6" tn="2">
         <!--Needs New Desc-->
         <cname>Eastern Hophornbeam</cname>
         <sname>Ostrya virginiana</sname>
@@ -131,7 +131,7 @@
         <elev>268.851074</elev>
 
     </entry>
-    <entry num="7" tn="3">
+    <entry xml:id="tree-7" tn="3">
         <cname>Kentucky Coffee Tree</cname>
         <sname>Gymnocladus dioicus</sname>
         <treeType>deciduous</treeType>
@@ -147,7 +147,7 @@
         <elev>269.167969</elev>
 
     </entry>
-    <entry num="8" tn="N/A">
+    <entry xml:id="tree-8" tn="N/A">
         <cname>Flowering Dogwood 2</cname>
         <sname>Cornus florida</sname>
         <treeType>deciduous</treeType>
@@ -165,7 +165,7 @@
         <elev>270.371613</elev>
 
     </entry>
-    <entry num="9" tn="7">
+    <entry xml:id="tree-9" tn="7">
         <cname>Red Maple</cname>
         <sname>Acer rubrum</sname>
         <treeType>deciduous</treeType>
@@ -181,7 +181,7 @@
         <elev>271.092651</elev>
 
     </entry>
-    <entry num="10" tn="8">
+    <entry xml:id="tree-10" tn="8">
         <cname>Accolade Elm</cname>
         <sname>U. davidiana var. japonica</sname>
         <treeType>deciduous</treeType>
@@ -198,7 +198,7 @@
         <elev>272.434479</elev>
 
     </entry>
-    <entry num="11" tn="11">
+    <entry xml:id="tree-11" tn="11">
         <cname>Purple Fountain Weeping Beech</cname>
         <sname>Fagus sylvatica</sname>
         <treeType>deciduous</treeType>
@@ -214,7 +214,7 @@
         <elev>274.710144</elev>
 
     </entry>
-    <entry num="12" tn="N/A">
+    <entry xml:id="tree-12" tn="N/A">
         <cname>Eastern Hemlock</cname>
         <sname>Tsuga canadensis</sname>
         <treeType>coniferous</treeType>
@@ -232,7 +232,7 @@
         <elev>276.676025</elev>
 
     </entry>
-    <entry num="13" tn="21">
+    <entry xml:id="tree-13" tn="21">
         <cname>Kousa Dogwood</cname>
         <sname>Cornus kousa </sname>
         <treeType>deciduous</treeType>
@@ -249,7 +249,7 @@
         <elev>278.322174</elev>
 
     </entry>
-    <entry num="14" tn="20">
+    <entry xml:id="tree-14" tn="20">
         <cname>Blue Spruce 2</cname>
         <sname>Picea pungens</sname>
         <treeType>coniferous</treeType>
@@ -266,7 +266,7 @@
         <elev>280.078003</elev>
 
     </entry>
-    <entry num="16" tn="N/A">
+    <entry xml:id="tree-16" tn="N/A">
         <cname>Fraser Fir</cname>
         <sname>Abies fraseri</sname>
         <treeType>coniferous</treeType>
@@ -283,7 +283,7 @@
         <elev>281.068756</elev>
 
     </entry>
-    <entry num="17" tn="N/A">
+    <entry xml:id="tree-17" tn="N/A">
         <cname>White Fringe </cname>
         <sname>Chionanthus virginicus</sname>
         <treeType>deciduous</treeType>
@@ -300,7 +300,7 @@
         <elev>280.841156</elev>
 
     </entry>
-    <entry num="18" tn="14">
+    <entry xml:id="tree-18" tn="14">
         <cname>White Pine</cname>
         <sname>Pinus strobus</sname>
         <treeType>coniferous</treeType>
@@ -317,7 +317,7 @@
         <elev>275.140442</elev>
 
     </entry>
-    <entry num="19" tn="13">
+    <entry xml:id="tree-19" tn="13">
         <cname>Norway Spruce</cname>
         <sname>Picea abies</sname>
         <treeType>coniferous</treeType>
@@ -333,7 +333,7 @@
         <elev>276.915619</elev>
 
     </entry>
-    <entry num="20" tn="12">
+    <entry xml:id="tree-20" tn="12">
         <cname>Lost Franklinia</cname>
         <sname>Franklinia alatamaha</sname>
         <treeType>deciduous</treeType>
@@ -349,7 +349,7 @@
         <elev>278.654785</elev>
 
     </entry>
-    <entry num="21" tn="15">
+    <entry xml:id="tree-21" tn="15">
         <cname>Hackberry</cname>
         <sname>Celtis occidentalis</sname>
         <treeType>deciduous</treeType>
@@ -366,7 +366,7 @@
         <elev>276.319336</elev>
 
     </entry>
-    <entry num="22" tn="N/A">
+    <entry xml:id="tree-22" tn="N/A">
         <cname>Dawn Redwood</cname>
         <sname>Metasequoia</sname>
         <treeType>deciduous</treeType>
@@ -383,7 +383,7 @@
         <elev>282.309204</elev>
 
     </entry>
-    <entry num="23" tn="N/A">
+    <entry xml:id="tree-23" tn="N/A">
         <cname>Bald Cypress</cname>
         <sname>Taxodium distichum</sname>
         <treeType>deciduous</treeType>
@@ -401,7 +401,7 @@
         <elev>282.677338</elev>
 
     </entry>
-    <entry num="24" tn="N/A">
+    <entry xml:id="tree-24" tn="N/A">
         <cname>American Chestnut</cname>
         <sname>Fagaceae</sname>
         <treeType>deciduous</treeType>
@@ -417,7 +417,7 @@
         <elev>285.832794</elev>
 
     </entry>
-    <entry num="25" tn="23">
+    <entry xml:id="tree-25" tn="23">
         <cname>Persimmon</cname>
         <sname>Diospyros kaki</sname>
         <treeType>deciduous</treeType>
@@ -433,7 +433,7 @@
         <elev>285.607849</elev>
 
     </entry>
-    <entry num="26" tn="27">
+    <entry xml:id="tree-26" tn="27">
         <cname>Ginkgo</cname>
         <sname>Ginkgo biloba</sname>
         <treeType>deciduous</treeType>
@@ -449,7 +449,7 @@
         <elev>286.727661</elev>
 
     </entry>
-    <entry num="27" tn="N/A">
+    <entry xml:id="tree-27" tn="N/A">
         <cname> Black Gum</cname>
         <sname>Nyssa sylvatica</sname>
         <treeType>deciduous</treeType>
@@ -467,7 +467,7 @@
         <elev>287.784424</elev>
 
     </entry>
-    <entry num="28" tn="36">
+    <entry xml:id="tree-28" tn="36">
         <cname>Pecan</cname>
         <sname>Carya illiNinensis</sname>
         <treeType>deciduous</treeType>
@@ -483,7 +483,7 @@
         <elev>288.676575</elev>
 
     </entry>
-    <entry num="29" tn="49">
+    <entry xml:id="tree-29" tn="49">
         <cname>Nanking (Manchu) Cherry</cname>
         <sname>Prunus tomentosa</sname>
         <treeType>deciduous</treeType>
@@ -500,7 +500,7 @@
         <elev>296.294617</elev>
 
     </entry>
-    <entry num="30" tn="N/A">
+    <entry xml:id="tree-30" tn="N/A">
         <cname>Norway Maple 2</cname>
         <sname>Acer platanoides</sname>
         <treeType>deciduous</treeType>
@@ -517,7 +517,7 @@
         <elev>295.261871</elev>
 
     </entry>
-    <entry num="31" tn="51">
+    <entry xml:id="tree-31" tn="51">
         <cname>Northern Red Oak</cname>
         <sname>Quercus rubra</sname>
         <treeType>deciduous</treeType>
@@ -534,7 +534,7 @@
         <elev>297.279053</elev>
 
     </entry>
-    <entry num="32" tn="N/A">
+    <entry xml:id="tree-32" tn="N/A">
         <cname>River's Purple Beech</cname>
         <sname>Fagus sylvatica ÔRiversiiÕ </sname>
         <treeType>deciduous</treeType>
@@ -551,7 +551,7 @@
         <elev>296.055573</elev>
 
     </entry>
-    <entry num="33" tn="N/A">
+    <entry xml:id="tree-33" tn="N/A">
         <cname>Wildfire Black Gum </cname>
         <sname>Nyssa sylvatica 'Wildfire'</sname>
         <treeType>deciduous</treeType>
@@ -567,7 +567,7 @@
         <elev>298.750519</elev>
 
     </entry>
-    <entry num="34" tn="55">
+    <entry xml:id="tree-34" tn="55">
         <cname>Bur Oak</cname>
         <sname>Quercus macrocarpa</sname>
         <treeType>deciduous</treeType>
@@ -584,7 +584,7 @@
         <elev>297.005493</elev>
 
     </entry>
-    <entry num="35" tn="32">
+    <entry xml:id="tree-35" tn="32">
         <cname>American Sweetgum</cname>
         <sname>Liquidambar styraciflua</sname>
         <treeType>deciduous</treeType>
@@ -602,7 +602,7 @@
         <elev>292.983551</elev>
 
     </entry>
-    <entry num="36" tn="N/A">
+    <entry xml:id="tree-36" tn="N/A">
         <cname>Japanese Stewartia</cname>
         <sname>Stewartia pseudocamellia</sname>
         <treeType>deciduous</treeType>
@@ -619,7 +619,7 @@
         <elev>291.299744</elev>
 
     </entry>
-    <entry num="37" tn="57">
+    <entry xml:id="tree-37" tn="57">
         <cname>Loblolly Pine</cname>
         <sname>Pinus taeda</sname>
         <treeType>coniferous</treeType>
@@ -635,7 +635,7 @@
         <elev>292.37326</elev>
 
     </entry>
-    <entry num="38" tn="58">
+    <entry xml:id="tree-38" tn="58">
         <cname>Prairiefire Flowering Crabapple</cname>
         <sname>Malus 'Prairifire'</sname>
         <treeType>deciduous</treeType>
@@ -652,7 +652,7 @@
         <elev>292.211334</elev>
 
     </entry>
-    <entry num="39" tn="60">
+    <entry xml:id="tree-39" tn="60">
         <cname>Black Walnut</cname>
         <sname>Juglans nigra</sname>
         <treeType>deciduous</treeType>
@@ -669,7 +669,7 @@
         <elev>292.582489</elev>
 
     </entry>
-    <entry num="40" tn="59">
+    <entry xml:id="tree-40" tn="59">
         <cname>Snowdrift Crabapple</cname>
         <sname>Malus 'Snowdrift'</sname>
         <treeType>deciduous</treeType>
@@ -686,7 +686,7 @@
         <elev>290.729004</elev>
 
     </entry>
-    <entry num="41" tn="61">
+    <entry xml:id="tree-41" tn="61">
         <cname>Yellow Buckeye</cname>
         <sname>Aesculus flava</sname>
         <treeType>deciduous</treeType>
@@ -704,7 +704,7 @@
         <elev>289.26947</elev>
 
     </entry>
-    <entry num="42" tn="N/A">
+    <entry xml:id="tree-42" tn="N/A">
         <cname>Flowering Dogwood 3</cname>
         <sname>Cornus florida</sname>
         <treeType>deciduous</treeType>
@@ -722,7 +722,7 @@
         <elev>288.543152</elev>
 
     </entry>
-    <entry num="45" tn="37">
+    <entry xml:id="tree-45" tn="37">
         <cname>Eastern Redbud</cname>
         <sname>Cercis canadensis</sname>
         <treeType>deciduous</treeType>
@@ -739,7 +739,7 @@
         <elev>293.676239</elev>
 
     </entry>
-    <entry num="46" tn="16">
+    <entry xml:id="tree-46" tn="16">
         <cname>Pin Oak </cname>
         <sname>Quercus palustris</sname>
         <treeType>deciduous</treeType>
@@ -756,7 +756,7 @@
         <elev>292.449951</elev>
 
     </entry>
-    <entry num="47" tn="62">
+    <entry xml:id="tree-47" tn="62">
         <cname>Copper Beech</cname>
         <sname>Fagus sylvatica</sname>
         <treeType>deciduous</treeType>
@@ -772,7 +772,7 @@
         <elev>289.63092</elev>
 
     </entry>
-    <entry num="48" tn="19">
+    <entry xml:id="tree-48" tn="19">
         <cname>American Holly</cname>
         <sname>Ilex opaca</sname>
         <treeType>deciduous</treeType>
@@ -789,7 +789,7 @@
         <elev>313.807617</elev>
 
     </entry>
-    <entry num="49" tn="25">
+    <entry xml:id="tree-49" tn="25">
         <cname>Sourwood</cname>
         <sname>Oxydendrum arboreum</sname>
         <treeType>deciduous</treeType>
@@ -805,7 +805,7 @@
         <elev>313.320129</elev>
 
     </entry>
-    <entry num="50" tn="35">
+    <entry xml:id="tree-50" tn="35">
         <cname>Littleleaf Linden</cname>
         <sname>Tilia cordata</sname>
         <treeType>deciduous</treeType>
@@ -822,7 +822,7 @@
         <elev>314.669708</elev>
 
     </entry>
-    <entry num="51" tn="38">
+    <entry xml:id="tree-51" tn="38">
         <cname>Sugar Maple</cname>
         <sname>Acer saccharum</sname>
         <treeType>deciduous</treeType>
@@ -838,7 +838,7 @@
         <elev>314.353027</elev>
 
     </entry>
-    <entry num="52" tn="42">
+    <entry xml:id="tree-52" tn="42">
         <cname>English Oak</cname>
         <sname>Quercus robur</sname>
         <treeType>deciduous</treeType>
@@ -854,7 +854,7 @@
         <elev>319.891327</elev>
 
     </entry>
-    <entry num="54" tn="43">
+    <entry xml:id="tree-54" tn="43">
         <cname>Western Tamarack (Larch)</cname>
         <sname>Larix occidentalis</sname>
         <treeType>deciduous</treeType>
@@ -871,7 +871,7 @@
         <elev>321.624359</elev>
 
     </entry>
-    <entry num="55" tn="47">
+    <entry xml:id="tree-55" tn="47">
         <cname>Chestnut Oak</cname>
         <sname>Quercus prinus</sname>
         <treeType>deciduous</treeType>
@@ -888,7 +888,7 @@
         <elev>336.185883</elev>
 
     </entry>
-    <entry num="56" tn="46">
+    <entry xml:id="tree-56" tn="46">
         <cname>Tulip Tree</cname>
         <sname>Liriodendron tulipifera</sname>
         <treeType>deciduous</treeType>
@@ -905,7 +905,7 @@
         <elev>336.219574</elev>
 
     </entry>
-    <entry num="57" tn="44">
+    <entry xml:id="tree-57" tn="44">
         <cname>Plains Cottonwood</cname>
         <sname>Populus deltoides</sname>
         <treeType>deciduous</treeType>
@@ -922,7 +922,7 @@
         <elev>330.198395</elev>
 
     </entry>
-    <entry num="58" tn="48">
+    <entry xml:id="tree-58" tn="48">
         <cname>Douglas Fir</cname>
         <sname>Pseudotsuga menziesii</sname>
         <treeType>coniferous</treeType>
@@ -939,7 +939,7 @@
         <elev>317.350861</elev>
 
     </entry>
-    <entry num="60" tn="52">
+    <entry xml:id="tree-60" tn="52">
         <cname>Thornless Honeylocust</cname>
         <sname>Gleditsia triacanthos</sname>
         <treeType>deciduous</treeType>
@@ -956,7 +956,7 @@
         <elev>307.770203</elev>
 
     </entry>
-    <entry num="61" tn="62">
+    <entry xml:id="tree-61" tn="62">
         <cname>Bitternut Hickory</cname>
         <sname>Carya cordiformis</sname>
         <treeType>deciduous</treeType>
@@ -973,7 +973,7 @@
         <elev>301.895721</elev>
 
     </entry>
-    <entry num="62" tn="66">
+    <entry xml:id="tree-62" tn="66">
         <cname>American Elm</cname>
         <sname>Ulmus americana</sname>
         <treeType>deciduous</treeType>
@@ -989,7 +989,7 @@
         <elev>304.870911</elev>
 
     </entry>
-    <entry num="63" tn="65">
+    <entry xml:id="tree-63" tn="65">
         <cname>Atlantic White Cedar</cname>
         <sname>Thuja occidentalis</sname>
         <treeType>coniferous</treeType>
@@ -1006,7 +1006,7 @@
         <elev>306.75705</elev>
 
     </entry>
-    <entry num="64" tn="N/A">
+    <entry xml:id="tree-64" tn="N/A">
         <cname>American Elm 2</cname>
         <sname>Ulmus americana</sname>
         <treeType>deciduous</treeType>
@@ -1022,7 +1022,7 @@
         <elev>308.47052</elev>
 
     </entry>
-    <entry num="65" tn="33">
+    <entry xml:id="tree-65" tn="33">
         <cname>Weeping Japanese Cherry</cname>
         <sname>Prunus subhirtella</sname>
         <treeType>deciduous</treeType>
@@ -1038,7 +1038,7 @@
         <elev>322.048676</elev>
 
     </entry>
-    <entry num="66" tn="N/A">
+    <entry xml:id="tree-66" tn="N/A">
         <cname>American Sweetgum 2</cname>
         <sname>Liquidambar styraciflua</sname>
         <treeType>deciduous</treeType>
@@ -1055,7 +1055,7 @@
         <elev>321.064178</elev>
 
     </entry>
-    <entry num="67" tn="N/A">
+    <entry xml:id="tree-67" tn="N/A">
         <cname>Blue Spruce</cname>
         <sname>Picea pugenus</sname>
         <treeType>deciduous</treeType>
@@ -1071,7 +1071,7 @@
         <elev>320.752716</elev>
 
     </entry>
-    <entry num="68" tn="N/A">
+    <entry xml:id="tree-68" tn="N/A">
         <cname>Japanese Red Maple</cname>
         <sname>Aceraceae</sname>
         <treeType>deciduous</treeType>
@@ -1087,7 +1087,7 @@
         <elev>321.106476</elev>
 
     </entry>
-    <entry num="69" tn="1">
+    <entry xml:id="tree-69" tn="1">
         <cname>Kwanzan Cherry</cname>
         <sname>Cultivar</sname>
         <treeType>deciduous</treeType>
@@ -1103,7 +1103,7 @@
         <elev>312.131378</elev>
 
     </entry>
-    <entry num="70" tn="10">
+    <entry xml:id="tree-70" tn="10">
         <cname>Yellowwood</cname>
         <sname>Cladrastis kentukea</sname>
         <treeType>deciduous</treeType>
@@ -1119,7 +1119,7 @@
         <elev>312.022369</elev>
 
     </entry>
-    <entry num="71" tn="26">
+    <entry xml:id="tree-71" tn="26">
         <cname>Ruby Horse Chestnut</cname>
         <sname>Aesculus carnea</sname>
         <treeType>deciduous</treeType>
@@ -1137,7 +1137,7 @@
         <elev>309.015381</elev>
 
     </entry>
-    <entry num="72" tn="28">
+    <entry xml:id="tree-72" tn="28">
         <cname>Japanese Umbrella Pine</cname>
         <sname>Sciadopitys verticillata</sname>
         <treeType>coniferous</treeType>
@@ -1153,7 +1153,7 @@
         <elev>311.633942</elev>
 
     </entry>
-    <entry num="73" tn="30">
+    <entry xml:id="tree-73" tn="30">
         <cname>Weeping White Pine</cname>
         <sname>Pinus strobus 'Pendula</sname>
         <treeType>coniferous</treeType>
@@ -1171,7 +1171,7 @@
         <elev>312.328979</elev>
 
     </entry>
-    <entry num="74" tn="39">
+    <entry xml:id="tree-74" tn="39">
         <cname>Spanish Oak</cname>
         <sname>Quercus falcata</sname>
         <treeType>deciduous</treeType>
@@ -1189,7 +1189,7 @@
         <elev>314.037811</elev>
 
     </entry>
-    <entry num="75" tn="40">
+    <entry xml:id="tree-75" tn="40">
         <cname>Osage Orange</cname>
         <sname>Maclura pomifera</sname>
         <treeType>deciduous</treeType>
@@ -1207,7 +1207,7 @@
         <elev>314.985504</elev>
 
     </entry>
-    <entry num="76" tn="64">
+    <entry xml:id="tree-76" tn="64">
         <cname>Korean Pine</cname>
         <sname>Pinus koraiensis</sname>
         <treeType>coniferous</treeType>
@@ -1223,7 +1223,7 @@
         <elev>310.888336</elev>
 
     </entry>
-    <entry num="77" tn="65">
+    <entry xml:id="tree-77" tn="65">
         <cname>Blue Atlas Cedar</cname>
         <sname>Cedrus atlantica</sname>
         <treeType>coniferous</treeType>
@@ -1239,7 +1239,7 @@
         <elev>310.96759</elev>
 
     </entry>
-    <entry num="78" tn="24">
+    <entry xml:id="tree-78" tn="24">
         <cname>Paper Birch</cname>
         <sname>Betula papyrifera</sname>
         <treeType>deciduous</treeType>
@@ -1255,7 +1255,7 @@
         <elev>309.498383</elev>
 
     </entry>
-    <entry num="79" tn="N/A">
+    <entry xml:id="tree-79" tn="N/A">
         <cname>White Spire Birch</cname>
         <sname>Betula populifolia</sname>
         <treeType>deciduous</treeType>
@@ -1271,7 +1271,7 @@
         <elev>311.442627</elev>
 
     </entry>
-    <entry num="80" tn="N/A">
+    <entry xml:id="tree-80" tn="N/A">
         <cname>Winter King Hawthorn</cname>
         <sname>Crataegus viridis</sname>
         <treeType>deciduous</treeType>
