@@ -3,14 +3,25 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = btrees
 btrees = element btrees {entry+}
 
-entry = element entry {num, tn, cname, sname, treeType, desc, long, lat, elev}
+entry = element entry {id, tn, cname, sname, treeType, status, origin, height,seed, desc,leaf, long, lat, elev}
 
-num = attribute num {xsd:integer}
-tn = attribute tn {xsd:integer | "N/A"}
-cname = element cname {text}
+id = attribute id {xsd:ID}
+#ged: we need to change this in the master list to id not xml:id
+tn = attribute tn {xsd:integer | "N/A"} 
+#ged: tn means trail number
+cname = element cname {altName , text}
 sname = element sname {text}
-treeType = element treeType {"D" | "C"}
-desc = element desc {text}
+altName = attribute altName {text}
+treeType = element treeType {"Deciduous" | "Coniferous"}
+status = element status {text}
+origin = element origin {"Europe" | "Asia" | "Oceania" | "South America" | "North America" | "Africa" | "Antarctica"}
+height = element height {(xsd:integer, "feet")+}
+fruit = element fruit{("True" | "False")?}
+seedGroup = element seed = {"Naked" | "Enclosed"}
+leafshape = element leafshape = {"" | "" | ""}
+#ged: we need to add a seed type becuase not all trees have fruits that carry seeds
+mainDesc = element desc {text}
+leafDesc = element leaf {text}
 long = element long {xsd:float}
 lat = element lat {xsd:float}
 elev = element elev {xsd:float}
