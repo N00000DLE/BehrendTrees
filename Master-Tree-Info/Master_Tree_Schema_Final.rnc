@@ -29,7 +29,10 @@ height = element height {(xsd:integer)}
 seed = element seed {"Gymnosperm (Naked)" | "Angiosperm (Enclosed)"}
 
 desc = element desc {text}
-leaf = element leaf {text}
+leaf = element leaf {shape, struct, edge}
+shape = attribute shape {}
+struct = attribute struct {}
+edge = attribute edge {}
 long = element long {xsd:float}
 lat = element lat {xsd:float}
 elev = element elev {xsd:float}
