@@ -3,7 +3,8 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = btrees
 btrees = element btrees {entry+}
 
-entry = element entry {id, tn, cname, sname, treeType, status, origin, height,seed, desc,leaf, long, lat, elev}
+entry = element entry {id, tn, cname, sname, treeType, status, origin, height, 
+seed, desc, leaf, long, lat, elev}
 
 id = attribute id {xsd:ID}
 #ged: we need to change this in the master list to id not xml:id
@@ -13,15 +14,22 @@ cname = element cname {altName , text}
 sname = element sname {text}
 altName = attribute altName {text}
 treeType = element treeType {"Deciduous" | "Coniferous"}
-status = element status {text}
+
+status = element status {"Presumed Extinct" | "Possibly Extinct" | "Critically Imperiled" | "Imperiled" | "Vulnerable" | "Apparently Secure" | "Secure"}
+
 origin = element origin {"Europe" | "Asia" | "Oceania" | "South America" | "North America" | "Africa" | "Antarctica"}
-height = element height {(xsd:integer, "feet")+}
-fruit = element fruit{("True" | "False")?}
-seedGroup = element seed = {"Naked" | "Enclosed"}
-leafshape = element leafshape = {"" | "" | ""}
-#ged: we need to add a seed type becuase not all trees have fruits that carry seeds
-mainDesc = element desc {text}
-leafDesc = element leaf {text}
+#ged:  I am still working on the origins!
+#I want to make these options more specific
+
+#ged: Maybe adding an Invasive Element
+
+height = element height {(xsd:integer)}
+#ged: need to ask? need to display the measuremnet also a number range
+
+seed = element seed {"Gymnosperm (Naked)" | "Angiosperm (Enclosed)"}
+
+desc = element desc {text}
+leaf = element leaf {text}
 long = element long {xsd:float}
 lat = element lat {xsd:float}
 elev = element elev {xsd:float}

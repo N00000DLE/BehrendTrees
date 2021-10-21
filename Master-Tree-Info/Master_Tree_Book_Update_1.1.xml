@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="Master_Tree_Schema_Final.rnc" type="application/relax-ng-compact-syntax"?>-->
-
+<?xml-model href="Master_Tree_Schema_Final.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="treeBook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <btrees>
     <entry xml:id="tree-1" tn="67">
@@ -9,7 +8,7 @@
         <treeType>deciduous</treeType>
         <status> </status>
         <origin> </origin>
-        <height> </height>
+        <height>70 feet</height>
         <seed> </seed>
         <desc>The Scarlet Oak is a large tree with rounded, open crown, and an autumn color. carlet
             oak is a 75 ft., deciduous tree, occasionally reaching heights of 150 ft. A somewhat
