@@ -28,17 +28,14 @@ min = attribute min {xsd:integer}
 max = attribute max {xsd:integer}
 avg = attribute avg {xsd:integer}
 unit = attribute unit {"ft" | text}
-# <height unit="ft" min="60" max="80"/>
-
+# Example: <height unit="ft" min="60" max="80"/>
 seed = element seed {"Gymnosperm (Naked)" | "Angiosperm (Enclosed)"}
-
 desc = element desc {text}
 # ged and gmh discussion: <desc> should hold something unique and special like a fun fact about the tree.
-leaf = element leaf {struct}
+leaf = element leaf {"simple" | "compound" | "evergreen"}
 #shape = attribute shape {"oval" | "truncate" | "elliptical" | "lancolate" | "linear" | "und"}
 #ged: I think if we have the leaf element it is fine 
-struct = attribute struct {"simple" | "compound" | "evergreen"}
-
+#struct = attribute struct {"simple" | "compound" | "evergreen"}
 long = element long {xsd:float}
 lat = element lat {xsd:float}
 elev = element elev {xsd:float}
