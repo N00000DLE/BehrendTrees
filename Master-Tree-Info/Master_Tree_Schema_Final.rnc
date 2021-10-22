@@ -34,8 +34,9 @@ seed = element seed {"Gymnosperm (Naked)" | "Angiosperm (Enclosed)"}
 
 desc = element desc {text}
 # ged and gmh discussion: <desc> should hold something unique and special like a fun fact about the tree.
-leaf = element leaf {shape, struct}
-shape = attribute shape {"oval" | "truncate" | "elliptical" | "lancolate" | "linear" | "und"}
+leaf = element leaf {struct}
+#shape = attribute shape {"oval" | "truncate" | "elliptical" | "lancolate" | "linear" | "und"}
+#ged: I think if we have the leaf element it is fine 
 struct = attribute struct {"simple" | "compound" | "evergreen"}
 
 long = element long {xsd:float}
