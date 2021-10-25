@@ -16,8 +16,8 @@ altName = attribute altName {text}
 treeType = element treeType {"Deciduous" | "Coniferous"}
 
 status = element status {"Presumed Extinct" | "Possibly Extinct" | "Critically Imperiled" | "Imperiled" | "Vulnerable" | "Apparently Secure" | "Secure"}
-
-origin = element origin {"Europe" | "Asia" | "Oceania" | "South America" | "North America" | "Africa" | "Antarctica"}
+origin = element origin { direct, ("Europe" | "Asia" | "Oceania" | "South America" | "North America" | "Africa" | "Antarctica")}
+direct = attribute direct {"Central" | "Eastern" | "Western" | "Northern" | "Southern" | "South Eastern" | "South Western" | "North Western" | "North Eastern" }
 #ged:  I am still working on the origins!
 #I want to make these options more specific
 
