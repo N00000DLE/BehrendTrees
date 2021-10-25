@@ -234,16 +234,19 @@
     </entry>
     <entry xml:id="tree-13" tn="21">
         <cname>Kousa Dogwood</cname>
-        <sname>Cornus kousa </sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <sname>Cornus kousa Hance </sname>
+        <treeType>Deciduous</treeType>
+        <status>Undefined</status>
+        <origin>
+            <continent direct="Central">Asia</continent>
+            <continent direct="Eastern">Asia</continent>
+        </origin>
+        <height avg="20" unit="ft"/>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>"This is a flowering tree or multi-stemmed shrub that typically grows 15-30' tall,
             with a vase-shaped habit in the early years but eventually maturing to a more rounded
             form. Bloom occurs in late spring."</desc>
-        <leaf> </leaf>
+        <leaf>Simple</leaf>
         <long>-79.985728</long>
         <lat>42.119567</lat>
         <elev>278.322174</elev>
