@@ -5,29 +5,17 @@
     <entry xml:id="tree-1" tn="67">
         <cname>Scarlet Oak</cname>
         <sname>Quercus coccinea</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height>70 feet</height>
-        <seed> </seed>
-        <desc>The Scarlet Oak is a large tree with rounded, open crown, and an autumn color. carlet
-            oak is a 75 ft., deciduous tree, occasionally reaching heights of 150 ft. A somewhat
-            pyramidal crown develops from stout, ascending branches. Bark brown with fine fissures
-            and scaly ridges, inner bark is red to orangish-pink. Twigs are smooth reddish-brown;
-            clustered terminal buds are ovoid and reddish-brown with pubescence near the apex,
-            5-angled in cross section. Leaves smooth petiole 3/4 - 2 3/8 inches (19 - 60 mm) in
-            length; leaves are elliptic to obovate, 2 3/4 - 6 1/4 inches (70 - 159 mm) long, 3 - 5
-            1/8 inches (76 - 130 mm) wide, margins with 5 - 9 lobes extending more than 1/2 the
-            distance to the midrib, base truncate, apex acute; upper surface a glossy light green,
-            with tufts of axillary tomentum beneath, secondary veins raised on both surfaces. Leaves
-            turn rich, scarlet-red in the fall. Catkins appear just before or with the appearance of
-            new leaves. A popular and handsome shade and street tree. The lumber is marketed as Red
-            Oak, which differs in its shallowly lobed, dull green leaves, and acorns with a shallow
-            cup. Black Oak (Quercus velutina) is also similar, but has yellow-green leaves with
-            brown hairs beneath and acorns with a deep cup of loose hairy scales. This species is
-            very susceptible to fire damage because of its thin bark. Such injuries often result in
-            heart rot. Grows rapidly and begins to bear fruit at age 20.</desc>
-        <leaf> </leaf>
+        <treeType>Deciduous</treeType>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height avg="70" unit="ft"/>
+        <seed>Angiosperm (Enclosed)</seed>
+        <desc>The scarlet oak’s acorns provide a food source for gray squirrels, mice, deer, wild turkey and other birds.
+            Their taproot system can make the scarlet oak difficult to transplant
+            These trees can thrive in acidic soil, and survive droughts much better than other trees.</desc>
+        <leaf>Simple</leaf>
         <long>-79.988099</long>
         <lat>42.119949</lat>
         <elev>229.720596</elev>
@@ -35,20 +23,19 @@
     <entry xml:id="tree-2" tn="9">
         <cname>Flowering Dogwood</cname>
         <sname>Cornus florida</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>The Flowering Dogwood is a single or multi-trunked tree with a spreading crown and
-            long lasting, white and pink spring blooms. It is a small flowering tree with a short
-            trunk and drown of spreading or horizontal branches. The tree hosts red fruits and other
-            scarlet red fall foliage. The Flowering Dogwood is known as one of the most beautiful
-            North American trees with beautiful early spring flowers and red fruit. Its hard wood is
+        <treeType>Deciduous</treeType>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height avg="30" unit="ft"/>
+        <seed>Angiosperm (Enclosed) </seed>
+        <desc>The Flowering Dogwood is known as one of the most beautiful
+            North American trees with early spring flowers and red fruit. Its hard wood is
             extremely shock-resistant and useful for making woven items. It is also made into
             spools, small pulleys, mallet heads, and jeweler's blocks. Indians used the aromatic
             bark and roots as a remedy for malaria and extracted a red dye from the roots. </desc>
-        <leaf> </leaf>
+        <leaf>Simple</leaf>
         <long>-79.987285</long>
         <lat>42.119576</lat>
         <elev>259.431549</elev>
