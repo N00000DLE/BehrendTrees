@@ -7,7 +7,7 @@ declare default element namespace "http://www.w3.org/2005/xpath-functions";
 declare option output:method "json";
 declare option output:media-type "application/json"; 
 
-let $treebook := //btrees 
-let $json := xml-to-json($treebook, map{"indent":true()})
+
+let $json := xml-to-json(., map{"indent":true()})
 
 return $json
