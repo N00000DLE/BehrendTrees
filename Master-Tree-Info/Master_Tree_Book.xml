@@ -44,11 +44,13 @@
     <entry xml:id="tree-3" tn="4">
         <cname>Common Bald Cypress</cname>
         <sname>Taxodium distichum</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status>Secure</status>
+        <origin>
+            <continent direct="South Eastern">North America</continent>
+        </origin>
+        <height avg="150" unit="ft"/>
+        <seed>Gymnosperm (Naked)</seed>
         <desc>The baldcypress tree is the classic tree of southern swamps. There, in its native
             habitat, it displays a peculiar habit of raising conical "knees" from its roots. The
             function of these growths is something of a mystery, although some believe it is a way
@@ -56,7 +58,7 @@
             other trees on such sites. To the surprise of many, the baldcypress does quite well when
             planted in the right soil in yards or along streets and is a beautiful specimen tree. It
             has been grown successfully in cities as far north as Milwaukee and on dry Texas hills. </desc>
-        <leaf> </leaf>
+        <leaf>Compound</leaf>
         <long>-79.987384</long>
         <lat>42.119513</lat>
         <elev>262.819214</elev>
@@ -66,15 +68,16 @@
         <!--Needs New Desc-->
         <cname>Persian Ironwood</cname>
         <sname>Parrotia persica</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>"This tree is a small upright tree or large, rounded, multi-stemmed shrub. The oblong
-            green leaves turn various shades of red, orange and yellow in the fall, often persisting
-            into the winter months. "</desc>
-        <leaf> </leaf>
+        <treeType>Deciduous</treeType>
+        <status>Undefined</status>
+        <origin>
+            <continent direct="Western">Asia</continent>
+        </origin>
+        <height avg="35" unit="ft"/>
+        <seed></seed>
+        <desc>Parrotia persica ( Persian Ironwood ) is a deciduous tree in the family 
+            Hamamelidaceae , the sole species in the genus Parrotia but closely related to the genus Hamamelis (Witch-hazels).</desc>
+        <leaf>Simple</leaf>
         <long>-79.987288</long>
         <lat>42.119451</lat>
         <elev>264.589233</elev>
@@ -84,35 +87,36 @@
         <!--Invasive-->
         <cname>Norway Maple</cname>
         <sname>Acer plataNides</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>Norway maple (Acer platanoides) is a large deciduous tree that can grow up to
-            approximately 40-60 feet in height. They are tolerant of many different growing
-            environments and have been a popular tree to plant on lawns and along streets because of
-            their hardiness. Norway maples have very shallow roots and produce a great deal of shade
+        <treeType>Deciduous</treeType>
+        <status>Undefined</status>
+        <origin>
+            <continent direct="Eastern">Europe</continent>
+        </origin>
+        <height avg="50" unit="ft"/> 
+        <seed>Angiosperm (Enclosed)</seed>
+        <desc>Norway maples have very shallow roots and produce a great deal of shade
             which makes it difficult for grass and other plants to grow in the understory below.
             Additionally, they are prolific seed producers and are now invading forests and forest
             edges.</desc>
-        <leaf> </leaf>
+        <leaf>Simple</leaf>
         <long>-79.987173</long>
         <lat>42.119418</lat>
-        <elev>265.466858</elev> 40-60 feet Europe, Western Asia Samara </entry>
+        <elev>265.466858</elev> 
+    </entry>
     <entry xml:id="tree-6" tn="2">
-        <!--Needs New Desc-->
         <cname>Eastern Hophornbeam</cname>
         <sname>Ostrya virginiana</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <treeType>Deciduous</treeType>
+        <status>Secure</status>
+        <origin> 
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height avg="40" unit="ft"> </height>
         <seed> </seed>
-        <desc>"This tree grows 20 to 35 ft tall and is naturally found in dry, rocky forests. The
-            leaves are alternate with a doubly toothed margin and fuzzy stem. The bark is smooth and
-            reddish brown."</desc>
-        <leaf> </leaf>
+        <desc>The wood of eastern hophornbeam is very close grained, strong, heavy, and exceedingly hard. 
+            It is used to make tool handles, wedges for directional felling of trees, and firewood, although 
+            it is incredibly difficult to cut down.</desc>
+        <leaf>Simple</leaf>
         <long>-79.987521</long>
         <lat>42.119155</lat>
         <elev>268.851074</elev>
@@ -121,14 +125,18 @@
     <entry xml:id="tree-7" tn="3">
         <cname>Kentucky Coffee Tree</cname>
         <sname>Gymnocladus dioicus</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>The Kentucky Coffee Tree grows to a height of 60Ð75' and produces clusters of
-            greenish-white flowers that bloom at the same time leaves are maturing.</desc>
-        <leaf> </leaf>
+        <treeType>Deciduous</treeType>
+        <status>Secure</status>
+        <origin> 
+            <continent direct="Central">North America</continent>
+        </origin>
+        <height avg="70" unit="ft"/> 
+        <seed>Angiosperm (Enclosed)</seed>
+        <desc>The Kentucky coffeetree is not related to coffee shrubs. The beans of the tree were eaten, after roasting, 
+            in the Meskwaki (Fox), Ho-Chunk (Winnebago) and Pawnee Native American cultures.
+            The Meskwaki also drank the roasted ground seeds in a hot beverage similar to coffee. The beans must be roasted before consuming 
+        because they are toxic to humans in a raw state.</desc>
+        <leaf>Compound</leaf>
         <long>-79.987406</long>
         <lat>42.11918</lat>
         <elev>269.167969</elev>
@@ -137,16 +145,19 @@
     <entry xml:id="tree-8" tn="N/A">
         <cname>Flowering Dogwood 2</cname>
         <sname>Cornus florida</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>"This is a multi-branched shrub or small tree, characterized by a rounded crown and
-            horizontal branches that spread wider than its height. Typically ranges 15' to 50' tall.
-            Bark on mature trees is broken into small square blocks that give the stem an
-            ÒalligatorÓ appearance."</desc>
-        <leaf> </leaf>
+        <treeType>Deciduous</treeType>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height avg="30" unit="ft"/>
+        <seed>Angiosperm (Enclosed) </seed>
+        <desc>The Flowering Dogwood is known as one of the most beautiful
+            North American trees with early spring flowers and red fruit. Its hard wood is
+            extremely shock-resistant and useful for making woven items. It is also made into
+            spools, small pulleys, mallet heads, and jeweler's blocks. Indians used the aromatic
+            bark and roots as a remedy for malaria and extracted a red dye from the roots. </desc>
+        <leaf>Simple</leaf>
         <long>-79.987679</long>
         <lat>42.119139</lat>
         <elev>270.371613</elev>
@@ -155,14 +166,16 @@
     <entry xml:id="tree-9" tn="7">
         <cname>Red Maple</cname>
         <sname>Acer rubrum</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>"Red maples are fast-growing trees that usually reach 60-90'. Flowers, fruit, twigs
-            and autumn leaves are red"</desc>
-        <leaf> </leaf>
+        <treeType>Deciduous</treeType>
+        <status>Secure</status>
+        <origin> 
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height avg="90" unit="ft"/> 
+        <seed>Angiosperm (Enclosed)</seed>
+        <desc>The sap can be used to make maple syrup, though it's not as high quality as that of sugar maples. 
+            Its wood is used for inexpensive furniture, firewood and railroad ties.</desc>
+        <leaf>Simple</leaf>
         <long>-79.987175</long>
         <lat>42.119287</lat>
         <elev>271.092651</elev>
@@ -171,15 +184,16 @@
     <entry xml:id="tree-10" tn="8">
         <cname>Accolade Elm</cname>
         <sname>U. davidiana var. japonica</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>" This elm is a vase shaped tree that typically grows to 50-60' tall and 25-40' wide.
-            Glossy, ovate-elliptic, dark green leaves have toothed margins and asymetrical
-            bases."</desc>
-        <leaf> </leaf>
+        <treeType>Deciduous</treeType>
+        <status>Undefined</status>
+        <origin>
+            <continent direct="Central">North America</continent>
+        </origin>
+        <height avg="60" unit="ft"/> 
+        <seed>Angiosperm (Enclosed)</seed>
+        <desc>ACCOLADE is derived from a hybrid elm (Ulmus japonica x Ulmus wilsoniana) that was planted in 1924 at the Morton Arboretum in Lisle, Illinois. 
+        Demonstrates very good resistance to Dutch elm disease (DED), and elm leaf beetle. </desc>
+        <leaf>Simple</leaf>
         <long>-79.987029</long>
         <lat>42.119338</lat>
         <elev>272.434479</elev>
