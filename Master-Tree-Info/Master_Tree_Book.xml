@@ -1231,13 +1231,14 @@
         <cname>Blue Atlas Cedar</cname>
         <sname>Cedrus atlantica</sname>
         <treeType>coniferous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Imperiled</status>
+        <origin>
+            <continent direct="Northern">Africa</continent>
+        </origin>
+        <height avg="45" unit="ft"/>        
         <seed> </seed>
-        <desc>This cedar is slow growing; reaches 40 to 60'. The evergreen needles are a light blue
-            gray color. The Blue Atlas Cedar is native to the Atlas Mountains. </desc>
-        <leaf> </leaf>
+        <desc>This highly coveted tree is truly one-of-a-kind. The Blue Atlas Cedar can be found in its natural habit in the Atlas Mountains in northwest Africa. The tree’s silvery blue to bluish-green needles, about 1 1/2” long, can be stiff and clustered. Once it’s started to hit its stride, the Blue Atlas produces barrel-shaped male cones that are about 2-3” long on the lower branches; browning, from green, over a period of two years. Like with any needled evergreen it will shed from time to time, but this occurence is knothing to worry about.</desc>
+        <leaf>Evergreen</leaf>
         <long>-79.984455</long>
         <lat>42.119336</lat>
         <elev>310.96759</elev>
@@ -1247,13 +1248,15 @@
         <cname>Paper Birch</cname>
         <sname>Betula papyrifera</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height avg="60" unit="ft"/>
+        <seed></seed>
         <desc>The Paper Birch grows to a height of 50Ð70'. It develops a smooth white bark that
             curls and peels. The leaves turn bright yellow in the fall </desc>
-        <leaf> </leaf>
+        <leaf>Simple</leaf>
         <long>-79.985286</long>
         <lat>42.119921</lat>
         <elev>309.498383</elev>
@@ -1263,13 +1266,15 @@
         <cname>White Spire Birch</cname>
         <sname>Betula populifolia</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <status>Unidentified</status>
+        <origin>
+            <continent direct="Eastern">Asia</continent>
+        </origin>
+        <height avg="30" unit="ft"/>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>"This Birch has chalky white bark. It is fast growing to a height of 20-40' . It yeild
-            shiny, dark green leaves that turn yellow in the fall."</desc>
-        <leaf> </leaf>
+            shiny, dark green leaves that turn yellow in the fall. Betula populifolia, commonly called gray birch, is a short-lived, narrow-columnar, suckering, deciduous tree that typically grows to 20-40’ tall. It most often appears in a multi-trunked form, but also grows with a single trunk. It is native primarily from Southeastern Canada to Virginia, with a scattering of plants extending westward to Illinois. It typically occurs in both dry and wet soils. This tree is noted for (1) its non-peeling chalky white bark with dark chevron trunk patches appearing below each branch base and (2) its long-pointed triangular green leaves. "</desc>
+        <leaf>Simple</leaf>
         <long>-79.985649</long>
         <lat>42.119712</lat>
         <elev>311.442627</elev>
@@ -1279,15 +1284,17 @@
         <cname>Winter King Hawthorn</cname>
         <sname>Crataegus viridis</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height avg="30" unit="ft"/>
+        <seed>Winter King Hawthorn</seed>
         <desc>"This Hawthorn can grow 25-35'. Gray stems have glossy dark green leaves that turn
             purple to red in fall. Thorns can be present. Fragrant, 5-petaled, white flowers bloom
             in May. Flowers are followed by small red fruits that ripen in September and usually
             persist on the tree well into winter. The fruit is sometimes called a haw. "</desc>
-        <leaf> </leaf>
+        <leaf>Simple</leaf>
         <long>-79.985365</long>
         <lat>42.119265</lat>
         <elev>311.656067</elev>
