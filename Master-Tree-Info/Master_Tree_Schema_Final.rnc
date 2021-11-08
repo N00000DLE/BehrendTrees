@@ -17,7 +17,7 @@ treeType = element treeType {"Deciduous" | "Coniferous"}
 
 status = element status {"Presumed Extinct" | "Possibly Extinct" | "Critically Imperiled" | "Imperiled" | "Vulnerable" | "Apparently Secure" | "Secure" | "Undefined"}
 origin = element origin { continent+}
-continent = element continent {direct+,("Europe" | "Asia" | "Oceania" | "South America" | "North America" | "Africa" | "Antarctica")}
+continent = element continent {direct*,("Europe" | "Asia" | "Oceania" | "South America" | "North America" | "Africa" | "Antarctica")}
 direct = attribute direct {"Central" | "Eastern" | "Western" | "Northern" | "Southern" | "South Eastern" | "South Western" | "North Western" | "North Eastern" }
 #ged:  I am still working on the origins!
 #I want to make these options more specific
