@@ -355,16 +355,16 @@
     </entry>
     <entry xml:id="tree-21" tn="15">
         <cname>Hackberry</cname>
-        <sname>Celtis occidentalis</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <sname>Celtis occidentalis L.</sname>
+        <treeType>Deciduous</treeType>
+        <status>Secure</status>
+        <origin><continent direct="Northern"> North America</continent></origin>
+        <height min="30" max="40" unit="ft"/>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>"This tree typically grows 40-60' tall with upright-arching branching and a rounded
             spreading crown. Fruit is like a hybrid between a nut and a berry. They are a versatile,
             power packed food. In general, they are sweet, tasty, and crunchy."</desc>
-        <leaf> </leaf>
+        <leaf>Simple</leaf>
         <long>-79.986051</long>
         <lat>42.120416</lat>
         <elev>276.319336</elev>
@@ -372,16 +372,16 @@
     </entry>
     <entry xml:id="tree-22" tn="N/A">
         <cname>Dawn Redwood</cname>
-        <sname>Metasequoia</sname>
-        <treeType>deciduous</treeType>
+        <sname>Metasequoia glyptostroboides</sname>
+        <treeType>Deciduous</treeType>
         <status> </status>
         <origin> </origin>
         <height> </height>
-        <seed> </seed>
+        <seed>Gymnosperm (Naked)</seed>
         <desc>"This tree producies small, round 1/2"" to 1"" cones. It has a pyramidal shape in
             youth, maturing into a more rounded crown. The bright green, feathery leaves turn
             orange-brown or reddish-brown in the fall"</desc>
-        <leaf> </leaf>
+        <leaf>Evergreen</leaf>
         <long>-79.985357</long>
         <lat>42.120142</lat>
         <elev>282.309204</elev>
