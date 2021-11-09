@@ -353,13 +353,15 @@
         <elev>278.654785</elev>
 
     </entry>
-    <entry xml:id="tree-21" tn="15">
-        <cname>Hackberry</cname>
-        <sname>Celtis occidentalis L.</sname>
+<entry xml:id="tree-21" tn="15">
+        <cname altName="Northern Hackberry">Common Hackberry</cname>
+        <sname>Celtis occidentalis</sname>
         <treeType>Deciduous</treeType>
         <status>Secure</status>
-        <origin><continent direct="Northern"> North America</continent></origin>
-        <height min="30" max="40" unit="ft"/>
+        <origin>
+            <continent direct="Northern"> North America</continent>
+        </origin>
+        <height min="30" max="40" avg="35" unit="ft"/>
         <seed>Angiosperm (Enclosed)</seed>
         <desc>"This tree typically grows 40-60' tall with upright-arching branching and a rounded
             spreading crown. Fruit is like a hybrid between a nut and a berry. They are a versatile,
@@ -375,8 +377,10 @@
         <sname>Metasequoia glyptostroboides</sname>
         <treeType>Deciduous</treeType>
         <status>Undefined</status>
-        <origin><continent direct="Central"> Asia</continent> </origin>
-        <height avg="50" unit="ft"/> 
+        <origin>
+            <continent direct="Central"> Asia</continent>
+        </origin>
+        <height avg="50" unit="ft"/>
         <seed>Gymnosperm (Naked)</seed>
         <desc>"This tree producies small, round 1/2"" to 1"" cones. It has a pyramidal shape in
             youth, maturing into a more rounded crown. The bright green, feathery leaves turn
@@ -388,12 +392,14 @@
 
     </entry>
     <entry xml:id="tree-23" tn="N/A">
-        <cname>Bald Cypress</cname>
-        <sname>Taxodium distichum (L.) Rich.</sname>
+        <cname altName="Swamp Cypress">Bald Cypress</cname>
+        <sname>Taxodium distichum</sname>
         <treeType>Deciduous</treeType>
         <status>Secure </status>
-        <origin><continent direct="South Eastern">North America</continent> </origin>
-        <height min="100" max="150" unit="ft"/> 
+        <origin>
+            <continent direct="South Eastern">North America</continent>
+        </origin>
+        <height min="100" max="150" avg="125" unit="ft"/>
         <seed> Gymnosperm (Naked) </seed>
         <desc>"A young bald cypress is symmetrical and pyramidal. As it matures, it develops a
             coarse wide-spreading head. Its tapering trunk is usually 100' tall. They shed their
@@ -409,96 +415,108 @@
         <cname>American Chestnut</cname>
         <sname>Castanea dentata</sname>
         <treeType>Deciduous</treeType>
-        <status> Vulnerable  </status>
-        <origin> <continent direct="Eastern"> North America</continent></origin>
-        <height avg="100" unit="ft"/> 
-        <seed> Angiosperm (Enclosed)</seed>
+        <status>Vulnerable</status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height avg="100" unit="ft"/>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>This tree has long cane shaped leaves with hooked teeth at the edge of the leaf. The
             leaf is dull/ matte in texture. The tree reaches a height of 50'- 75'</desc>
-        <leaf> Simple </leaf>
+        <leaf>Simple</leaf>
         <long>-79.98538</long>
         <lat>42.119778</lat>
         <elev>285.832794</elev>
 
     </entry>
     <entry xml:id="tree-25" tn="23">
-        <cname>Persimmon</cname>
+        <cname altName="Chinese Persimmon">Kaki Persimmon</cname>
         <sname>Diospyros kaki</sname>
         <treeType>Deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <status> Undefined </status>
+        <origin>
+            <continent direct="Central">Asia</continent>
+        </origin>
+        <height min="20" max="40" avg="30" unit="ft"/>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"A small tree, growing up to 33' in height. The fruit is 1Ð2"" in diameter, usually
             rather flattened, and dark red to maroon in colour."</desc>
-        <leaf> </leaf>
+        <leaf>Simple</leaf>
         <long>-79.985329</long>
         <lat>42.119719</lat>
         <elev>285.607849</elev>
 
     </entry>
     <entry xml:id="tree-26" tn="27">
-        <cname>Ginkgo</cname>
+        <cname>Maidenhair Tree</cname>
         <sname>Ginkgo biloba</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Critically Imperiled </status>
+        <origin>
+            <continent direct="Central">Asia</continent>
+        </origin>
+        <height min="65" max="100" avg="83" unit="ft"/>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>" This tree has somewhat leathery, fan-shaped, rich green leaves. Leaves turn bright
             yellow in fall. Tree grows 50'- 80' tall"</desc>
-        <leaf> </leaf>
+        <leaf>Simple</leaf>
         <long>-79.985371</long>
         <lat>42.119338</lat>
         <elev>286.727661</elev>
 
     </entry>
     <entry xml:id="tree-27" tn="N/A">
-        <cname> Black Gum</cname>
+        <cname altName="Black Tupelo"> Black Gum</cname>
         <sname>Nyssa sylvatica</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
+        <origin>
+            <continent direct="Eastern"> North America</continent>
+        </origin>
+        <height avg="100" unit="ft"/>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree has summer leaves that are dark green with a high-gloss appearance, but the
             fall foliage turns many shades of yellow, orange, bright red, purple or scarlet that may
             appear on the same branch. Bark matures to medium gray and resembles alligator hide.
             Grows 30'-50' high."</desc>
-        <leaf> </leaf>
+        <leaf>Simple</leaf>
         <long>-79.985041</long>
         <lat>42.119363</lat>
         <elev>287.784424</elev>
 
     </entry>
     <entry xml:id="tree-28" tn="36">
-        <cname>Pecan</cname>
-        <sname>Carya illiNinensis</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <cname>Hardy Pecan</cname>
+        <sname>Carya illinoinensis</sname>
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
+        <origin>
+            <continent direct="Southern"> North America</continent>
+        </origin>
+        <height min="70" max="100" avg="85" unit="ft"/>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>This tree has a thick gray-brown trunk. The bark is ridged and has a scaly appearance.
             The twigs of the tree are red-brown in color and the foliage is dark green.</desc>
-        <leaf> </leaf>
+        <leaf>Simple </leaf>
         <long>-79.985084</long>
         <lat>42.119186</lat>
         <elev>288.676575</elev>
 
     </entry>
     <entry xml:id="tree-29" tn="49">
-        <cname>Nanking (Manchu) Cherry</cname>
+        <cname altName="Downy Cherry">Nanking Cherry</cname>
         <sname>Prunus tomentosa</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Undefined </status>
+        <origin>
+            <continent direct="North Western"> Asia</continent>
+        </origin>
+        <height min="4" max="8" avg="6" unit="ft"/>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree has fragrant white spring flowers, shiny reddish-brown bark, and edible
             scarlet fruit. It typically grows to a height of 6Ð10' and a spread about 15' at
             maturity."</desc>
-        <leaf> </leaf>
+        <leaf>Simple </leaf>
         <long>-79.982753</long>
         <lat>42.119313</lat>
         <elev>296.294617</elev>
@@ -507,15 +525,17 @@
     <entry xml:id="tree-30" tn="N/A">
         <cname>Norway Maple 2</cname>
         <sname>Acer platanoides</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>" This tree reaches a height of 40'-50'. The leaves are dark green, simple, opposite,
-            4Ó-7Ó wide with 5 lobes. The mature tree has a rounded crown of dense foliage and the
-            bark is grayish-black and furrowed."</desc>
-        <leaf> </leaf>
+        <treeType>Deciduous</treeType>
+        <status> Undefined </status>
+        <origin>
+            <continent direct="Eastern">Europe</continent>
+        </origin>
+        <height avg="50" unit="ft"/>
+        <seed>Angiosperm (Enclosed) </seed>
+        <desc>Norway maples have very shallow roots and produce a great deal of shade which makes it
+            difficult for grass and other plants to grow in the understory below. Additionally, they
+            are prolific seed producers and are now invading forests and forest edges.</desc>
+        <leaf> Simple </leaf>
         <long>-79.982076</long>
         <lat>42.119829</lat>
         <elev>295.261871</elev>
@@ -524,15 +544,17 @@
     <entry xml:id="tree-31" tn="51">
         <cname>Northern Red Oak</cname>
         <sname>Quercus rubra</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>" Mature trees have dark grey or brown bark with broad, shiny strips on the trunk's
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
+        <origin>
+            <continent direct="Eastern"> North America</continent>
+        </origin>
+        <height min="60" max="80" avg="70" unit="ft"/>
+        <seed>Angiosperm (Enclosed) </seed>
+        <desc>"Mature trees have dark grey or brown bark with broad, shiny strips on the trunk's
             ridges. Its leaves are dark green on both sides, with seven to eleven sharp lobes.
             "</desc>
-        <leaf> </leaf>
+        <leaf> Simple </leaf>
         <long>-79.98183</long>
         <lat>42.119779</lat>
         <elev>297.279053</elev>
@@ -540,16 +562,19 @@
     </entry>
     <entry xml:id="tree-32" tn="N/A">
         <cname>River's Purple Beech</cname>
-        <sname>Fagus sylvatica ÔRiversiiÕ </sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <sname>Fagus sylvatica Riversii</sname>
+        <treeType>Deciduous</treeType>
+        <status> Undefined </status>
+        <origin>
+            <continent direct="Central"> Europe</continent>
+            <continent direct="Eastern"> North America</continent>
+        </origin>
+        <height min="115" max="165" avg="140" unit="ft"/>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>This tree has the deepest purple foliage of any purple-leafed beech with richly
             colored foliage that retains its dark purple color throughout the summer months.ÊIt
             grows 40'-50'.</desc>
-        <leaf> </leaf>
+        <leaf>Simple </leaf>
         <long>-79.981885</long>
         <lat>42.119908</lat>
         <elev>296.055573</elev>
@@ -558,14 +583,16 @@
     <entry xml:id="tree-33" tn="N/A">
         <cname>Wildfire Black Gum </cname>
         <sname>Nyssa sylvatica 'Wildfire'</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
+        <origin>
+            <continent direct="North Western"> North America</continent>
+        </origin>
+        <height avg="100" unit="ft"/>
+        <seed>Angiosperm (Enclosed) </seed>
         <desc>Wildfire Black Gum has forest green foliage which emerges red in spring. The glossy
             pointy leaves turn an outstanding crimson in the fall. Tree reaches a height of 50'. </desc>
-        <leaf> </leaf>
+        <leaf>Simple </leaf>
         <long>-79.981413</long>
         <lat>42.119842</lat>
         <elev>298.750519</elev>
@@ -574,33 +601,40 @@
     <entry xml:id="tree-34" tn="55">
         <cname>Bur Oak</cname>
         <sname>Quercus macrocarpa</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status>Secure </status>
+        <origin>
+            <continent direct="Western"> North America</continent>
+            <continent direct="Eastern"> North America</continent>
+        </origin>
+        <height min="80" max="170" avg="125" unit="ft"/>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"Bur Oak is a large, deciduous tree with a very wide, open crown. Usually wider than
             tall, the tree can exceed 100' in height and width. The massive trunk supports heavy,
             horizontal limbs and rough, deep-ridged bark."</desc>
-        <leaf> </leaf>
+        <leaf>Simple </leaf>
         <long>-79.981284</long>
         <lat>42.120085</lat>
         <elev>297.005493</elev>
 
     </entry>
     <entry xml:id="tree-35" tn="32">
-        <cname>American Sweetgum</cname>
+        <cname altName="Alligator Wood">American Sweetgum</cname>
         <sname>Liquidambar styraciflua</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status>Secure </status>
+        <origin>
+            <continent direct="Western"> North America</continent>
+            <continent direct="Eastern"> North America</continent>
+            <continent direct="Eastern"> Europe</continent>
+        </origin>
+        <height min="100" max="130" avg="115" unit="ft"/>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree provides brilliant fall color, with leaves turning vibrant shades of
             yellow, orange, red and purple. Yields long-stemmed, woody, burr-like fruit that is
             approximately 1?"" in diameter. Grows in a pyramidal shape, becoming more oval or
             rounded with age."</desc>
-        <leaf> </leaf>
+        <leaf> Simple </leaf>
         <long>-79.981235</long>
         <lat>42.120677</lat>
         <elev>292.983551</elev>
@@ -609,15 +643,17 @@
     <entry xml:id="tree-36" tn="N/A">
         <cname>Japanese Stewartia</cname>
         <sname>Stewartia pseudocamellia</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Undefined</status>
+        <origin>
+            <continent direct="East"> Asia</continent>
+        </origin>
+        <height min="50" max="60" avg="55" unit="ft"/>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree is a small, slow-growing, pyramidal, deciduous tree native to the mountains
             of Japan and the Korean peninsula. Specimens in the wild can reach 50-60' tall, but in
             cultivation typically mature over time to 20-40' tall."</desc>
-        <leaf> </leaf>
+        <leaf> Simple</leaf>
         <long>-79.982006</long>
         <lat>42.120776</lat>
         <elev>291.299744</elev>
@@ -626,14 +662,16 @@
     <entry xml:id="tree-37" tn="57">
         <cname>Loblolly Pine</cname>
         <sname>Pinus taeda</sname>
-        <treeType>coniferous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Coniferous</treeType>
+        <status> Secure </status>
+        <origin>
+            <continent direct="Eastern"> North America</continent>
+        </origin>
+        <height min="100" max="140" avg="120" unit="ft"/>
+        <seed> Gymnosperm (Naked) </seed>
         <desc>"This tree is a large evergreen tree that reaches heights of 130'. It has ascending
             limbs, and a rounded, spreading crown. "</desc>
-        <leaf> </leaf>
+        <leaf>Evergreen </leaf>
         <long>-79.982299</long>
         <lat>42.120584</lat>
         <elev>292.37326</elev>
@@ -641,33 +679,38 @@
     </entry>
     <entry xml:id="tree-38" tn="58">
         <cname>Prairiefire Flowering Crabapple</cname>
-        <sname>Malus 'Prairifire'</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <sname>Malus Cultivars 'Prairifire'</sname>
+        <treeType>Deciduous</treeType>
+        <status> Undefined </status>
+        <origin>
+            <continent direct="Western"> Europe</continent>
+        </origin>
+        <height min="15" max="20" avg="20" unit="ft"> </height>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree grows 15- 20 ft. The blooms are followed by an intense maroon foliage that
             matures to a reddish green then turns red, orange, and purple in the fall. The glossy,
             persistent red fruit are an excellent food source for birds "</desc>
-        <leaf> </leaf>
+        <leaf> Simple </leaf>
         <long>-79.982486</long>
         <lat>42.120562</lat>
         <elev>292.211334</elev>
 
     </entry>
     <entry xml:id="tree-39" tn="60">
-        <cname>Black Walnut</cname>
+        <cname altName="Eastern Black Walnut">Black Walnut</cname>
         <sname>Juglans nigra</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
+        <origin>
+            <continent direct="Western"> Europe</continent>
+            <continent direct="Eastern"> North America</continent>
+        </origin>
+        <height min="130" max="165" avg="148" unit="ft"/>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree grows 70-80' in height and attain diameters of 2 to 4'. Mature trees have a
             deeply furrowed gray- brown to nearly black bark. The brown to orange- brown twigs are
             stout, with large, shield shaped, conspicuous leaf scars"</desc>
-        <leaf> </leaf>
+        <leaf> Compound </leaf>
         <long>-79.982613</long>
         <lat>42.120575</lat>
         <elev>292.582489</elev>
@@ -675,34 +718,39 @@
     </entry>
     <entry xml:id="tree-40" tn="59">
         <cname>Snowdrift Crabapple</cname>
-        <sname>Malus 'Snowdrift'</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <sname>Malus Cultivars 'Snowdrift'</sname>
+        <treeType>Deciduous</treeType>
+        <status> Undefined </status>
+        <origin>
+            <continent direct="Eastern"> North America</continent>
+            <continent direct="Western"> Europe</continent>
+        </origin>
+        <height min="15" max="20" avg="20" unit="ft"/>
+        <seed> Angiosperm (Enclosed)</seed>
         <desc>"This tree is a rounded, deciduous tree which typically grows 15-20' tall with a
             similar spread. Red buds open to slightly fragrant, single white flowers in spring.
             Flowers are followed by masses of small, orange-red crabapples"</desc>
-        <leaf> </leaf>
+        <leaf>Simple </leaf>
         <long>-79.98261</long>
         <lat>42.120744</lat>
         <elev>290.729004</elev>
 
     </entry>
     <entry xml:id="tree-41" tn="61">
-        <cname>Yellow Buckeye</cname>
+        <cname altName="Sweet Buckeye">Yellow Buckeye</cname>
         <sname>Aesculus flava</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
+        <origin>
+            <continent direct="Eastern"> North America</continent>
+        </origin>
+        <height min="90" max="120" avg="105" unit="ft"/>
+        <seed>Angiosperm (Enclosed) </seed>
         <desc>"The Yellow Buckeye has thick bark, yellow spring blooms, and striking orange fall
             color. It grows 60-75' tall. This tree actually gets its name from the whitish scar
             found on each brown seed. It is said to give the seed the appearance of a deer's
             eye."</desc>
-        <leaf> </leaf>
+        <leaf>Simple </leaf>
         <long>-79.982687</long>
         <lat>42.120859</lat>
         <elev>289.26947</elev>
