@@ -19,9 +19,842 @@
 </html>
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 <script>
+
       var map = L.map('map').setView([42.1195, -79.9826], 15);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);     
+}).addTo(map);   
+
+var geojsonFeature =  {
+    "type": "FeatureCollection", 
+            "features": [
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Scarlet Oak, Quercus coccinea",
+                                "elevation_m": 229.720596
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.988099, 42.119949, 229.720596]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Flowering Dogwood, Cornus florida",
+                                "elevation_m": 259.431549
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.987285, 42.119576, 259.431549]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Common Bald Cypress, Taxodium distichum",
+                                "elevation_m": 262.819214
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.987384, 42.119513, 262.819214]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Persian Ironwood, Parrotia persica",
+                                "elevation_m": 264.589233
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.987288, 42.119451, 264.589233]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Norway Maple, Acer plataNides",
+                                "elevation_m": 265.466858
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.987173, 42.119418, 265.466858]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Eastern Hophornbeam, Ostrya virginiana",
+                                "elevation_m": 268.851074
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.987521, 42.119155, 268.851074]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Kentucky Coffee Tree, Gymnocladus dioicus",
+                                "elevation_m": 269.167969
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.987406, 42.11918, 269.167969]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Flowering Dogwood 2, Cornus florida",
+                                "elevation_m": 270.371613
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.987679, 42.119139, 270.371613]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Red Maple, Acer rubrum",
+                                "elevation_m": 271.092651
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.987175, 42.119287, 271.092651]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Accolade Elm, U. davidiana var. japonica",
+                                "elevation_m": 272.434479
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.987029, 42.119338, 272.434479]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Purple Fountain Weeping Beech, Fagus sylvatica",
+                                "elevation_m": 274.710144
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.986325, 42.119501, 274.710144]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Eastern Hemlock, Tsuga canadensis",
+                                "elevation_m": 276.676025
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.986389, 42.119308, 276.676025]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Kousa Dogwood, Cornus kousa Hance ",
+                                "elevation_m": 278.322174
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985728, 42.119567, 278.322174]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Blue Spruce 2, Picea pungens",
+                                "elevation_m": 280.078003
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985769, 42.119507, 280.078003]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Fraser Fir, Abies fraseri",
+                                "elevation_m": 281.068756
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.986073, 42.119682, 281.068756]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "White Fringe , Chionanthus virginicus",
+                                "elevation_m": 280.841156
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.986211, 42.11973, 280.841156]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "White Pine, Pinus strobus",
+                                "elevation_m": 275.140442
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.986772, 42.120002, 275.140442]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Norway Spruce, Picea abies",
+                                "elevation_m": 276.915619
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.98692, 42.119833, 276.915619]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Lost Franklinia, Franklinia alatamaha",
+                                "elevation_m": 278.654785
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.986614, 42.119789, 278.654785]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Hackberry, Celtis occidentalis",
+                                "elevation_m": 276.319336
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.986051, 42.120416, 276.319336]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Dawn Redwood, Metasequoia",
+                                "elevation_m": 282.309204
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985357, 42.120142, 282.309204]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Bald Cypress, Taxodium distichum",
+                                "elevation_m": 282.677338
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.984998, 42.119958, 282.677338]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "American Chestnut, Fagaceae",
+                                "elevation_m": 285.832794
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.98538, 42.119778, 285.832794]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Persimmon, Diospyros kaki",
+                                "elevation_m": 285.607849
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985329, 42.119719, 285.607849]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Ginkgo, Ginkgo biloba",
+                                "elevation_m": 286.727661
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985371, 42.119338, 286.727661]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": " Black Gum, Nyssa sylvatica",
+                                "elevation_m": 287.784424
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985041, 42.119363, 287.784424]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Pecan, Carya illiNinensis",
+                                "elevation_m": 288.676575
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985084, 42.119186, 288.676575]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Nanking (Manchu) Cherry, Prunus tomentosa",
+                                "elevation_m": 296.294617
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.982753, 42.119313, 296.294617]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Norway Maple 2, Acer platanoides",
+                                "elevation_m": 295.261871
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.982076, 42.119829, 295.261871]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Northern Red Oak, Quercus rubra",
+                                "elevation_m": 297.279053
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.98183, 42.119779, 297.279053]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "River's Purple Beech, Fagus sylvatica ÔRiversiiÕ ",
+                                "elevation_m": 296.055573
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.981885, 42.119908, 296.055573]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Wildfire Black Gum , Nyssa sylvatica 'Wildfire'",
+                                "elevation_m": 298.750519
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.981413, 42.119842, 298.750519]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Bur Oak, Quercus macrocarpa",
+                                "elevation_m": 297.005493
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.981284, 42.120085, 297.005493]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "American Sweetgum, Liquidambar styraciflua",
+                                "elevation_m": 292.983551
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.981235, 42.120677, 292.983551]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Japanese Stewartia, Stewartia pseudocamellia",
+                                "elevation_m": 291.299744
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.982006, 42.120776, 291.299744]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Loblolly Pine, Pinus taeda",
+                                "elevation_m": 292.37326
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.982299, 42.120584, 292.37326]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Prairiefire Flowering Crabapple, Malus 'Prairifire'",
+                                "elevation_m": 292.211334
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.982486, 42.120562, 292.211334]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Black Walnut, Juglans nigra",
+                                "elevation_m": 292.582489
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.982613, 42.120575, 292.582489]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Snowdrift Crabapple, Malus 'Snowdrift'",
+                                "elevation_m": 290.729004
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.98261, 42.120744, 290.729004]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Yellow Buckeye, Aesculus flava",
+                                "elevation_m": 289.26947
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.982687, 42.120859, 289.26947]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Flowering Dogwood 3, Cornus florida",
+                                "elevation_m": 288.543152
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.982816, 42.121011, 288.543152]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Eastern Redbud, Cercis canadensis",
+                                "elevation_m": 293.676239
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.982663, 42.120598, 293.676239]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Pin Oak , Quercus palustris",
+                                "elevation_m": 292.449951
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.983189, 42.12067, 292.449951]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Copper Beech, Fagus sylvatica",
+                                "elevation_m": 289.63092
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.983076, 42.120943, 289.63092]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "American Holly, Ilex opaca",
+                                "elevation_m": 313.807617
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985795, 42.119701, 313.807617]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Sourwood, Oxydendrum arboreum",
+                                "elevation_m": 313.320129
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.986082, 42.119233, 313.320129]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Littleleaf Linden, Tilia cordata",
+                                "elevation_m": 314.669708
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.98566, 42.119015, 314.669708]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Sugar Maple, Acer saccharum",
+                                "elevation_m": 314.353027
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985581, 42.118791, 314.353027]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "English Oak, Quercus robur",
+                                "elevation_m": 319.891327
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985559, 42.11839, 319.891327]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Western Tamarack (Larch), Larix occidentalis",
+                                "elevation_m": 321.624359
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.9854, 42.118286, 321.624359]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Chestnut Oak, Quercus prinus",
+                                "elevation_m": 336.185883
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.98442, 42.116866, 336.185883]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Tulip Tree, Liriodendron tulipifera",
+                                "elevation_m": 336.219574
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.984504, 42.116892, 336.219574]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Plains Cottonwood, Populus deltoides",
+                                "elevation_m": 330.198395
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.984584, 42.117249, 330.198395]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Douglas Fir, Pseudotsuga menziesii",
+                                "elevation_m": 317.350861
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.983322, 42.118812, 317.350861]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Thornless Honeylocust, Gleditsia triacanthos",
+                                "elevation_m": 307.770203
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.98218, 42.12032, 307.770203]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Bitternut Hickory, Carya cordiformis",
+                                "elevation_m": 301.895721
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.983896, 42.120776, 301.895721]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "American Elm, Ulmus americana",
+                                "elevation_m": 304.870911
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.983668, 42.120582, 304.870911]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Atlantic White Cedar, Thuja occidentalis",
+                                "elevation_m": 306.75705
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.984467, 42.120324, 306.75705]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "American Elm 2, Ulmus americana",
+                                "elevation_m": 308.47052
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.984236, 42.120209, 308.47052]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Weeping Japanese Cherry, Prunus subhirtella",
+                                "elevation_m": 322.048676
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.983862, 42.119716, 322.048676]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "American Sweetgum 2, Liquidambar styraciflua",
+                                "elevation_m": 321.064178
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.984231, 42.119649, 321.064178]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Blue Spruce, Picea pugenus",
+                                "elevation_m": 320.752716
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.984251, 42.119556, 320.752716]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Japanese Red Maple, Aceraceae",
+                                "elevation_m": 321.106476
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.984281, 42.119412, 321.106476]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Kwanzan Cherry, Cultivar",
+                                "elevation_m": 312.131378
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985583, 42.11935, 312.131378]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Yellowwood, Cladrastis kentukea",
+                                "elevation_m": 312.022369
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985727, 42.118683, 312.022369]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Ruby Horse Chestnut, Aesculus carnea",
+                                "elevation_m": 309.015381
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985356, 42.1198, 309.015381]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Japanese Umbrella Pine, Sciadopitys verticillata",
+                                "elevation_m": 311.633942
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985481, 42.119144, 311.633942]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Weeping White Pine, Pinus strobus 'Pendula",
+                                "elevation_m": 312.328979
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.981438, 42.120185, 312.328979]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Spanish Oak, Quercus falcata",
+                                "elevation_m": 314.037811
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985275, 42.118615, 314.037811]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Osage Orange, Maclura pomifera",
+                                "elevation_m": 314.985504
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985744, 42.118417, 314.985504]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Korean Pine, Pinus koraiensis",
+                                "elevation_m": 310.888336
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985286, 42.119057, 310.888336]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Blue Atlas Cedar, Cedrus atlantica",
+                                "elevation_m": 310.96759
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.984455, 42.119336, 310.96759]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Paper Birch, Betula papyrifera",
+                                "elevation_m": 309.498383
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985286, 42.119921, 309.498383]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "White Spire Birch, Betula populifolia",
+                                "elevation_m": 311.442627
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985649, 42.119712, 311.442627]
+                                                 }
+                    },
+                    {
+                        "type": "Feature",
+                            "properties": {
+                                "name": "Winter King Hawthorn, Crataegus viridis",
+                                "elevation_m": 311.656067
+                            },
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [-79.985365, 42.119265, 311.656067]
+                            }
+                        }
+                ]
+            };
+     L.geoJSON(geojsonFeature).addTo(map);
 </script>    
