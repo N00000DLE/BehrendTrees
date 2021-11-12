@@ -202,14 +202,16 @@
     <entry xml:id="tree-11" tn="11">
         <cname>Purple Fountain Weeping Beech</cname>
         <sname>Fagus sylvatica</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status>Undefined</status>
+        <origin>
+            <continent direct="Eastern">Europe</continent>
+        </origin>
+        <height avg="25" unit="ft"> </height>
+        <seed> Angiosperm (Enclosed)</seed>
         <desc>"This dark-leaved tree has bronze-purple, wavy margined leaves and cascading branches.
-            Fall color is yellow, then orange-brown. Grows 15 to 30'."</desc>
-        <leaf> </leaf>
+            Fall color is yellow, then orange-brown.</desc>
+        <leaf>Simple</leaf>
         <long>-79.986325</long>
         <lat>42.119501</lat>
         <elev>274.710144</elev>
@@ -218,15 +220,14 @@
     <entry xml:id="tree-12" tn="N/A">
         <cname>Eastern Hemlock</cname>
         <sname>Tsuga canadensis</sname>
-        <treeType>coniferous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <treeType>Coniferous</treeType>
+        <status> Apparently Secure</status>
+        <origin>
+            <continent direct="Eastern"> North America</continent>
+        </origin>
+        <height avg="" unit="ft"> </height>
         <seed> </seed>
-        <desc>"This tree is one of the more shade-tolerant evergreens that resembles a large
-            Christmas tree with its broadly pyramidal, pendulous branches and fine, dark-green
-            needles on widely spaced branches. The tree has abundant brown cones that hang from
-            branches."</desc>
+        <desc> Eastern hemlock is the state tree of Pennsylvania. </desc>
         <leaf> </leaf>
         <long>-79.986389</long>
         <lat>42.119308</lat>
