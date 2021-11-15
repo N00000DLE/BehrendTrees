@@ -997,8 +997,10 @@
         <sname>Gleditsia triacanthos</sname>
         <treeType>deciduous</treeType>
         <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <origin>
+            <continent direct="Eastern">Asia</continent>
+        </origin>
+        <height min="" max="" avg="" unit="ft"/>
         <seed> </seed>
         <desc>"This is a fast-growing tree with fragrant spring flowers. Its delicate, open
             silhouette lets grass grow underneath. Tiny leaflets turn yellow or yellow-green in
@@ -1014,8 +1016,10 @@
         <sname>Carya cordiformis</sname>
         <treeType>deciduous</treeType>
         <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <origin>
+            <continent direct="Eastern">Asia</continent>
+        </origin>
+        <height min="" max="" avg="" unit="ft"/>
         <seed> </seed>
         <desc>"This tree has leaves that are 15"" long that turn bright yellow to brown in the fall.
             It grows about 160' in height. Nuts found on the tree have a bitter taste and are about
@@ -1031,8 +1035,10 @@
         <sname>Ulmus americana</sname>
         <treeType>deciduous</treeType>
         <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <origin>
+            <continent direct="Eastern">Asia</continent>
+        </origin>
+        <height min="" max="" avg="" unit="ft"/>
         <seed> </seed>
         <desc>"The leaves of American Elm are alternate, simple, and have doubly toothed margins.
             They are oval to elliptic and are 4 to 6 inches long. The tree grows 60 to 80'."</desc>
@@ -1044,11 +1050,13 @@
     </entry>
     <entry xml:id="tree-63" tn="65">
         <cname>Atlantic White Cedar</cname>
-        <sname>Thuja occidentalis</sname>
+        <sname>Chamaecyparis thyoides</sname>
         <treeType>coniferous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Apparently Secure</status>
+        <origin>
+            <continent direct="Southern">North America</continent>
+        </origin>
+        <height min="60" max="100" avg="80" unit="ft"/>
         <seed> </seed>
         <desc>"This tree has bark that is pale brown, stringy and fibrous in appearance, sometimes
             shredding. It has fan-like branches and scaly leaves. This tree grows about 50'
@@ -1063,9 +1071,11 @@
         <cname>American Elm 2</cname>
         <sname>Ulmus americana</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Apparently Secure</status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height min="" max="" avg="" unit="ft"/>
         <seed> </seed>
         <desc>Elm trees have oval-shaped leaves with saw-toothed edges and are pointy at the end.
             The tree can grow up to 80'. </desc>
@@ -1079,9 +1089,11 @@
         <cname>Weeping Japanese Cherry</cname>
         <sname>Prunus subhirtella</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Unidentified</status>
+        <origin>
+            <continent direct="Eastern">Asia</continent>
+        </origin>
+        <height min="20" max="30" avg="25" unit="ft"/>
         <seed> </seed>
         <desc>This tree has slender and flexible branches that lead them to gracefully weep their
             long pink leaves. This tree grows 20 to 30' tall</desc>
@@ -1095,9 +1107,11 @@
         <cname>American Sweetgum 2</cname>
         <sname>Liquidambar styraciflua</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Southern">North America</continent>
+        </origin>
+        <height min="50" max="70" avg="60" unit="ft"/>
         <seed> </seed>
         <desc>"The fall leaves on this tree turn vibrant shades of yellow, orange, red and purple.
             Yields burr-like fruit that is approximately 1?"" in diameter. The tree grows 60 to
@@ -1110,11 +1124,13 @@
     </entry>
     <entry xml:id="tree-67" tn="N/A">
         <cname>Blue Spruce</cname>
-        <sname>Picea pugenus</sname>
+        <sname>Picea pungens</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Western">North America</continent>
+        </origin>
+        <height min="50" max="75" avg="60" unit="ft"/>
         <seed> </seed>
         <desc>This tree is conical-shaped with stiff horizontal branches and short stiff needles.
             The tree grows 50-75' in height</desc>
@@ -1126,11 +1142,13 @@
     </entry>
     <entry xml:id="tree-68" tn="N/A">
         <cname>Japanese Red Maple</cname>
-        <sname>Aceraceae</sname>
+        <sname>Acer palmatum</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Unidentified</status>
+        <origin>
+            <continent direct="Eastern">Asia</continent>
+        </origin>
+        <height min="15" max="25" avg="20" unit="ft"/>
         <seed> </seed>
         <desc>This tree can be a small tree or large shrub with a broadly spreading crown. The
             leaves stay a vibrant red all year long. The tree grows 15 to 25' tall</desc>
@@ -1142,11 +1160,13 @@
     </entry>
     <entry xml:id="tree-69" tn="1">
         <cname>Kwanzan Cherry</cname>
-        <sname>Cultivar</sname>
+        <sname>Prunus 'Kanzan'</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Unidentified</status>
+        <origin>Asia
+            <continent direct="Eastern">Asia</continent>
+        </origin>
+        <height min="30" max="40" avg="35" unit="ft"/>
         <seed> </seed>
         <desc>This cherry can grow 30-40'. It has very showy pink flowers that bloom in clusters of
             3-5 in April. </desc>
@@ -1160,9 +1180,11 @@
         <cname>Yellowwood</cname>
         <sname>Cladrastis kentukea</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Apparently Secure</status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height min="30" max="50" avg="40" unit="ft"/>
         <seed> </seed>
         <desc>"The yellowwood grows 30-50'. It has smooth bark, large hanging clusters of fragrant
             white flowers, and clear yellow fall color."</desc>
@@ -1176,9 +1198,11 @@
         <cname>Ruby Horse Chestnut</cname>
         <sname>Aesculus carnea</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Critically Imperiled</status>
+        <origin>Europe
+            <continent direct="Western">Europe</continent>
+        </origin>
+        <height min="40" max="60" avg="50" unit="ft"/>
         <seed> </seed>
         <desc>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the
             European horse chestnut with white flowers and an eastern Nrth American native with red
@@ -1194,9 +1218,11 @@
         <cname>Japanese Umbrella Pine</cname>
         <sname>Sciadopitys verticillata</sname>
         <treeType>coniferous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Unidentified</status>
+        <origin>
+            <continent direct="Eastern">Asia</continent>
+        </origin>
+        <height min="25" max="30" avg="28" unit="ft"/>
         <seed> </seed>
         <desc>Japanese Umbrella Pine is named for its elegant shape and cascading green needles. It
             usually grows to 25' and is a slow grower. </desc>
@@ -1210,9 +1236,11 @@
         <cname>Weeping White Pine</cname>
         <sname>Pinus strobus 'Pendula</sname>
         <treeType>coniferous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height avg="12" unit="ft"/>
         <seed> </seed>
         <desc>"This pine only grows to about 12'. Weeping white pine trees have smooth trunks
             covered with silvery-gray bark. As they age, the foliage covers the trunks all the way
@@ -1228,9 +1256,11 @@
         <cname>Spanish Oak</cname>
         <sname>Quercus falcata</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height avg="90" unit="ft"/>
         <seed> </seed>
         <desc>"This oak can grow to 90'. Bark is grayish-black, broken into deep grooves, becoming
             ridged and rough-plated near the base.. The leaves upper surface is dark green &amp;
@@ -1246,9 +1276,11 @@
         <cname>Osage Orange</cname>
         <sname>Maclura pomifera</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height min="30" max="50" avg="40" unit="ft"/>
         <seed> </seed>
         <desc>"The Osage Orange grows to be 30-50'. Leaf blades are dark green, smooth and waxy
             above; paler green with a few hairs beneath. The color turns translucent yellow in the
@@ -1264,9 +1296,11 @@
         <cname>Korean Pine</cname>
         <sname>Pinus koraiensis</sname>
         <treeType>coniferous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Western">Asia</continent>
+        </origin>
+        <height avg="50" unit="ft"/>
         <seed> </seed>
         <desc>"Korean pine grows to mature heights of 100'. Bark is gray-brown and smooth, becoming
             gray-black, scaly, and peeling on larger trees."</desc>
