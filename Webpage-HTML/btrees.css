@@ -103,11 +103,21 @@ body
   display: block;
 }
 
+svg {
+    padding: 50px 50px;
+}
+
+h2 {
+    color: grey;
+    text-align: center;
+}
+
 .dropdown-content a:hover {background-color: #8db600;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #66b032;}
+
 
 
     
