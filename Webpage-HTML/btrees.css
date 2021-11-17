@@ -102,7 +102,6 @@ body
   text-decoration: none;
   display: block;
 }
-
 svg {
     padding: 50px 50px;
 }
@@ -111,6 +110,25 @@ h2 {
     color: grey;
     text-align: center;
 }
+
+button {
+    background-color: #5f7a6b; /* Green */
+    color: white;
+}
+
+.sep {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;  
+    background-color: #e6e8e8;
+    padding: 30px 10px;
+}
+
+h3 {
+    color: #5f7a6b;
+    text-align: center;
+}
+
 
 .dropdown-content a:hover {background-color: #8db600;}
 
