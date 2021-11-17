@@ -28,6 +28,7 @@ section#selection {
             border-collapse: collapse;
             width: 75%;
             margin-left:5em;
+            padding: 15px;
         }
         td,
         th {
@@ -56,9 +57,9 @@ button {
 
 
 img{
-    max-width: 300px; width: 100%; 
-    margin-left:10em;
+    max-width: 300px; width: 100%;
 }
+
 
 
 
