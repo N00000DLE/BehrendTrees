@@ -225,10 +225,10 @@
         <origin>
             <continent direct="Eastern"> North America</continent>
         </origin>
-        <height avg="" unit="ft"> </height>
-        <seed> </seed>
+        <height avg="100" unit="ft"/>
+        <seed> Gymnosperm (Naked)</seed>
         <desc> Eastern hemlock is the state tree of Pennsylvania. </desc>
-        <leaf> </leaf>
+        <leaf> Evergreen</leaf>
         <long>-79.986389</long>
         <lat>42.119308</lat>
         <elev>276.676025</elev>
@@ -245,7 +245,7 @@
         </origin>
         <height avg="20" unit="ft"/>
         <seed>Angiosperm (Enclosed)</seed>
-        <desc>"This is a flowering tree or multi-stemmed shrub that typically grows 15-30' tall,
+        <desc>"This is a flowering tree or multi-stemmed shrub
             with a vase-shaped habit in the early years but eventually maturing to a more rounded
             form. Bloom occurs in late spring."</desc>
         <leaf>Simple</leaf>
@@ -257,15 +257,17 @@
     <entry xml:id="tree-14" tn="20">
         <cname>Blue Spruce 2</cname>
         <sname>Picea pungens</sname>
-        <treeType>coniferous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>"This is an anconical-shaped evergreen tree with stiff horizontal branches and short
+        <treeType>Coniferous</treeType>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Western">North America</continent>
+        </origin>
+        <height avg="75" unit="ft"/>
+        <seed> Gymnosperm (Naked)</seed>
+        <desc>This is an anconical-shaped evergreen tree with stiff horizontal branches and short
             stiff needles. In nature, the needles are often green, but many specimens produce
-            blue-green needles."</desc>
-        <leaf> </leaf>
+            blue-green needles.</desc>
+        <leaf> Evergreen</leaf>
         <long>-79.985769</long>
         <lat>42.119507</lat>
         <elev>280.078003</elev>
@@ -274,32 +276,34 @@
     <entry xml:id="tree-16" tn="N/A">
         <cname>Fraser Fir</cname>
         <sname>Abies fraseri</sname>
-        <treeType>coniferous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>This is a uniformly pyramid-shaped tree which reaches a maximum height of about 80'.
-            Strong branches are turned slightly upward which gives the tree a compact
-            appearance.</desc>
-        <leaf> </leaf>
+        <treeType>Coniferous</treeType>
+        <status> Imperiled</status>
+        <origin>
+            <continent direct="South Eastern"> North America</continent>
+        </origin>
+        <height avg="60" unit="ft"/>
+        <seed> Gymnosperm (Naked)</seed>
+        <desc>Fraser fir is monoecious, meaning that both male and female cones (strobili) occur on the same tree.</desc>
+        <leaf>Evergreen</leaf>
         <long>-79.986073</long>
         <lat>42.119682</lat>
         <elev>281.068756</elev>
 
     </entry>
     <entry xml:id="tree-17" tn="N/A">
-        <cname>White Fringe </cname>
+        <cname>White Fringe</cname>
         <sname>Chionanthus virginicus</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>" This tree is characterized by its resplendent white flowers, which bloom in May or
+        <treeType>Deciduous</treeType>
+        <status> Secure</status>
+        <origin>
+            <continent direct="South Eastern"> North America</continent>
+        </origin>
+        <height avg="25" unit="ft"/> 
+        <seed> Angiosperm (Enclosed)</seed>
+        <desc>This tree is characterized by its resplendent white flowers, which bloom in May or
             June. The tree also has small olive-like fruit, which develops in August or
-            September."</desc>
-        <leaf> </leaf>
+            September.</desc>
+        <leaf> Simple</leaf>
         <long>-79.986211</long>
         <lat>42.11973</lat>
         <elev>280.841156</elev>
@@ -308,15 +312,15 @@
     <entry xml:id="tree-18" tn="14">
         <cname>White Pine</cname>
         <sname>Pinus strobus</sname>
-        <treeType>coniferous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>"This tree can reach 150' in height and up to 40"" in diameter. Its evergreen needles
-            are in clusters of 5, soft, flexible, 2 1/2 to 5 inches long, and bluish-green in
-            appearance."</desc>
-        <leaf> </leaf>
+        <treeType>Coniferous</treeType>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Eastern"> North America</continent>
+        </origin>
+        <height avg="180" unit="ft"/>
+        <seed> Gymnosperm (Naked)</seed>
+        <desc>Eastern white pine is the provincial tree of Ontario and the state tree of Maine and Michigan.</desc>
+        <leaf>Evergreen</leaf>
         <long>-79.986772</long>
         <lat>42.120002</lat>
         <elev>275.140442</elev>
@@ -325,14 +329,17 @@
     <entry xml:id="tree-19" tn="13">
         <cname>Norway Spruce</cname>
         <sname>Picea abies</sname>
-        <treeType>coniferous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>"This is a large, pyramidal tree with long, cylindrical cones that hang like ornaments
-            against the dark green foliage. Tends to be 50'-80' high "</desc>
-        <leaf> </leaf>
+        <treeType>Coniferous</treeType>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Central"> Europe</continent>
+        </origin>
+        <height avg="50" unit="ft"/>
+        <seed> Gymnosperm (Naked)</seed>
+            <desc>The Norway spruce is one of the most widely planted spruces, both in and outside of its native range, and one of the most 
+                economically important coniferous species in Europe. It is used as an ornamental tree in parks and gardens. It is also widely 
+                planted for use as a Christmas tree.</desc>
+        <leaf>Evergreen</leaf>
         <long>-79.98692</long>
         <lat>42.119833</lat>
         <elev>276.915619</elev>
@@ -342,13 +349,18 @@
         <cname>Lost Franklinia</cname>
         <sname>Franklinia alatamaha</sname>
         <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>"This is a small tree or large shrub growing 15- 20' high and 10-15' feet wide. It has
-            elongated, dark green leaves that turn red, orange, or pink in the fall."</desc>
-        <leaf> </leaf>
+        <status> Possibly Extinct</status>
+        <origin>
+            <continent direct="South Eastern"> North America</continent>
+        </origin>
+        <height avg="15" unit="ft"/>
+        <seed> Angiosperm (Enclosed)</seed>
+        <desc>John Bartram was appointed Royal Botanist for North America by King George III in 1765. In that same year, 
+                John Bartram and his son William discovered franklinia growing in a 2-3 acre tract along the banks of the Altamaha River in 
+                southeastern Georgia. Franklinia has never been observed growing in any other place than along the Altamaha River. In a return trip 
+                in 1773, William Bartram collected seed from this site and brought it back to the Bartram's garden in Philadelphia where the tree 
+                was successfully grown. This tree has been extinct in the wild since 1803. </desc>
+        <leaf> Simple</leaf>
         <long>-79.986614</long>
         <lat>42.119789</lat>
         <elev>278.654785</elev>
