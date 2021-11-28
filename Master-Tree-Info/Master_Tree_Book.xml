@@ -929,143 +929,145 @@
     <entry xml:id="tree-54" tn="43">
         <cname>Western Tamarack (Larch)</cname>
         <sname>Larix occidentalis</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Coniferous</treeType> <!--ged: This tree is Deciduous Coniferous, It has needles like an evergreen but still looses it's leaves in the fall. -->
+        <status>Secure </status>
+        <origin> <continent direct="Western"> North America</continent> </origin>
+        <height min="100" max="200" avg="150" unit="ft"/> 
+        <seed>Gymnosperm (Naked)</seed>
         <desc>"This tree is tall with trunks that grow very straight. Average height is 100'. The
             bark of young trees is gray and smooth, becoming reddish brown and scaly with
             age."</desc>
-        <leaf> </leaf>
+        <leaf>Evergreen </leaf>
         <long>-79.9854</long>
         <lat>42.118286</lat>
         <elev>321.624359</elev>
-
+        
     </entry>
     <entry xml:id="tree-55" tn="47">
         <cname>Chestnut Oak</cname>
         <sname>Quercus prinus</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
+        <origin> <continent direct="Eastern"> North America</continent> </origin>
+        <height min="60" max="70" avg="65" unit="ft"/> 
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree is readily identified by its massively-ridged dark gray-brown bark. It
             grows 50 to 60' tall. The leaves are 4 to 6"" long. Fall color varies from red to orange
             to yellow-brown."</desc>
-        <leaf> </leaf>
+        <leaf> Simple </leaf>
         <long>-79.98442</long>
         <lat>42.116866</lat>
         <elev>336.185883</elev>
-
+        
     </entry>
     <entry xml:id="tree-56" tn="46">
-        <cname>Tulip Tree</cname>
+        <cname altName="Yellow Poplar">Tulip Tree</cname>
         <sname>Liriodendron tulipifera</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
+        <origin> <continent direct="Eastern"> North America</continent> </origin>
+        <height min="60" max="90" avg="75" unit="ft"/> 
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree typically grows 60-90' tall. The bark on its large trunk is colored light
             grayish brown. The leaves are 3-8"" long and are glossy green above with a pale green
             underside, changing to golden yellow in the fall."</desc>
-        <leaf> </leaf>
+        <leaf> Simple </leaf>
         <long>-79.984504</long>
         <lat>42.116892</lat>
         <elev>336.219574</elev>
-
+        
     </entry>
     <entry xml:id="tree-57" tn="44">
         <cname>Plains Cottonwood</cname>
         <sname>Populus deltoides</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
+        <origin> <continent direct="Eastern"> North America</continent> </origin>
+        <height min="65" max="195" avg="130" unit="ft"/> 
+        <seed>Angiosperm (Enclosed) </seed>
         <desc>This tree may range from 70-130' in height and 4-7' in diameter. The leaves are
             sail-like shaped with long flat stems they have a tendency to tremble and flutter from
             even the slightest breeze</desc>
-        <leaf> </leaf>
+        <leaf> Simple </leaf>
         <long>-79.984584</long>
         <lat>42.117249</lat>
         <elev>330.198395</elev>
-
+        
     </entry>
     <entry xml:id="tree-58" tn="48">
         <cname>Douglas Fir</cname>
         <sname>Pseudotsuga menziesii</sname>
-        <treeType>coniferous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Coniferous</treeType>
+        <status> Secure </status>
+        <origin><continent direct="Western"> North America</continent> </origin>
+        <height min="200" max="300" avg="250" unit="ft"/> 
+        <seed> Gymnosperm (Naked) </seed>
         <desc>" This tree has long, flat, spirally arranged needles that grow directly from the
             branch and completely surround it. These trees can grow up to 250' in height and 6' in
             diameter. "</desc>
-        <leaf> </leaf>
+        <leaf>Evergreen </leaf>
         <long>-79.983322</long>
         <lat>42.118812</lat>
         <elev>317.350861</elev>
-
+        
     </entry>
     <entry xml:id="tree-60" tn="52">
         <cname>Thornless Honeylocust</cname>
         <sname>Gleditsia triacanthos</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
         <origin>
-            <continent direct="Eastern">Asia</continent>
+            <continent direct="Eastern"> North America</continent>
+            <continent direct="Western"> Europe</continent>
         </origin>
-        <height min="" max="" avg="" unit="ft"/>
-        <seed> </seed>
+        <height min="60" max="80" avg="70" unit="ft"/>
+        <seed> Angiosperm (Enclosed)</seed>
         <desc>"This is a fast-growing tree with fragrant spring flowers. Its delicate, open
             silhouette lets grass grow underneath. Tiny leaflets turn yellow or yellow-green in
             fall. Grows to 30' to 70'."</desc>
-        <leaf> </leaf>
+        <leaf>Compound </leaf>
         <long>-79.98218</long>
         <lat>42.12032</lat>
         <elev>307.770203</elev>
-
+        
     </entry>
     <entry xml:id="tree-61" tn="62">
-        <cname>Bitternut Hickory</cname>
+        <cname altName="Swamp Hickory">Bitternut Hickory</cname>
         <sname>Carya cordiformis</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
         <origin>
-            <continent direct="Eastern">Asia</continent>
+            <continent direct="Eastern"> North America</continent>
         </origin>
-        <height min="" max="" avg="" unit="ft"/>
-        <seed> </seed>
+        <height min="50" max="80" avg="65" unit="ft"/>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree has leaves that are 15"" long that turn bright yellow to brown in the fall.
             It grows about 160' in height. Nuts found on the tree have a bitter taste and are about
             an inch in length"</desc>
-        <leaf> </leaf>
+        <leaf> Compound </leaf>
         <long>-79.983896</long>
         <lat>42.120776</lat>
         <elev>301.895721</elev>
-
+        
     </entry>
     <entry xml:id="tree-62" tn="66">
-        <cname>American Elm</cname>
+        <cname altName="White Elm">American Elm</cname>
         <sname>Ulmus americana</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
+        <treeType>Deciduous</treeType>
+        <status>Apparently Secure </status>
         <origin>
-            <continent direct="Eastern">Asia</continent>
+            <continent direct="Eastern"> North America</continent>
+            <continent direct="Central"> North America</continent>
         </origin>
-        <height min="" max="" avg="" unit="ft"/>
-        <seed> </seed>
+        <height min="60" max="80" avg="70" unit="ft"/>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"The leaves of American Elm are alternate, simple, and have doubly toothed margins.
             They are oval to elliptic and are 4 to 6 inches long. The tree grows 60 to 80'."</desc>
-        <leaf> </leaf>
+        <leaf> Simple </leaf>
         <long>-79.983668</long>
         <lat>42.120582</lat>
         <elev>304.870911</elev>
-
+        
     </entry>
     <entry xml:id="tree-63" tn="65">
         <cname>Atlantic White Cedar</cname>
