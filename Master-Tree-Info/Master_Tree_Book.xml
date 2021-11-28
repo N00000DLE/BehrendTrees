@@ -348,7 +348,7 @@
     <entry xml:id="tree-20" tn="12">
         <cname>Lost Franklinia</cname>
         <sname>Franklinia alatamaha</sname>
-        <treeType>deciduous</treeType>
+        <treeType>Deciduous</treeType>
         <status> Possibly Extinct</status>
         <origin>
             <continent direct="South Eastern"> North America</continent>
@@ -772,152 +772,159 @@
     <entry xml:id="tree-42" tn="N/A">
         <cname>Flowering Dogwood 3</cname>
         <sname>Cornus florida</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
-        <desc>"This is a multi-branched shrub or small tree, characterized by a rounded crown and
-            horizontal branches that spread wider than its height. Typically ranges 15'-50' tall.
-            Bark on mature trees is broken into small square blocks that give the stem an
-            ÒalligatorÓ appearance."</desc>
-        <leaf> </leaf>
+        <treeType>Deciduous</treeType>
+        <status>Secure </status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height avg="30" unit="ft"> </height>
+        <seed>Angiosperm (Enclosed) </seed>
+        <desc>The Flowering Dogwood is known as one of the most beautiful North American trees with
+            early spring flowers and red fruit. Its hard wood is extremely shock-resistant and
+            useful for making woven items. It is also made into spools, small pulleys, mallet heads,
+            and jeweler's blocks. Indians used the aromatic bark and roots as a remedy for malaria
+            and extracted a red dye from the roots.</desc>
+        <leaf>Simple </leaf>
         <long>-79.982816</long>
         <lat>42.121011</lat>
         <elev>288.543152</elev>
-
+        
     </entry>
     <entry xml:id="tree-45" tn="37">
         <cname>Eastern Redbud</cname>
         <sname>Cercis canadensis</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status>Secure</status>
+        <origin>
+            <continent direct="Eastern">North America</continent>
+        </origin>
+        <height min="20" max="30"  avg="25" unit="ft"/> 
+        <seed>Angiosperm (Enclosed) </seed>
         <desc>"Trees typically grow 20' in height with a similar spread and have ascending branches
             and a rounded shape. Leaves are alternate, simple, broadly heart-shaped and 3 to 5""
             high and wide. Leaves emerge reddish, turning green as they expand."</desc>
-        <leaf> </leaf>
+        <leaf>Simple </leaf>
         <long>-79.982663</long>
         <lat>42.120598</lat>
         <elev>293.676239</elev>
-
+        
     </entry>
     <entry xml:id="tree-46" tn="16">
         <cname>Pin Oak </cname>
         <sname>Quercus palustris</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status>Secure </status>
+        <origin><continent direct="Eastern">North America</continent> 
+            <continent direct="Western">Europe</continent></origin>
+        <height min="70" max="100"  avg="85" unit="ft"/> 
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree features glossy, dark green leaves that are 3Ð6"" long with 5 lobes. Yields
             acorns that are nearly round and ?"" long . It grows 70'-90' tall with diameters between
             2' and 3'."</desc>
-        <leaf> </leaf>
+        <leaf> Simple </leaf>
         <long>-79.983189</long>
         <lat>42.12067</lat>
         <elev>292.449951</elev>
-
+        
     </entry>
     <entry xml:id="tree-47" tn="62">
-        <cname>Copper Beech</cname>
+        <cname altName="European Beech">Copper Beech</cname>
         <sname>Fagus sylvatica</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Undefined </status>
+        <origin> <continent direct="Western"> Europe</continent></origin>
+        <height min="60" max="80" avg="70" unit="ft"/> 
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree takes on a dense, oval to pyramidal shape. Generally grows to heights of 50
             to 75' with a width of 40 to 60'."</desc>
-        <leaf> </leaf>
+        <leaf>Simple </leaf>
         <long>-79.983076</long>
         <lat>42.120943</lat>
         <elev>289.63092</elev>
-
+        
     </entry>
     <entry xml:id="tree-48" tn="19">
         <cname>American Holly</cname>
         <sname>Ilex opaca</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status>Secure </status>
+        <origin> <continent direct="Eastern"> North America</continent> </origin>
+        <height min="40" max="50" avg="45" unit="ft"/> 
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree features leathery leaves that are 2Ð4"" long, maintain their green color
             year-round, and are sharply tipped on the margins. Yields red, berry-like fruit. Average
             of 50' tall"</desc>
-        <leaf> </leaf>
+        <leaf> Simple </leaf>
         <long>-79.985795</long>
         <lat>42.119701</lat>
         <elev>313.807617</elev>
-
+        
     </entry>
     <entry xml:id="tree-49" tn="25">
-        <cname>Sourwood</cname>
+        <cname altName="Sorrel Tree">Sourwood</cname>
         <sname>Oxydendrum arboreum</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
+        <origin><continent direct="Eastern"> North America</continent> </origin>
+        <height min="33" max="66" avg="50" unit="ft"/> 
+        <seed>Angiosperm (Enclosed) </seed>
         <desc>This tree has a rounded top and drooping branches. Tree typically grow up to 30' in
             height and 20' in spread.</desc>
-        <leaf> </leaf>
+        <leaf>Simple </leaf>
         <long>-79.986082</long>
         <lat>42.119233</lat>
         <elev>313.320129</elev>
-
+        
     </entry>
     <entry xml:id="tree-50" tn="35">
-        <cname>Littleleaf Linden</cname>
+        <cname altName="Small-leaved Lime">Littleleaf Linden</cname>
         <sname>Tilia cordata</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Undefined </status>
+        <origin> <continent direct="Eastern"> Europe</continent>
+            <continent direct="Western"> Europe</continent></origin>
+        <height min="50" max="70" avg="60" unit="ft"/> 
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>"This tree features heart-shaped leaves that are lopsided at the base, usually 2Ð3""
             long. Leaf color shifts from light green to glossy dark green to yellow throughout the
             seasons. Yields nutlike fruit."</desc>
-        <leaf> </leaf>
+        <leaf> Simple </leaf>
         <long>-79.98566</long>
         <lat>42.119015</lat>
         <elev>314.669708</elev>
-
+        
     </entry>
     <entry xml:id="tree-51" tn="38">
         <cname>Sugar Maple</cname>
         <sname>Acer saccharum</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Secure </status>
+        <origin><continent direct="Eastern"> North America</continent>  </origin>
+        <height min="80" max="115" avg="98" unit="ft"/> 
+        <seed>Angiosperm (Enclosed) </seed>
         <desc>"This tree has medium to dark-green leaves that turn yellow, burnt orange, and red in
             the fall. This tree grows 60' to 75' and spreads 40' to 50'."</desc>
-        <leaf> </leaf>
+        <leaf> Simple </leaf>
         <long>-79.985581</long>
         <lat>42.118791</lat>
         <elev>314.353027</elev>
-
+        
     </entry>
     <entry xml:id="tree-52" tn="42">
-        <cname>English Oak</cname>
+        <cname altName="Common Oak">English Oak</cname>
         <sname>Quercus robur</sname>
-        <treeType>deciduous</treeType>
-        <status> </status>
-        <origin> </origin>
-        <height> </height>
-        <seed> </seed>
+        <treeType>Deciduous</treeType>
+        <status> Undefined </status>
+        <origin><continent direct="Western"> Europe</continent> </origin>
+        <height min="40" max="70" avg="55" unit="ft"/> 
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>This tree has broad leaves and are considered one of the best shade trees. They
             produce fruit in the form of acorns. They reach a mature height of 50 to 70'.</desc>
-        <leaf> </leaf>
+        <leaf> Simple </leaf>
         <long>-79.985559</long>
         <lat>42.11839</lat>
         <elev>319.891327</elev>
-
+        
     </entry>
     <entry xml:id="tree-54" tn="43">
         <cname>Western Tamarack (Larch)</cname>
