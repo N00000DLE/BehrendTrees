@@ -74,7 +74,7 @@
             <continent direct="Western">Asia</continent>
         </origin>
         <height avg="35" unit="ft"/>
-        <seed></seed>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>Parrotia persica ( Persian Ironwood ) is a deciduous tree in the family 
             Hamamelidaceae , the sole species in the genus Parrotia but closely related to the genus Hamamelis (Witch-hazels).</desc>
         <leaf>Simple</leaf>
@@ -112,7 +112,7 @@
             <continent direct="Eastern">North America</continent>
         </origin>
         <height avg="40" unit="ft"> </height>
-        <seed> </seed>
+        <seed> Angiosperm (Enclosed) </seed>
         <desc>The wood of eastern hophornbeam is very close grained, strong, heavy, and exceedingly hard. 
             It is used to make tool handles, wedges for directional felling of trees, and firewood, although 
             it is incredibly difficult to cut down.</desc>
@@ -1079,13 +1079,13 @@
     <entry xml:id="tree-63" tn="65">
         <cname>Atlantic White Cedar</cname>
         <sname>Chamaecyparis thyoides</sname>
-        <treeType>coniferous</treeType>
+        <treeType>Coniferous</treeType>
         <status>Apparently Secure</status>
         <origin>
             <continent direct="Southern">North America</continent>
         </origin>
         <height min="60" max="100" avg="80" unit="ft"/>
-        <seed></seed>
+        <seed>Gymnosperm (Naked)</seed>
         <desc>The Atlantic white cedar has fan-like sprays of scaly, flattened, green or 
             bluish-green leaves. Young trees have needle-like leaves. The tree tapers to a point, 
             giving it a cone-like shape. It has small, rounded, light blue cones and tiny, green or 
@@ -1100,7 +1100,7 @@
     <entry xml:id="tree-64" tn="N/A">
         <cname>American Elm 2</cname>
         <sname>Ulmus americana</sname>
-        <treeType>deciduous</treeType>
+        <treeType>Deciduous</treeType>
         <status>Apparently Secure</status>
         <origin>
             <continent direct="Eastern">North America</continent>
@@ -1119,8 +1119,8 @@
     <entry xml:id="tree-65" tn="33">
         <cname>Weeping Japanese Cherry</cname>
         <sname>Prunus subhirtella</sname>
-        <treeType>deciduous</treeType>
-        <status>Unidentified</status>
+        <treeType>Deciduous</treeType>
+        <status>Undefined</status>
         <origin>
             <continent direct="Eastern">Asia</continent>
         </origin>
@@ -1140,13 +1140,13 @@
     <entry xml:id="tree-66" tn="N/A">
         <cname>American Sweetgum 2</cname>
         <sname>Liquidambar styraciflua</sname>
-        <treeType>deciduous</treeType>
+        <treeType>Deciduous</treeType>
         <status>Secure</status>
         <origin>
             <continent direct="Southern">North America</continent>
         </origin>
         <height min="50" max="70" avg="60" unit="ft"/>
-        <seed> </seed>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>The fall leaves on this tree turn vibrant shades of yellow, orange, red and purple.
             Yields burr-like fruit that is approximately 1?"" in diameter. The tree grows 60 to
             75'. The Sweetgum tree is native to the southeastern United States and a member of a 
@@ -1164,13 +1164,13 @@
     <entry xml:id="tree-67" tn="N/A">
         <cname>Blue Spruce</cname>
         <sname>Picea pungens</sname>
-        <treeType>deciduous</treeType>
+        <treeType> Coniferous</treeType>
         <status>Secure</status>
         <origin>
             <continent direct="Western">North America</continent>
         </origin>
         <height min="50" max="75" avg="60" unit="ft"/>
-        <seed> </seed>
+        <seed> Gymnosperm (Naked)</seed>
         <desc>This tree is conical-shaped with stiff horizontal branches and short stiff needles.
             The tree grows 50-75' in height.  It is a commonly used tree in Midwest landscapes. 
             In nature the needles are often green, but many specimens produce blue-green needles.</desc>
@@ -1183,13 +1183,13 @@
     <entry xml:id="tree-68" tn="N/A">
         <cname>Japanese Red Maple</cname>
         <sname>Acer palmatum</sname>
-        <treeType>deciduous</treeType>
-        <status>Unidentified</status>
+        <treeType>Deciduous</treeType>
+        <status>Undefined</status>
         <origin>
             <continent direct="Eastern">Asia</continent>
         </origin>
         <height min="15" max="25" avg="20" unit="ft"/>
-        <seed>Gymnosperm (Naked)</seed>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>This tree can be a small tree or large shrub with a broadly spreading crown. The
             leaves stay a vibrant red all year long. The tree grows 15 to 25' tall. The Japanese 
             word "momiji" is sometimes applied to this tree in its native land. The word is said 
@@ -1205,13 +1205,13 @@
     <entry xml:id="tree-69" tn="1">
         <cname>Kwanzan Cherry</cname>
         <sname>Prunus 'Kanzan'</sname>
-        <treeType>deciduous</treeType>
-        <status>Unidentified</status>
-        <origin>Asia
+        <treeType>Deciduous</treeType>
+        <status> Undefined</status>
+        <origin>
             <continent direct="Eastern">Asia</continent>
         </origin>
         <height min="30" max="40" avg="35" unit="ft"/>
-        <seed> </seed>
+        <seed> Angiosperm (Enclosed)</seed>
         <desc>This cherry can grow 30-40'. It has very showy pink flowers that bloom in clusters of
             3-5 in April. Named after a mountain in Japan, the Kanzan (Kwanzan) cherry tree is native 
             to China, Japan and Korea. The original name is 'Sekiyama,' but it is rarely used. Introduced 
@@ -1226,13 +1226,13 @@
     <entry xml:id="tree-70" tn="10">
         <cname>Yellowwood</cname>
         <sname>Cladrastis kentukea</sname>
-        <treeType>deciduous</treeType>
+        <treeType>Deciduous</treeType>
         <status>Apparently Secure</status>
         <origin>
             <continent direct="Eastern">North America</continent>
         </origin>
         <height min="30" max="50" avg="40" unit="ft"/>
-        <seed> </seed>
+        <seed>Angiosperm (Enclosed) </seed>
         <desc>The yellowwood grows 30-50'. It has smooth bark, large hanging clusters of fragrant
             white flowers, and clear yellow fall color. Yellowwood grows throughout Eastern 
             Kentucky, but is most common along the Kentucky River palisades in the Bluegrass region. 
@@ -1246,13 +1246,13 @@
     <entry xml:id="tree-71" tn="26">
         <cname>Ruby Horse Chestnut</cname>
         <sname>Aesculus carnea</sname>
-        <treeType>deciduous</treeType>
+        <treeType>Deciduous</treeType>
         <status>Critically Imperiled</status>
-        <origin>Europe
+        <origin>
             <continent direct="Western">Europe</continent>
         </origin>
         <height min="40" max="60" avg="50" unit="ft"/>
-        <seed> </seed>
+        <seed>Angiosperm (Enclosed) </seed>
         <desc>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the
             European horse chestnut with white flowers and an eastern Nrth American native with red
             ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above
@@ -1266,13 +1266,13 @@
     <entry xml:id="tree-72" tn="28">
         <cname>Japanese Umbrella Pine</cname>
         <sname>Sciadopitys verticillata</sname>
-        <treeType>coniferous</treeType>
-        <status>Unidentified</status>
+        <treeType>Coniferous</treeType>
+        <status> Undefined</status>
         <origin>
             <continent direct="Eastern">Asia</continent>
         </origin>
         <height min="25" max="30" avg="28" unit="ft"/>
-        <seed> </seed>
+        <seed>Gymnosperm (Naked)</seed>
         <desc>Japanese Umbrella Pine is named for its elegant shape and cascading green needles. It
             usually grows to 25' and is a slow grower. Japanese umbrella trees (Sciadopitys verticillata) 
             are small, strikingly beautiful trees that never fail to draw attention. Called “koya-maki” 
@@ -1289,13 +1289,13 @@
     <entry xml:id="tree-73" tn="30">
         <cname>Weeping White Pine</cname>
         <sname>Pinus strobus 'Pendula</sname>
-        <treeType>coniferous</treeType>
+        <treeType>Coniferous</treeType>
         <status>Secure</status>
         <origin>
             <continent direct="Eastern">North America</continent>
         </origin>
         <height avg="12" unit="ft"/>
-        <seed> </seed>
+        <seed>Gymnosperm (Naked)</seed>
         <desc>"This pine only grows to about 12'. Weeping white pine trees have smooth trunks
             covered with silvery-gray bark. As they age, the foliage covers the trunks all the way
             to the ground. The needles of a weeping white pine are evergreen and smell good. They
@@ -1309,7 +1309,7 @@
     <entry xml:id="tree-74" tn="39">
         <cname>Spanish Oak</cname>
         <sname>Quercus falcata</sname>
-        <treeType>deciduous</treeType>
+        <treeType>Deciduous</treeType>
         <status>Secure</status>
         <origin>
             <continent direct="Eastern">North America</continent>
@@ -1329,13 +1329,13 @@
     <entry xml:id="tree-75" tn="40">
         <cname>Osage Orange</cname>
         <sname>Maclura pomifera</sname>
-        <treeType>deciduous</treeType>
+        <treeType>Deciduous</treeType>
         <status>Secure</status>
         <origin>
             <continent direct="Eastern">North America</continent>
         </origin>
         <height min="30" max="50" avg="40" unit="ft"/>
-        <seed> </seed>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>"The Osage Orange grows to be 30-50'. Leaf blades are dark green, smooth and waxy
             above; paler green with a few hairs beneath. The color turns translucent yellow in the
             fall. Large fruits appear on female trees. Its wood was once in demand for making hubs
@@ -1349,13 +1349,13 @@
     <entry xml:id="tree-76" tn="64">
         <cname>Korean Pine</cname>
         <sname>Pinus koraiensis</sname>
-        <treeType>coniferous</treeType>
+        <treeType>Coniferous</treeType>
         <status>Secure</status>
         <origin>
             <continent direct="Western">Asia</continent>
         </origin>
-        <height avg="50" unit="ft"/>
-        <seed></seed>
+        <height avg="125" unit="ft"/>
+        <seed>Gymnosperm (Naked)</seed>
         <desc>"Korean pine grows to mature heights of 100'. Bark is gray-brown and smooth, becoming
             gray-black, scaly, and peeling on larger trees."</desc>
         <leaf>Evergreen</leaf>
@@ -1367,13 +1367,13 @@
     <entry xml:id="tree-77" tn="65">
         <cname>Blue Atlas Cedar</cname>
         <sname>Cedrus atlantica</sname>
-        <treeType>coniferous</treeType>
+        <treeType>Coniferous</treeType>
         <status>Imperiled</status>
         <origin>
             <continent direct="Northern">Africa</continent>
         </origin>
         <height avg="45" unit="ft"/>        
-        <seed> </seed>
+        <seed>Gymnosperm (Naked)</seed>
         <desc>This highly coveted tree is truly one-of-a-kind. The Blue Atlas Cedar can be found in its natural habit in the Atlas Mountains in northwest Africa. The tree’s silvery blue to bluish-green needles, about 1 1/2” long, can be stiff and clustered. Once it’s started to hit its stride, the Blue Atlas produces barrel-shaped male cones that are about 2-3” long on the lower branches; browning, from green, over a period of two years. Like with any needled evergreen it will shed from time to time, but this occurence is knothing to worry about.</desc>
         <leaf>Evergreen</leaf>
         <long>-79.984455</long>
@@ -1384,13 +1384,14 @@
     <entry xml:id="tree-78" tn="24">
         <cname>Paper Birch</cname>
         <sname>Betula papyrifera</sname>
-        <treeType>deciduous</treeType>
+        <treeType>Deciduous</treeType>
         <status>Secure</status>
         <origin>
             <continent direct="Eastern">North America</continent>
+            <continent direct="Western">North America</continent>
         </origin>
-        <height avg="60" unit="ft"/>
-        <seed></seed>
+        <height avg="65" unit="ft"/>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>The Paper Birch grows to a height of around 60 ft'. It develops a smooth white bark that
             curls and peels. The leaves turn bright yellow in the fall. The Paper Birch is a short lived species of Birch.
         It is native to northern North America and is often referred to as the Paper Birch.</desc>
@@ -1403,8 +1404,8 @@
     <entry xml:id="tree-79" tn="N/A">
         <cname>White Spire Birch</cname>
         <sname>Betula populifolia</sname>
-        <treeType>deciduous</treeType>
-        <status>Unidentified</status>
+        <treeType>Deciduous</treeType>
+        <status> Undefined</status>
         <origin>
             <continent direct="Eastern">Asia</continent>
         </origin>
@@ -1427,13 +1428,14 @@
     <entry xml:id="tree-80" tn="N/A">
         <cname>Winter King Hawthorn</cname>
         <sname>Crataegus viridis</sname>
-        <treeType>deciduous</treeType>
+        <treeType>Deciduous</treeType>
         <status>Secure</status>
         <origin>
             <continent direct="Eastern">North America</continent>
+            <continent direct="Central">North America</continent>
         </origin>
         <height avg="30" unit="ft"/>
-        <seed>Winter King Hawthorn</seed>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>"This Hawthorn can grow 25-35'. Gray stems have glossy dark green leaves that turn
             purple to red in fall. Thorns can be present. Fragrant, 5-petaled, white flowers bloom
             in May. Flowers are followed by small red fruits that ripen in September and usually
