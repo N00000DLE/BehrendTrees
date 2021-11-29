@@ -1022,9 +1022,11 @@
         </origin>
         <height min="60" max="80" avg="70" unit="ft"/>
         <seed> Angiosperm (Enclosed)</seed>
-        <desc>"This is a fast-growing tree with fragrant spring flowers. Its delicate, open
-            silhouette lets grass grow underneath. Tiny leaflets turn yellow or yellow-green in
-            fall. Grows to 30' to 70'."</desc>
+        <desc>This is a fast-growing tree with fragrant spring flowers. The thornless honeylocust is
+            native from Pennsylvania to Nebraska and south to Texas. The first scientific observations
+            of this species were made in 1700. The tree derives the name "Honey" from the sweet, 
+            honey-like substance found in its pods. The Cherokees in Tennessee made bows from the tree's 
+            durable and strong wood. It has also long been a favorite for fence posts.</desc>
         <leaf>Compound </leaf>
         <long>-79.98218</long>
         <lat>42.12032</lat>
@@ -1041,9 +1043,11 @@
         </origin>
         <height min="50" max="80" avg="65" unit="ft"/>
         <seed> Angiosperm (Enclosed) </seed>
-        <desc>"This tree has leaves that are 15"" long that turn bright yellow to brown in the fall.
+        <desc>This tree has leaves that are 15"" long that turn bright yellow to brown in the fall.
             It grows about 160' in height. Nuts found on the tree have a bitter taste and are about
-            an inch in length"</desc>
+            an inch in length. Bitternut hickory is probably the most abundant and most uniformly 
+            distributed of all the hickories. It grows throughout the eastern United States from 
+            southwestern</desc>
         <leaf> Compound </leaf>
         <long>-79.983896</long>
         <lat>42.120776</lat>
@@ -1062,8 +1066,11 @@
         <height min="60" max="80" avg="70" unit="ft"/>
         <seed> Angiosperm (Enclosed) </seed>
         <desc>"The leaves of American Elm are alternate, simple, and have doubly toothed margins.
-            They are oval to elliptic and are 4 to 6 inches long. The tree grows 60 to 80'."</desc>
-        <leaf> Simple </leaf>
+            Elms are loved for their graceful, stately shape, with branches like spreading fountains, 
+            and green leaves that turn gold in fall. Sadly, the American elm (Ulmus americana) can 
+            no longer be recommended because it is vulnerable to a devastating pathogen called Dutch 
+            elm disease.</desc>
+        <leaf>Simple</leaf>
         <long>-79.983668</long>
         <lat>42.120582</lat>
         <elev>304.870911</elev>
@@ -1078,11 +1085,13 @@
             <continent direct="Southern">North America</continent>
         </origin>
         <height min="60" max="100" avg="80" unit="ft"/>
-        <seed> </seed>
-        <desc>"This tree has bark that is pale brown, stringy and fibrous in appearance, sometimes
-            shredding. It has fan-like branches and scaly leaves. This tree grows about 50'
-            tall"</desc>
-        <leaf> </leaf>
+        <seed></seed>
+        <desc>The Atlantic white cedar has fan-like sprays of scaly, flattened, green or 
+            bluish-green leaves. Young trees have needle-like leaves. The tree tapers to a point, 
+            giving it a cone-like shape. It has small, rounded, light blue cones and tiny, green or 
+            reddish-yellow flowers that appear in March-April. Its bark is reddish-brown. The Atlantic 
+            white cedar can grow to 75 feet tall.</desc>
+        <leaf>Evergreen</leaf>
         <long>-79.984467</long>
         <lat>42.120324</lat>
         <elev>306.75705</elev>
@@ -1096,11 +1105,12 @@
         <origin>
             <continent direct="Eastern">North America</continent>
         </origin>
-        <height min="" max="" avg="" unit="ft"/>
-        <seed> </seed>
+        <height min="60" max="80" avg="70" unit="ft"/>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>Elm trees have oval-shaped leaves with saw-toothed edges and are pointy at the end.
-            The tree can grow up to 80'. </desc>
-        <leaf> </leaf>
+            The tree can grow up to 80'. Before the onset of Dutch elm disease, American elm was 
+            one of the most common street and shade trees across much of the United States. </desc>
+        <leaf>Simple</leaf>
         <long>-79.984236</long>
         <lat>42.120209</lat>
         <elev>308.47052</elev>
@@ -1115,10 +1125,13 @@
             <continent direct="Eastern">Asia</continent>
         </origin>
         <height min="20" max="30" avg="25" unit="ft"/>
-        <seed> </seed>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>This tree has slender and flexible branches that lead them to gracefully weep their
-            long pink leaves. This tree grows 20 to 30' tall</desc>
-        <leaf> </leaf>
+            long pink leaves. This tree grows 20 to 30' tall. Prunus pendula is an ornamental 
+            weeping cherry tree that has been cultivated in Japan for many centuries. Their slender 
+            and flexible branches lead them to gracefully weep, sometimes almost kissing the ground. 
+            Once developed, the branches become firm and stiff.</desc>
+        <leaf>Simple</leaf>
         <long>-79.983862</long>
         <lat>42.119716</lat>
         <elev>322.048676</elev>
@@ -1134,10 +1147,15 @@
         </origin>
         <height min="50" max="70" avg="60" unit="ft"/>
         <seed> </seed>
-        <desc>"The fall leaves on this tree turn vibrant shades of yellow, orange, red and purple.
+        <desc>The fall leaves on this tree turn vibrant shades of yellow, orange, red and purple.
             Yields burr-like fruit that is approximately 1?"" in diameter. The tree grows 60 to
-            75'."</desc>
-        <leaf> </leaf>
+            75'. The Sweetgum tree is native to the southeastern United States and a member of a 
+            genus made up of only six species. The others are found only in Asia. 
+            American sweetgum seeds are eaten by eastern goldfinches, purple finches, sparrows, 
+            mourning doves, northern bobwhites and wild turkeys. Small mammals such as chipmunks, 
+            red squirrels and gray squirrels also enjoy the fruits and seeds.
+        </desc>
+        <leaf>Simple</leaf>
         <long>-79.984231</long>
         <lat>42.119649</lat>
         <elev>321.064178</elev>
@@ -1154,8 +1172,9 @@
         <height min="50" max="75" avg="60" unit="ft"/>
         <seed> </seed>
         <desc>This tree is conical-shaped with stiff horizontal branches and short stiff needles.
-            The tree grows 50-75' in height</desc>
-        <leaf> </leaf>
+            The tree grows 50-75' in height.  It is a commonly used tree in Midwest landscapes. 
+            In nature the needles are often green, but many specimens produce blue-green needles.</desc>
+        <leaf>Evergreen</leaf>
         <long>-79.984251</long>
         <lat>42.119556</lat>
         <elev>320.752716</elev>
@@ -1170,10 +1189,14 @@
             <continent direct="Eastern">Asia</continent>
         </origin>
         <height min="15" max="25" avg="20" unit="ft"/>
-        <seed> </seed>
+        <seed>Gymnosperm (Naked)</seed>
         <desc>This tree can be a small tree or large shrub with a broadly spreading crown. The
-            leaves stay a vibrant red all year long. The tree grows 15 to 25' tall</desc>
-        <leaf> </leaf>
+            leaves stay a vibrant red all year long. The tree grows 15 to 25' tall. The Japanese 
+            word "momiji" is sometimes applied to this tree in its native land. The word is said 
+            to have two meanings, both of them appropriate for the description of this wonderful 
+            tree: "baby's hands" and "becomes crimson leaves." 'Atropurpureum' means dark purple. 
+        </desc>
+        <leaf>Compound</leaf>
         <long>-79.984281</long>
         <lat>42.119412</lat>
         <elev>321.106476</elev>
@@ -1190,8 +1213,11 @@
         <height min="30" max="40" avg="35" unit="ft"/>
         <seed> </seed>
         <desc>This cherry can grow 30-40'. It has very showy pink flowers that bloom in clusters of
-            3-5 in April. </desc>
-        <leaf> </leaf>
+            3-5 in April. Named after a mountain in Japan, the Kanzan (Kwanzan) cherry tree is native 
+            to China, Japan and Korea. The original name is 'Sekiyama,' but it is rarely used. Introduced 
+            to America in 1903, it was made famous by the glorious floral displays at the annual Cherry 
+            Blossom Festival in Washington, D.C. </desc>
+        <leaf>Compound</leaf>
         <long>-79.985583</long>
         <lat>42.11935</lat>
         <elev>312.131378</elev>
@@ -1207,9 +1233,11 @@
         </origin>
         <height min="30" max="50" avg="40" unit="ft"/>
         <seed> </seed>
-        <desc>"The yellowwood grows 30-50'. It has smooth bark, large hanging clusters of fragrant
-            white flowers, and clear yellow fall color."</desc>
-        <leaf> </leaf>
+        <desc>The yellowwood grows 30-50'. It has smooth bark, large hanging clusters of fragrant
+            white flowers, and clear yellow fall color. Yellowwood grows throughout Eastern 
+            Kentucky, but is most common along the Kentucky River palisades in the Bluegrass region. 
+            It produces clusters of white pea-like flowers in Spring. </desc>
+        <leaf>Compound</leaf>
         <long>-79.985727</long>
         <lat>42.118683</lat>
         <elev>312.022369</elev>
@@ -1229,7 +1257,7 @@
             European horse chestnut with white flowers and an eastern Nrth American native with red
             ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above
             and silvery below that turn bright yellow in fall. "</desc>
-        <leaf> </leaf>
+        <leaf>Compound</leaf>
         <long>-79.985356</long>
         <lat>42.1198</lat>
         <elev>309.015381</elev>
@@ -1246,8 +1274,13 @@
         <height min="25" max="30" avg="28" unit="ft"/>
         <seed> </seed>
         <desc>Japanese Umbrella Pine is named for its elegant shape and cascading green needles. It
-            usually grows to 25' and is a slow grower. </desc>
-        <leaf> </leaf>
+            usually grows to 25' and is a slow grower. Japanese umbrella trees (Sciadopitys verticillata) 
+            are small, strikingly beautiful trees that never fail to draw attention. Called “koya-maki” 
+            in Japan, the tree is one of Japan’s five sacred trees. These richly textured conifers are 
+            rare and expensive in nurseries because they grow slowly and it takes a long time to grow 
+            a sapling large enough to sell. In the landscape, it can take 100 years for a sapling to 
+            reach mature size.  </desc>
+        <leaf>Evergreen</leaf>
         <long>-79.985481</long>
         <lat>42.119144</lat>
         <elev>311.633942</elev>
@@ -1267,7 +1300,7 @@
             covered with silvery-gray bark. As they age, the foliage covers the trunks all the way
             to the ground. The needles of a weeping white pine are evergreen and smell good. They
             are blue or blue-green."</desc>
-        <leaf> </leaf>
+        <leaf>Evergreen</leaf>
         <long>-79.981438</long>
         <lat>42.120185</lat>
         <elev>312.328979</elev>
@@ -1282,12 +1315,12 @@
             <continent direct="Eastern">North America</continent>
         </origin>
         <height avg="90" unit="ft"/>
-        <seed> </seed>
+        <seed>Angiosperm (Enclosed)</seed>
         <desc>"This oak can grow to 90'. Bark is grayish-black, broken into deep grooves, becoming
             ridged and rough-plated near the base.. The leaves upper surface is dark green &amp;
             shiny while the lower surface is paler with light brown matted hairs. Leaves often droop
             and turn reddish-brown in fall."</desc>
-        <leaf> </leaf>
+        <leaf>Simple</leaf>
         <long>-79.985275</long>
         <lat>42.118615</lat>
         <elev>314.037811</elev>
@@ -1307,7 +1340,7 @@
             above; paler green with a few hairs beneath. The color turns translucent yellow in the
             fall. Large fruits appear on female trees. Its wood was once in demand for making hubs
             and wheel rims for horse drawn wagons. "</desc>
-        <leaf> </leaf>
+        <leaf>Simple</leaf>
         <long>-79.985744</long>
         <lat>42.118417</lat>
         <elev>314.985504</elev>
@@ -1322,10 +1355,10 @@
             <continent direct="Western">Asia</continent>
         </origin>
         <height avg="50" unit="ft"/>
-        <seed> </seed>
+        <seed></seed>
         <desc>"Korean pine grows to mature heights of 100'. Bark is gray-brown and smooth, becoming
             gray-black, scaly, and peeling on larger trees."</desc>
-        <leaf> </leaf>
+        <leaf>Evergreen</leaf>
         <long>-79.985286</long>
         <lat>42.119057</lat>
         <elev>310.888336</elev>
@@ -1358,8 +1391,9 @@
         </origin>
         <height avg="60" unit="ft"/>
         <seed></seed>
-        <desc>The Paper Birch grows to a height of 50Ð70'. It develops a smooth white bark that
-            curls and peels. The leaves turn bright yellow in the fall </desc>
+        <desc>The Paper Birch grows to a height of around 60 ft'. It develops a smooth white bark that
+            curls and peels. The leaves turn bright yellow in the fall. The Paper Birch is a short lived species of Birch.
+        It is native to northern North America and is often referred to as the Paper Birch.</desc>
         <leaf>Simple</leaf>
         <long>-79.985286</long>
         <lat>42.119921</lat>
@@ -1377,7 +1411,13 @@
         <height avg="30" unit="ft"/>
         <seed>Angiosperm (Enclosed)</seed>
         <desc>"This Birch has chalky white bark. It is fast growing to a height of 20-40' . It yeild
-            shiny, dark green leaves that turn yellow in the fall. Betula populifolia, commonly called gray birch, is a short-lived, narrow-columnar, suckering, deciduous tree that typically grows to 20-40’ tall. It most often appears in a multi-trunked form, but also grows with a single trunk. It is native primarily from Southeastern Canada to Virginia, with a scattering of plants extending westward to Illinois. It typically occurs in both dry and wet soils. This tree is noted for (1) its non-peeling chalky white bark with dark chevron trunk patches appearing below each branch base and (2) its long-pointed triangular green leaves. "</desc>
+            shiny, dark green leaves that turn yellow in the fall. Betula populifolia, commonly called
+            gray birch, is a short-lived, narrow-columnar, suckering, deciduous tree that typically 
+            grows to 20-40’ tall. It most often appears in a multi-trunked form, but also grows with 
+            a single trunk. It is native primarily from Southeastern Canada to Virginia, with a scattering 
+            of plants extending westward to Illinois. It typically occurs in both dry and wet soils. This 
+            tree is noted for (1) its non-peeling chalky white bark with dark chevron trunk patches appearing 
+            below each branch base and (2) its long-pointed triangular green leaves. "</desc>
         <leaf>Simple</leaf>
         <long>-79.985649</long>
         <lat>42.119712</lat>
