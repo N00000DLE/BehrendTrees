@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Master_Tree_Schema_Final.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="treeBook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <btrees>
         <entry xml:id="tree-911-13">
                 <cname>Shingle Oak</cname>
                 <sname>Quercus imbricaria</sname>
-                <treeType>Decidous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <treeType>Deciduous</treeType>
+                <status>Secure</status>
+                <origin>
+                        <continent direct="Eastern"> North America</continent>
+                </origin>
+                <height min="" max="" avg="" unit="ft"/>
+                <seed></seed>
                 <desc>"Shingle oak is native to Illinois and to part of the Chicago region. Grows
                         more than 40'. Leaves are dark green in summer, changing to yellow-brown in
                         fall. Leaves persisting through the entire winter."</desc>
-                <leaf/>
+                <leaf></leaf>
                 <long>-79.98748</long>
                 <lat>42.119287</lat>
                 <elev>307.2369</elev>
@@ -19,10 +23,10 @@
         <entry xml:id="tree-911-14">
                 <cname>Black Walnut 2</cname>
                 <sname>Juglans nigra</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
-                <height/>
+                <height  min="" max="" avg="" unit="ft"/>
                 <seed/>
                 <desc>The Black Walnut grows to a height of 50Ð75'. Yields a ripened nut crop in
                         early to mid-autumn.</desc>
@@ -34,10 +38,10 @@
         <entry xml:id="tree-911-15">
                 <cname>Flower of Kent</cname>
                 <sname>Malus pumila</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
-                <height/>
+                <height  min="" max="" avg="" unit="ft"/>
                 <seed/>
                 <desc>"Flower of Kent grows to about 15'. This is the tree Isaac Newton saw an apple
                         fall to ground from, inspiring his laws of universal gravitation. The apple
@@ -51,10 +55,10 @@
         <entry xml:id="tree-911-16">
                 <cname>Paperbark Maple</cname>
                 <sname>Acer griseum</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
-                <height/>
+                <height  min="" max="" avg="" unit="ft"/>
                 <seed/>
                 <desc>The Paperbark Maple grows slowly to about 25'. Soft green leaves turn scarlet
                         in fall. The papery sheets of bark peel to reveal brown new bark over
@@ -83,7 +87,7 @@
         <entry xml:id="tree-911-26">
                 <cname>Snowdrift Crabapple 2</cname>
                 <sname>Malus 'SNwdrift</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -98,7 +102,7 @@
         <entry xml:id="tree-911-27">
                 <cname>Wildfire Black Gum 2</cname>
                 <sname>Nyssa sylvatica</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -129,7 +133,7 @@
         <entry xml:id="tree-911-29">
                 <cname>Chinkapin Oak</cname>
                 <sname>Quercus muehlenbergii</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -145,7 +149,7 @@
         <entry xml:id="tree-911-31">
                 <cname>Forest Pansy Redbud</cname>
                 <sname>Cercis canadensis</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -160,7 +164,7 @@
         <entry xml:id="tree-911-32">
                 <cname>Single Stem Asain White Birch</cname>
                 <sname>Betula pendula</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -174,7 +178,7 @@
         <entry xml:id="tree-911-33">
                 <cname>Bur Oak</cname>
                 <sname>Quercus macrocarpa</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -204,7 +208,7 @@
         <entry xml:id="tree-911-35">
                 <cname>Ruby Horse Chestnut 2</cname>
                 <sname>Aesculus carnea</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -222,7 +226,7 @@
         <entry xml:id="tree-911-36">
                 <cname>Ruby Horse Chestnut 3</cname>
                 <sname>Aesculus carnea</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -239,7 +243,7 @@
         <entry xml:id="tree-911-38">
                 <cname>Kousa Dogwood 2</cname>
                 <sname>Cornus kousa</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -302,7 +306,7 @@
         <entry xml:id="tree-911-42">
                 <cname>Red Maple 2</cname>
                 <sname>Acer rubrum</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
