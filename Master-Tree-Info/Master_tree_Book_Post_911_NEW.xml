@@ -10,12 +10,12 @@
                 <origin>
                         <continent direct="Eastern"> North America</continent>
                 </origin>
-                <height min="" max="" avg="" unit="ft"/>
-                <seed></seed>
+                <height min="50" max="60" avg="55" unit="ft"/>
+                <seed>Angiosperm (Enclosed)</seed>
                 <desc>"Shingle oak is native to Illinois and to part of the Chicago region. Grows
                         more than 40'. Leaves are dark green in summer, changing to yellow-brown in
                         fall. Leaves persisting through the entire winter."</desc>
-                <leaf></leaf>
+                <leaf>Simple</leaf>
                 <long>-79.98748</long>
                 <lat>42.119287</lat>
                 <elev>307.2369</elev>
@@ -24,30 +24,37 @@
                 <cname>Black Walnut 2</cname>
                 <sname>Juglans nigra</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height  min="" max="" avg="" unit="ft"/>
-                <seed/>
+                <status> Secure</status>
+                <origin>
+                        <continent direct="Eastern"> North America</continent>
+                        <continent direct="Western">Europe</continent>
+                </origin>
+                <height  min="131" max="164" avg="148" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>The Black Walnut grows to a height of 50Ð75'. Yields a ripened nut crop in
                         early to mid-autumn.</desc>
-                <leaf/>
+                <leaf> Compound</leaf>
                 <long>-79.987515</long>
                 <lat>42.119245</lat>
                 <elev>307.5167</elev>
         </entry>
         <entry xml:id="tree-911-15">
-                <cname>Flower of Kent</cname>
-                <sname>Malus pumila</sname>
+                <cname altName="Apple Tree">Flower of Kent</cname>
+                <sname>Malus domestica</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height  min="" max="" avg="" unit="ft"/>
-                <seed/>
+                <status> Secure</status>
+                <origin>
+                        <continent direct="Western"> Europe</continent>
+                        <continent direct="Southern"> Oceania</continent>
+                        <continent direct="Eastern"> North America</continent>
+                </origin>
+                <height  min="6" max="15" avg="11" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>"Flower of Kent grows to about 15'. This is the tree Isaac Newton saw an apple
                         fall to ground from, inspiring his laws of universal gravitation. The apple
                         is pear-shaped, mealy, and sub-acid, and of generally poor quality by
                         today's standards."</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
                 <long>-79.986891</long>
                 <lat>42.11933</lat>
                 <elev>307.2652</elev>
@@ -56,14 +63,17 @@
                 <cname>Paperbark Maple</cname>
                 <sname>Acer griseum</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height  min="" max="" avg="" unit="ft"/>
-                <seed/>
+                <status>Undefined</status>
+                <origin>
+                        <continent direct="Central"> Asia</continent>
+                        <continent direct="Eastern"> Asia</continent>
+                </origin>
+                <height  min="20" max="30" avg="25" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>The Paperbark Maple grows slowly to about 25'. Soft green leaves turn scarlet
                         in fall. The papery sheets of bark peel to reveal brown new bark over
                         time</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
                 <long>-79.986506</long>
                 <lat>42.119127</lat>
                 <elev>307.3884</elev>
@@ -71,45 +81,55 @@
         <entry xml:id="tree-911-25">
                 <cname>Paper Birch 2</cname>
                 <sname>Betula papyrifera</sname>
-                <treeType>Decidous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>"The Paper Birch grows to a height of 50Ð70'. Develops a smooth white bark
-                        that curls and peels (once mature). Provides bright yellow fall
-                        color."""</desc>
-                <leaf/>
+                <treeType>Deciduous</treeType>
+                <status>Secure</status>
+                <origin>
+                        <continent direct="Eastern">North America</continent>
+                        <continent direct="Western">North America</continent>
+                </origin>
+                <height avg="65" unit="ft"/>
+                <seed>Angiosperm (Enclosed)</seed>
+                <desc>The Paper Birch grows to a height of around 60 ft'. It develops a smooth white bark
+                        that curls and peels. The leaves turn bright yellow in the fall. The Paper Birch is a
+                        short lived species of Birch. It is native to northern North America and is often
+                        referred to as the Paper Birch.</desc>
+                <leaf>Simple</leaf>
                 <long>-79.982751</long>
                 <lat>42.119973</lat>
                 <elev>338.2622</elev>
         </entry>
         <entry xml:id="tree-911-26">
                 <cname>Snowdrift Crabapple 2</cname>
-                <sname>Malus 'SNwdrift</sname>
+                <sname>Malus Cultivars 'Snowdrift'</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>"This tree grows to a height of 15Ð20. Features glossy, dark green leaves that
-                        turn yellow in the fall. Blooms in a profusion of snowy white blossoms in
-                        April or May.",</desc>
-                <leaf/>
+                <status> Undefined </status>
+                <origin>
+                        <continent direct="Eastern"> North America</continent>
+                        <continent direct="Western"> Europe</continent>
+                </origin>
+                <height min="15" max="20" avg="20" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
+                <desc>"This tree is a rounded, deciduous tree which typically grows 15-20' tall with a
+                        similar spread. Red buds open to slightly fragrant, single white flowers in spring.
+                        Flowers are followed by masses of small, orange-red crabapples"</desc>
+                <leaf>Simple </leaf>
+                <!--ged: MISSING LONG NEEDS CHECKED!!! -->
                 <lat>42.120175</lat>
                 <elev>280.2051</elev>
         </entry>
         <entry xml:id="tree-911-27">
                 <cname>Wildfire Black Gum 2</cname>
-                <sname>Nyssa sylvatica</sname>
+                <sname>Nyssa sylvatica 'Wildfire'</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>"This tree grows to a height of 50'. It produces bold red new foliage that
-                        matures to dark green, then a fiery scarlet in fall"</desc>
-                <leaf/>
+                <status> Secure </status>
+                <origin>
+                        <continent direct="North Western"> North America</continent>
+                </origin>
+                <height avg="100" unit="ft"/>
+                <seed>Angiosperm (Enclosed) </seed>
+                <desc>Wildfire Black Gum has forest green foliage which emerges red in spring. The glossy
+                        pointy leaves turn an outstanding crimson in the fall. Tree reaches a height of 50'. </desc>
+                <leaf>Simple </leaf>
                 <long>-79.982174</long>
                 <lat>42.119578</lat>
                 <elev>286.6892</elev>
@@ -118,30 +138,34 @@
                 <cname>Blue Japanese White Pine</cname>
                 <sname>Pinus parviflora 'Glauca</sname>
                 <treeType>Coniferous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status> Undefined </status>
+                <origin>
+                        <continent direct="Eastern">Asia</continent>
+                </origin>
+                <height min="50" max="70" avg="60" unit="ft"/>
+                <seed>Gymnosperm (Naked)</seed>
                 <desc>This pine can grow up to 35-50'. The foliage of blue needles is presented in
                         tufts at the branch tips. It has brownish-red cones that open when
                         ripe.</desc>
-                <leaf/>
+                <leaf> Evergreen</leaf>
                 <long>-79.982749</long>
                 <lat>42.11961</lat>
                 <elev>285.4994</elev>
         </entry>
         <entry xml:id="tree-911-29">
-                <cname>Chinkapin Oak</cname>
+                <cname altName="Yellow Chestnut Oak">Chinkapin Oak</cname>
                 <sname>Quercus muehlenbergii</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status>Secure</status>
+                <origin>
+                        <continent direct="Eastern"> North America</continent>
+                </origin>
+                <height min="98" max="131" avg="115" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>"This tree grows to a height of 40Ð50'. Features simple leaves that are dark
                         yellowish green, and 4Ð6"" in length. Fall color varies from yellow to
                         orangish-brown to brown."</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
                 <long>-79.982688</long>
                 <lat>42.120004</lat>
                 <elev>285.0451</elev>
@@ -150,28 +174,32 @@
                 <cname>Forest Pansy Redbud</cname>
                 <sname>Cercis canadensis</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status>Secure</status>
+                <origin>
+                        <continent direct="Eastern"> North America</continent>
+                </origin>
+                <height min="20" max="30" avg="25" unit="ft"/>
+                <seed>Angiosperm (Enclosed)</seed>
                 <desc>"The Redbud grows to about 20'. It is valued for its scarlet-purple color to
                         new foliage, maturing to maroon. Flowers on bare branches occur between
                         winter and spring",</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
+                <!--ged: MISSING LONG NEEDS CHECKED!!! -->
                 <lat>42.120568</lat>
                 <elev>283.6172</elev>
         </entry>
         <entry xml:id="tree-911-32">
-                <cname>Single Stem Asain White Birch</cname>
-                <sname>Betula pendula</sname>
+                <cname>Single Stem Asian White Birch</cname>
+                <sname>Betula platyphylla</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status> Undefined</status>
+                <origin> <continent direct="Eastern"> Asia</continent></origin>
+                <height min="30" max="40" avg="35" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>The birch grows 40 to 50'. The leaves are dark green with a serrated margin.
                         They turn yellow in the fall.,</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
+                <!--ged: MISSING LONG NEEDS CHECKED!!! -->
                 <lat>42.12073</lat>
                 <elev>288.4364</elev>
         </entry>
@@ -179,29 +207,32 @@
                 <cname>Bur Oak</cname>
                 <sname>Quercus macrocarpa</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status>Secure</status>
+                <origin><continent direct="Eastern"> North America</continent></origin>
+                <height min="80" max="170" avg="125" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>The bur oak grows to a height of 70Ð80'. Yields acorns that are larger than
                         most. Lives for more than 200Ð300 years</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
                 <long>-79.981902</long>
                 <lat>42.120801</lat>
                 <elev>288.6333</elev>
         </entry>
         <entry xml:id="tree-911-34">
                 <cname>Red Pine</cname>
-                <sname>Pinus resiNsa</sname>
+                <sname>Pinus resinosa</sname>
                 <treeType>Coniferous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status> Secure</status>
+                <origin>
+                        <continent direct="North Eastern">North America</continent>
+                </origin>
+                <height min="50" max="70" avg="60" unit="ft"/>
+                <seed> Gymnosperm (Naked)</seed>
                 <desc>"The red pine grows 65-100'. The leaves are needle-like, dark yellow-green and
                         in fascicles of two. The bark is thick and gray-brown at the base of the
                         tree, but thin, flaky and bright orange-red in the upper crown",</desc>
-                <leaf/>
+                <leaf> Evergreen</leaf>
+                <!--ged: MISSING LONG NEEDS CHECKED!!! -->
                 <lat>42.120933</lat>
                 <elev>290.3104</elev>
         </entry>
@@ -209,16 +240,17 @@
                 <cname>Ruby Horse Chestnut 2</cname>
                 <sname>Aesculus carnea</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>"This tree is a clone of a hybrid horse chestnut, resulting from a cross
-                        between the European horse chestnut with white flowers and an eastern North
-                        American native with red ones.ÊIt can grow 40-60'. It has gray-green bark
-                        and leaves which are dark green above and silvery below that turn bright
-                        yellow in fall.Ê"</desc>
-                <leaf/>
+                <status>Critically Imperiled</status>
+                <origin>
+                        <continent direct="Western">Europe</continent>
+                </origin>
+                <height min="40" max="60" avg="50" unit="ft"/>
+                <seed>Angiosperm (Enclosed) </seed>
+                <desc>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the
+                        European horse chestnut with white flowers and an eastern Nrth American native with red
+                        ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above
+                        and silvery below that turn bright yellow in fall. "</desc>
+                <leaf>Compound</leaf>
                 <long>-79.981004</long>
                 <lat>42.121009</lat>
                 <elev>291.9296</elev>
@@ -227,30 +259,36 @@
                 <cname>Ruby Horse Chestnut 3</cname>
                 <sname>Aesculus carnea</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>"This tree is a clone of a hybrid horse chestnut, resulting from a cross
-                        between the European horse chestnut with white flowers and an eastern Nrth
-                        American native with red ones.ÊIt can grow 40-60'. It has gray-green bark
-                        and leaves which are dark green above and silvery below that turn bright
-                        yellow in fall.Ê",</desc>
-                <leaf/>
+                <status>Critically Imperiled</status>
+                <origin>
+                        <continent direct="Western">Europe</continent>
+                </origin>
+                <height min="40" max="60" avg="50" unit="ft"/>
+                <seed>Angiosperm (Enclosed) </seed>
+                <desc>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the
+                        European horse chestnut with white flowers and an eastern Nrth American native with red
+                        ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above
+                        and silvery below that turn bright yellow in fall. "</desc>
+                <leaf>Compound</leaf>
+                <!--ged: MISSING LONG NEEDS CHECKED!!! -->
                 <lat>42.120798</lat>
                 <elev>292.6469</elev>
         </entry>
         <entry xml:id="tree-911-38">
                 <cname>Kousa Dogwood 2</cname>
-                <sname>Cornus kousa</sname>
+                <sname>Cornus kousa Hance </sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>"This tree grows to a height of 15'-25'. Blooms MayÐJune, with white bracts
-                        surrounding small, greeinish-yellow flowers."</desc>
-                <leaf/>
+                <status>Undefined</status>
+                <origin>
+                        <continent direct="Central">Asia</continent>
+                        <continent direct="Eastern">Asia</continent>
+                </origin>
+                <height avg="20" unit="ft"/>
+                <seed>Angiosperm (Enclosed)</seed>
+                <desc>"This is a flowering tree or multi-stemmed shrub with a vase-shaped habit in the early
+                        years but eventually maturing to a more rounded form. Bloom occurs in late
+                        spring."</desc>
+                <leaf>Simple</leaf>
                 <long>-79.977407</long>
                 <lat>42.120537</lat>
                 <elev>312.0039</elev>
@@ -258,15 +296,15 @@
         <entry xml:id="tree-911-39">
                 <cname>Eastern Redbud</cname>
                 <sname>Cercis canadensis</sname>
-                <treeType>Decidous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <treeType>Deciduous</treeType>
+                <status> Secure</status>
+                <origin><continent direct="Eastern"> North America</continent></origin>
+                <height min="20" max="30" avg="25" unit="ft" />
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>"This tree grows to a height of 20'Ð30'. Blooms in a April with of rosy pink
                         flowers. Leaves emerge a reddish color, turning dark green as summer
                         approaches and then yellow in the fall."</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
                 <long>-79.977545</long>
                 <lat>42.120425</lat>
                 <elev>313.4502</elev>
@@ -275,14 +313,15 @@
                 <cname>White Pine 2</cname>
                 <sname>Pinus strobus</sname>
                 <treeType>Coniferous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>"The Eastern White Pine grows to a height of 50Ð80'. ÊFeatures long, slender,
-                        blue-green needles, sometimes reaching 5"" in length. Is widely used as a
-                        Christmas tree."</desc>
-                <leaf/>
+                <status>Secure</status>
+                <origin>
+                        <continent direct="Eastern"> North America</continent>
+                </origin>
+                <height avg="180" unit="ft"/>
+                <seed> Gymnosperm (Naked)</seed>
+                <desc>Eastern white pine is the provincial tree of Ontario and the state tree of Maine and
+                        Michigan.</desc>
+                <leaf>Evergreen</leaf>
                 <long>-79.977489</long>
                 <lat>42.120415</lat>
                 <elev>314.0017</elev>
@@ -290,15 +329,15 @@
         <entry xml:id="tree-911-41">
                 <cname>Northern Sweetbay Magnolia</cname>
                 <sname>Magnolia virginiana</sname>
-                <treeType>Decidous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <treeType>Deciduous</treeType>
+                <status> Secure</status>
+                <origin> <continent direct="South Eastern"> North America</continent></origin>
+                <height min="20" max="30" avg="25" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>"This tree grows to a height of 10Ð20'. Produces creamy white flowers 2Ð3"" in
                         diameter that carry a light lemon scent. Yields clusters of red fruit that
                         attracts wildlife."</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
                 <long>-79.977818</long>
                 <lat>42.120198</lat>
                 <elev>315.7569</elev>
@@ -307,44 +346,52 @@
                 <cname>Red Maple 2</cname>
                 <sname>Acer rubrum</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>The Red Maple grows to a height of 40Ð60. Produces red clusters of small
-                        flowers winter to spring.</desc>
-                <leaf/>
+                <status>Secure</status>
+                <origin>
+                        <continent direct="Eastern">North America</continent>
+                </origin>
+                <height avg="90" unit="ft"/>
+                <seed>Angiosperm (Enclosed)</seed>
+                <desc>The sap can be used to make maple syrup, though it's not as high quality as that of
+                        sugar maples. Its wood is used for inexpensive furniture, firewood and railroad
+                        ties.</desc>
+                <leaf>Simple</leaf>
                 <long>-79.978571</long>
                 <lat>42.120502</lat>
                 <elev>310.3149</elev>
         </entry>
         <entry xml:id="tree-911-43">
-                <cname>English Hawthorn</cname>
+                <cname altName="Midland Hawthorn">English Hawthorn</cname>
                 <sname>Crataegus Iaevigata</sname>
-                <treeType>Decidous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <treeType>Deciduous</treeType>
+                <status>Undefined</status>
+                <origin>
+                        <continent direct="Western"> Europe</continent>
+                        <continent direct="Central"> Europe</continent>
+                </origin>
+                <height min="26" max="39" avg="33" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>This tree can range from 6 to 30'. Leaves are long and broad and resemble
                         mittens or paws.</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
                 <long>-79.97978</long>
                 <lat>42.119993</lat>
                 <elev>311.7366</elev>
         </entry>
         <entry xml:id="tree-911-44">
                 <cname>Red Sunset Maple</cname>
-                <sname>Acer rubrumÊ</sname>
-                <treeType>Decidous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <sname>Acer rubrum</sname>
+                <treeType>Deciduous</treeType>
+                <status> Secure</status>
+                <origin>
+                        <continent direct="Eastern"> North America</continent>
+                </origin>
+                <height min="26" max="39" avg="33" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>"This tree grows to a height of 45Ð50'. Provides superior fall color, with
                         leaves turning vibrant shades of orange and red. Is often the first to color
                         up in the autumn."</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
                 <long>-79.980086</long>
                 <lat>42.119961</lat>
                 <elev>312.066</elev>
@@ -352,7 +399,7 @@
         <entry xml:id="tree-911-45">
                 <cname>Heritage River Birch</cname>
                 <sname>Betula nigra</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -368,7 +415,7 @@
         <entry xml:id="tree-911-46">
                 <cname>Sweetbay Magnolia 'Santa Rose'</cname>
                 <sname>MagNlia virginiana</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -384,7 +431,7 @@
         <entry xml:id="tree-911-47">
                 <cname>Butternut</cname>
                 <sname>Juglans cinerea</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -399,7 +446,7 @@
         <entry xml:id="tree-911-48">
                 <cname>Skyline Honey Locust</cname>
                 <sname>Gleditsia triacanthos f.</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -418,7 +465,7 @@
         <entry xml:id="tree-911-49">
                 <cname>London Planetree</cname>
                 <sname>Platanus x acerifolia</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -434,7 +481,7 @@
         <entry xml:id="tree-911-50">
                 <cname>Northern Red Oak 2</cname>
                 <sname>Quercus rubra</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -466,16 +513,17 @@
         <entry xml:id="tree-911-52">
                 <cname>Eastern Redbud 2</cname>
                 <sname>Cercis canadensis</sname>
-                <treeType>Decidous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>"This tree typically grows 20' in height with a similar spread and have
-                        gracefully ascending branches and a rounded shape. Eastern redbud leaves are
-                        alternate, simple, broadly heart-shaped and 3 to 5"" high and wide. Leaves
-                        emerge reddish, turning green as they expand."</desc>
-                <leaf/>
+                <treeType>Deciduous</treeType>
+                <status>Secure</status>
+                <origin>
+                        <continent direct="Eastern">North America</continent>
+                </origin>
+                <height min="20" max="30" avg="25" unit="ft"/>
+                <seed>Angiosperm (Enclosed) </seed>
+                <desc>"Trees typically grow 20' in height with a similar spread and have ascending branches
+                        and a rounded shape. Leaves are alternate, simple, broadly heart-shaped and 3 to 5""
+                        high and wide. Leaves emerge reddish, turning green as they expand."</desc>
+                <leaf>Simple </leaf>
                 <long>-79.984081</long>
                 <lat>42.118441</lat>
                 <elev>319.9111</elev>
@@ -498,7 +546,7 @@
         <entry xml:id="tree-911-54">
                 <cname>Ruby Horse Chestnut 4</cname>
                 <sname>Aesculus carnea</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>
@@ -516,7 +564,7 @@
         <entry xml:id="tree-911-55">
                 <cname>Cucumbertree</cname>
                 <sname>MagNlia acuminata</sname>
-                <treeType>Decidous</treeType>
+                <treeType>Deciduous</treeType>
                 <status/>
                 <origin/>
                 <height/>

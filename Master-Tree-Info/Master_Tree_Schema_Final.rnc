@@ -3,7 +3,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = btrees
 btrees = element btrees {entry+}
 
-entry = element entry {id, tn, cname, sname, treeType, status, origin, height, 
+entry = element entry {id, tn*, cname, sname, treeType, status, origin, height, 
 seed, desc?, leaf, long, lat, elev}
 
 id = attribute xml:id {xsd:ID}
