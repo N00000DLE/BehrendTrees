@@ -400,80 +400,83 @@
                 <cname>Heritage River Birch</cname>
                 <sname>Betula nigra</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status>Secure</status>
+                <origin><continent direct="Eastern"> North America</continent></origin>
+                <height min="50" max="90" avg="70" unit="ft"/>
+                <seed>Angiosperm (Enclosed)</seed>
                 <desc>"The River Birch grows to a height of 40Ð70'. Features glossy green leaves
                         that are 2Ð3"" long and somewhat triangular. They naturally grow along
                         riverbanks. Bark will curl and peel."</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
                 <long>-79.980507</long>
                 <lat>42.11919</lat>
                 <elev>321.5021</elev>
         </entry>
         <entry xml:id="tree-911-46">
                 <cname>Sweetbay Magnolia 'Santa Rose'</cname>
-                <sname>MagNlia virginiana</sname>
+                <sname>Magnolia virginiana</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status>Secure</status>
+                <origin><continent direct="Eastern"> North America</continent></origin>
+                <height min="12" max="20" avg="16" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>"This tree grows to a height of 10'Ð20'. Produces creamy white flowers 2Ð3""
                         in diameter that carry a light lemon scent. Yields clusters of red fruit
                         that attracts wildlife."</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
                 <long>-79.98048</long>
                 <lat>42.118591</lat>
                 <elev>328.4021</elev>
         </entry>
         <entry xml:id="tree-911-47">
-                <cname>Butternut</cname>
+                <cname altName="White Walnut">Butternut</cname>
                 <sname>Juglans cinerea</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status> Vulnerable</status>
+                <origin> <continent direct="North Eastern">North America</continent></origin>
+                <height min="66" max="98" avg="82" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>The Butternut grows to a height of 40Ð60'. Yields a ripened nut crop in late
                         October 7-10 years after planting.</desc>
-                <leaf/>
+                <leaf> Compound</leaf>
                 <long>-79.976374</long>
                 <lat>42.121901</lat>
                 <elev>305.4567</elev>
         </entry>
         <entry xml:id="tree-911-48">
                 <cname>Skyline Honey Locust</cname>
-                <sname>Gleditsia triacanthos f.</sname>
+                <sname>Gleditsia triacanthos </sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status>Secure</status>
+                <origin>
+                        <continent direct="Eastern"> North America</continent>
+                        <continent direct="Western"> Europe</continent>
+                </origin>
+                <height min="65" max="100" avg="83" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>"This tree grows 60-80'. Greenish yellow flowers appear in late spring.
                         Flowers are followed by long, flattened, dark purplish-brown seedpods that
                         mature in late summer. Seedpods contain a sweet gummy substance that gives
                         honey locust its common name. Skyline¨ is a thornless variety with a
                         stronger upright growth form, few seed pods, and excellent yellow fall
                         color."</desc>
-                <leaf/>
+                <leaf>Compound</leaf>
                 <long>-79.976638</long>
                 <lat>42.121694</lat>
                 <elev>305.3604</elev>
         </entry>
         <entry xml:id="tree-911-49">
-                <cname>London Planetree</cname>
-                <sname>Platanus x acerifolia</sname>
+                <cname>London Plane Tree</cname>
+                <sname>Platanus × hispanica</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status>Undefined</status>
+                <origin> <continent direct="Western"> Europe</continent></origin>
+                <height min="66" max="98" avg="82" unit="ft"/>
+                <seed>Angiosperm (Enclosed)</seed>
                 <desc>"The London Planetree grows to a height of 75Ð100'. Produces inconspicuous red
                         flowers in April. Bark has red-brown scales that flake to reveal green,
                         white and creamy yellow."</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
                 <long>-79.977103</long>
                 <lat>42.120858</lat>
                 <elev>309.9282</elev>
@@ -482,14 +485,16 @@
                 <cname>Northern Red Oak 2</cname>
                 <sname>Quercus rubra</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>"ÊMature trees have dark grey or brown bark with broad, shiny strips on the
-                        trunk's ridges. Its leaves areÊdark green on both sides, withÊseven to
-                        eleven sharp lobes.Ê"</desc>
-                <leaf/>
+                <status> Secure </status>
+                <origin>
+                        <continent direct="Eastern"> North America</continent>
+                </origin>
+                <height min="60" max="80" avg="70" unit="ft"/>
+                <seed>Angiosperm (Enclosed) </seed>
+                <desc>"Mature trees have dark grey or brown bark with broad, shiny strips on the trunk's
+                        ridges. Its leaves are dark green on both sides, with seven to eleven sharp lobes.
+                        "</desc>
+                <leaf> Simple </leaf>
                 <long>-79.982754</long>
                 <lat>42.115897</lat>
                 <elev>344.514</elev>
@@ -498,14 +503,16 @@
                 <cname>Douglas Fir 2</cname>
                 <sname>Pseudotsuga menziesii</sname>
                 <treeType>Coniferous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>"ÊThis tree has long, flat, spirally arranged needles that grow directly from
-                        the branch and completely surround it. These trees can grow up to 250' in
-                        height and 6' in diameter.Ê"</desc>
-                <leaf/>
+                <status> Secure </status>
+                <origin>
+                        <continent direct="Western"> North America</continent>
+                </origin>
+                <height min="200" max="300" avg="250" unit="ft"/>
+                <seed> Gymnosperm (Naked) </seed>
+                <desc>" This tree has long, flat, spirally arranged needles that grow directly from the
+                        branch and completely surround it. These trees can grow up to 250' in height and 6' in
+                        diameter. "</desc>
+                <leaf>Evergreen </leaf>
                 <long>-79.982973</long>
                 <lat>42.118961</lat>
                 <elev>318.6682</elev>
@@ -532,13 +539,13 @@
                 <cname>Common Witchhazel</cname>
                 <sname>Hamamelis virginiana</sname>
                 <treeType>Coniferous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status>Secure</status>
+                <origin><continent direct="Eastern"> North America</continent></origin>
+                <height min="20" max="30" avg="25" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>Witchhazel grows to a height of 15Ð30'. Produces fragrant yellow flowers
                         anytime from October through December.</desc>
-                <leaf/>
+                <leaf>Simple</leaf>
                 <long>-79.983595</long>
                 <lat>42.119918</lat>
                 <elev>315.4172</elev>
@@ -547,34 +554,35 @@
                 <cname>Ruby Horse Chestnut 4</cname>
                 <sname>Aesculus carnea</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>"This tree is a clone of a hybrid horse chestnut, resulting from a cross
-                        between the European horse chestnut with white flowers and an eastern Nrth
-                        American native with red ones.ÊIt can grow 40-60'. It has gray-green bark
-                        and leaves which are dark green above and silvery below that turn bright
-                        yellow in fall.Ê"</desc>
-                <leaf/>
+                <status>Critically Imperiled</status>
+                <origin>
+                        <continent direct="Western">Europe</continent>
+                </origin>
+                <height min="40" max="60" avg="50" unit="ft"/>
+                <seed>Angiosperm (Enclosed) </seed>
+                <desc>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the
+                        European horse chestnut with white flowers and an eastern Nrth American native with red
+                        ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above
+                        and silvery below that turn bright yellow in fall. "</desc>
+                <leaf>Compound</leaf>
                 <long>-79.98674</long>
                 <lat>42.123363</lat>
                 <elev>307.954</elev>
         </entry>
         <entry xml:id="tree-911-55">
-                <cname>Cucumbertree</cname>
-                <sname>MagNlia acuminata</sname>
+                <cname altName="cucumber magnolia">Cucumbertree</cname>
+                <sname>Magnolia acuminata</sname>
                 <treeType>Deciduous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status>Secure</status>
+                <origin><continent direct="Eastern"> North America</continent></origin>
+                <height min="60" max="90" avg="75" unit="ft"/>
+                <seed> Angiosperm (Enclosed)</seed>
                 <desc>"The Cucumber tree grows 60-75'. The hardiest of all magnolias, the leaves are
                         deep-green in summer and yellow-brown in fall. Flowers are greenish or
                         greenish-white in color. They are followed by a cucumber-like fruit which
                         turns from green to red. The flowers and fruit are often missed because they
                         occur at the top of the tree."</desc>
-                <leaf/>
+                <leaf> Simple</leaf>
                 <long>-79.985563</long>
                 <lat>42.124148</lat>
                 <elev>303.9987</elev>
@@ -583,14 +591,15 @@
                 <cname>Fraser Fir 2</cname>
                 <sname>Abies fraseri</sname>
                 <treeType>Coniferous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>This is an uniformly pyramid-shaped tree which reaches a maximum height of
-                        about 80' and a diameter of 1-1.5'. Strong branches are turned slightly
-                        upward which gives the tree a compact appearance.</desc>
-                <leaf/>
+                <status> Imperiled</status>
+                <origin>
+                        <continent direct="South Eastern"> North America</continent>
+                </origin>
+                <height avg="60" unit="ft"/>
+                <seed> Gymnosperm (Naked)</seed>
+                <desc>Fraser fir is monoecious, meaning that both male and female cones (strobili) occur on
+                        the same tree.</desc>
+                <leaf>Evergreen</leaf>
                 <long>-79.980631</long>
                 <lat>42.121882</lat>
                 <elev>303.5491</elev>
@@ -599,29 +608,33 @@
                 <cname>Norway Spruce 2</cname>
                 <sname>Picea abies</sname>
                 <treeType>Coniferous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
-                <desc>"This is a tree with long, cylindrical cones that hang like ornamentsÊagainst
-                        the dark green foliage. Tend to be 50 to 80' highÊ"</desc>
-                <leaf/>
+                <status>Secure</status>
+                <origin>
+                        <continent direct="Central"> Europe</continent>
+                </origin>
+                <height avg="50" unit="ft"/>
+                <seed> Gymnosperm (Naked)</seed>
+                <desc>The Norway spruce is one of the most widely planted spruces, both in and outside of
+                        its native range, and one of the most economically important coniferous species in
+                        Europe. It is used as an ornamental tree in parks and gardens. It is also widely planted
+                        for use as a Christmas tree.</desc>
+                <leaf>Evergreen</leaf>
                 <long>-79.980912</long>
                 <lat>42.1222</lat>
                 <elev>302.4481</elev>
         </entry>
         <entry xml:id="tree-911-58">
                 <cname>Bristlecone Pine</cname>
-                <sname>Balfourianae</sname>
+                <sname>Pinus balfouriana</sname>
                 <treeType>Coniferous</treeType>
-                <status/>
-                <origin/>
-                <height/>
-                <seed/>
+                <status>Vulnerable</status>
+                <origin> <continent direct="Western"> North America</continent></origin>
+                <height  min="20" max="40" avg="30" unit="ft"/>
+                <seed> Gymnosperm (Naked)</seed>
                 <desc>"This pine grows slowly to about 20'. Irregular, sweeping branches display
                         tight bundles of short dark green needles and purplish-brown cones. Native
                         to the mountain regions of the southwestern United States."</desc>
-                <leaf/>
+                <leaf> Evergreen</leaf>
                 <long>-79.980987</long>
                 <lat>42.122191</lat>
                 <elev>301.2438</elev>
