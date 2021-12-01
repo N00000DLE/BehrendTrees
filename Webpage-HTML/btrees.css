@@ -1,7 +1,7 @@
 body 
 
 {
-    background-color: #d0d4d4;
+    background-color: #AFBCB5;
     font-family: Sans-serif;
     margin: 0;
 }
@@ -129,6 +129,12 @@ h3 {
     text-align: center;
 }
 
+#graphic {
+   width: 50%;
+   padding-top: 100px;
+   display: block;
+   margin-left: 80px;
+}
 
 .dropdown-content a:hover {background-color: #8db600;}
 
