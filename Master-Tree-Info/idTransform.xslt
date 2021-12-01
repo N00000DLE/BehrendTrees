@@ -5,16 +5,16 @@
     version="3.0">
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:template match="entry">
-        <entry xml:id="tree-911-{@num}">
+        <entry xml:id="tree-911-{}">
             <xsl:apply-templates select="cname"/>
             <xsl:apply-templates select="sname"/>
             <xsl:apply-templates select="treeType"/>
-           <status></status>
-            <origin></origin>
-            <height></height>
-            <seed></seed>
+            <xsl:apply-templates select="status"/>
+            <xsl:apply-templates select="origin"/>
+            <xsl:apply-templates select="height"/>
+            <xsl:apply-templates select="seed"/>
             <xsl:apply-templates select="desc"/>
-            <leaf></leaf>
+            <xsl:apply-templates select="leaf"/>
             <xsl:apply-templates select="long"/>
             <xsl:apply-templates select="lat"/>
             <xsl:apply-templates select="elev"/>
