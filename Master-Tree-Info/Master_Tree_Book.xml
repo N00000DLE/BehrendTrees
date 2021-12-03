@@ -397,7 +397,7 @@
     <entry xml:id="tree-22" tn="N/A">
         <cname altName="Water Fir">Dawn Redwood</cname>
         <sname>Metasequoia glyptostroboides</sname>
-        <treeType>Deciduous</treeType>
+        <treeType>Coniferous</treeType>
         <status>Undefined</status>
         <origin>
             <continent direct="Central"> Asia</continent>
