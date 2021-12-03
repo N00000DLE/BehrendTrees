@@ -51,6 +51,7 @@ body
    text-align:center;  
    
 }
+
 #webtitle{
    text-align:center;
    width:100%; 
@@ -129,12 +130,12 @@ h3 {
     text-align: center;
 }
 
-#graphic {
-   width: 50%;
-   padding-top: 100px;
+#infographic {
+   padding-top: 10px;
    display: block;
-   margin-left: 80px;
+   padding-left: 50px;
 }
+
 
 .dropdown-content a:hover {background-color: #8db600;}
 
