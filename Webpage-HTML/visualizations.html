@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="btrees.css"/>
     <link rel="stylesheet" href="networkInteract.css" />
     <script src="web_session/networks.js"></script>
+    <script src="web_session/visualscroll.js"></script>
   </head>
   <body>
     <div id="navbanner">
@@ -41,8 +42,9 @@
     </div>
     
     <h3>Heights of the Berhend Trees</h3>
-    <div id="heightgraph">
-      <svg width="12000" height="1000">
+      <div style="width: 1800px; white-space: nowrap; overflow-x: scroll;">
+       <div id="heightgraph">
+      <svg width="12000" height="350">
     <g transform="translate(50, 300)">
         <line x1="100" y1="0" x2="13125" y2="0" stroke="black"/>
         <line x1="100" y1="0" x2="100" y2="-300" stroke="black"/>
@@ -565,6 +567,7 @@
     </g>
 </svg>
     </div>
+        </div>
     <!--ged: I need to figure out how to put the network on our webpage-->
     <div id="networkSection">
       <h3>Interactive Network Graphs</h3>
