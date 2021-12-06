@@ -21,11 +21,11 @@
                     <h2>Contents</h2>
                     <ul>
                         <xsl:apply-templates select="$artColl//newspaperArticle" mode="toc">
-                            <xsl:sort select="body//header//title"/>
+                           
                         </xsl:apply-templates>   
                     </ul>
                 </section>
-                <section id="fullArticleText"> 
+                <section id="fullText"> 
                     <xsl:apply-templates select="$artColl//newspaperArticle"/>
                 </section>
                 
@@ -35,37 +35,29 @@
     
     <!--Templates in toc mode for the table of contents -->
     <xsl:template match="newspaperArticle" mode="toc">
-        <li><a href="{descendant::issueDate}"></a></li>
+        <li><a href="{descendant::title/@titleId}"><xsl:apply-templates select="descendant::title"/></a></li>
     </xsl:template>
     
-    
-    <!--Normal templates for fulltext view -->
-    <!--<xsl:template match="xml">
-        <xsl:apply-templates/> 
-    </xsl:template>-->
-    
-    
-   <xsl:template match="header">
-        <li class="headers"><xsl:apply-templates/>
-        </li>
-       
+
+    <xsl:template match="newspaperArticle">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="title">
+         <div class= "artTitle" >Title: <xsl:apply-templates/> </div>
     </xsl:template>
     <xsl:template match="issueDate">
-        <li class="headers">
-            <xsl:apply-templates/>
-        </li>
+        <div class= "issueDate">Issue Date: <xsl:apply-templates/></div>
     </xsl:template>
-    <xsl:template match="header">
-        <div class="headers">
-            <xsl:apply-templates/>
-        </div>
+    
+    <xsl:template match="author">
+        <div class= "artAuthor">Author: <xsl:apply-templates/></div>
     </xsl:template>
     
     
 
     
     <xsl:template match="p">
-        <div class="paras"><span class="pNum"><xsl:value-of select="@n"/></span><xsl:apply-templates/></div>
+        <p class="paras"><xsl:apply-templates/></p>
     </xsl:template>
     
     <xsl:template match="publisher"></xsl:template>
