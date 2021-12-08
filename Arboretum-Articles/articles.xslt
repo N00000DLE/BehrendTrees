@@ -18,7 +18,7 @@
                 <h1>Arobretum Articles</h1>
                 
                 <section id="toc">
-                    <h2>Contents</h2>
+                    <h2>Table of Contents</h2>
                     <ul>
                         <xsl:apply-templates select="$artColl//newspaperArticle" mode="toc">
                            
@@ -35,18 +35,19 @@
     
     <!--Templates in toc mode for the table of contents -->
     <xsl:template match="newspaperArticle" mode="toc">
-        <li><a href="{descendant::title/@titleId}"><xsl:apply-templates select="descendant::title"/></a></li>
+       <div class="issueDate"> <a href="#{descendant::issueDate}"><xsl:apply-templates select="descendant::issueDate"/></a></div>
     </xsl:template>
     
 
     <xsl:template match="newspaperArticle">
         <xsl:apply-templates/>
     </xsl:template>
+    
     <xsl:template match="title">
-         <div class= "artTitle" >Title: <xsl:apply-templates/> </div>
+        <div class= "artTitle" id="{@titleId}">Title: <xsl:apply-templates/> </div>
     </xsl:template>
     <xsl:template match="issueDate">
-        <div class= "issueDate">Issue Date: <xsl:apply-templates/></div>
+        Issue Date: <xsl:apply-templates/>
     </xsl:template>
     
     <xsl:template match="author">
@@ -57,7 +58,7 @@
 
     
     <xsl:template match="p">
-        <p class="paras"><xsl:apply-templates/></p>
+        <div class="paras"><xsl:apply-templates/></div>
     </xsl:template>
     
     <xsl:template match="publisher"></xsl:template>
