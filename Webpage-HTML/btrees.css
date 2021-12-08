@@ -5,13 +5,11 @@ body
     font-family: Sans-serif;
     margin: 0;
 }
-
 #navbanner {
     background-color: #5f7a6b;
     color: black;
     margin: 0;  
 }
-
 #navbar {
     width: 90%;
     margin: auto;
@@ -20,13 +18,11 @@ body
     align-items: center;
     justify-content: space-between;
 }
-
 #navbar ul li {
     list-style: none;
     display: inline-block;
   
 }
-
 #navbar ul li a {
     text-decoration: none;
     color: white;
@@ -35,59 +31,48 @@ body
     position: relative;
     
 }
-
 #navbar a:hover {
     background-color: #66b032;
 }
-
 #logo{
     width:50px;
     height:50px;
     padding: 10px 0;
     align-items: center;
 }
-
 #bannerimage{
     width: 100%;
     height: 30%;
     display: block;
-    position: relative;
 }
-.imagebanner {
+#imageslider {
    width: 100%;
    display: block;
-   text-align:center;
-   position: relative;
-   text-align: center;
+   text-align:center;  
+   
 }
 
-.webtitle{
+#webtitle{
    text-align:center;
    width:100%; 
    position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+   top: 35%;
    color: white;
    text-transform: uppercase;
    Text-shadow: 2px 2px black;
-   font-size: 58px;
-   font-weight: bold;
+   font-size:75px;
 }
-
 #content {
     padding: 40px;
     height: 100%;
     margin: 20px;
 }
-
 #goal {
     text-align: center;
     width: 100%;
     color: #2f3e46;
     font-size: 21px;
 }
-
 .dropbtn {
   background-color: transparent;
   color: white;
@@ -146,12 +131,18 @@ h3 {
 }
 
 #infographic {
-   padding-top: 10px;
    display: block;
    padding-left: 50px;
 }
 
+#visscroll {
+ overflow-x: scroll;
+}
 
+.h2graphics{
+    background: #4d5d53;;
+    color: white;
+}
 .dropdown-content a:hover {background-color: #8db600;}
 
 .dropdown:hover .dropdown-content {display: block;}
