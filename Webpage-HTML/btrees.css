@@ -40,27 +40,32 @@ body
     padding: 10px 0;
     align-items: center;
 }
-#bannerimage{
+.bannerimage{
     width: 100%;
     height: 30%;
     display: block;
-}
-#imageslider {
-   width: 100%;
-   display: block;
-   text-align:center;  
-   
+    position: relative;
+    text-align: center;
 }
 
-#webtitle{
+.imagebanner {
+   width: 100%;
+   display: block;
+   text-align:center;
+   position: relative;
+   }
+.webtitle{
    text-align:center;
    width:100%; 
    position: absolute;
-   top: 35%;
+    top: 50%;
+   left: 50%;
    color: white;
    text-transform: uppercase;
+   transform: translate(-50%, -50%);
    Text-shadow: 2px 2px black;
-   font-size:75px;
+   font-size:58px;
+   font-weight: bold;
 }
 #content {
     padding: 40px;
