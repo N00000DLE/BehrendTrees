@@ -73,6 +73,14 @@ body
     color: #2f3e46;
     font-size: 21px;
 }
+
+.about-section {
+  padding: 10px;
+  text-align: center;
+  background-color: #4d5d53;
+  color: white;
+}
+
 .dropbtn {
   background-color: transparent;
   color: white;
@@ -129,6 +137,17 @@ h3 {
     color: #5f7a6b;
     text-align: center;
 }
+
+.heading {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.disclaimer {
+    text-align: center;
+    font-size: 10px;
+}
+
 
 #infographic {
    display: block;
