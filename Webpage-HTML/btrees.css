@@ -176,11 +176,10 @@ background-color: #8db600;}
 
 #cy {
      width: 65vw;
-     height:100vh;
+     height: 75vh;
      position:absolute;
      margin:auto;
      border-style:double;
-     
  }
 #originNetwork {
     margin:auto;
