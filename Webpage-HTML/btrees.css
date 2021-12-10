@@ -167,12 +167,40 @@ h3 {
     background: #4d5d53;;
     color: white;
 }
-.dropdown-content a:hover {background-color: #8db600;}
+.dropdown-content a:hover {
+background-color: #8db600;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #66b032;}
 
+#cy {
+     width: 65vw;
+     height:100vh;
+     position:absolute;
+     margin:auto;
+     border-style:double;
+     
+ }
+#originNetwork {
+    margin:auto;
+    padding-left: 300px;
+    
+}
+
+#heightgraph {
+    margin: auto;
+    width: 100%;
+    white-space: nowrap; 
+    overflow-x: scroll;
+}
+#elevgraph{
+    margin: auto;
+    width: 100%;
+    white-space: nowrap; 
+    overflow-x: scroll;
+    }
+    
 
 
     

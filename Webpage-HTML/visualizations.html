@@ -3,9 +3,8 @@
   <head>
     <title>Behrend Trees </title>
     <link rel="stylesheet" type="text/css" href="btrees.css"/>
-    <link rel="stylesheet" href="networkInteract.css" />
+    <link rel="stylesheet" href="#"/>
     <script src="web_session/networks.js"></script>
-    <script src="web_session/visualscroll.js"></script>
   </head>
   <body>
       <div id="navbanner">
@@ -53,11 +52,13 @@
     </div>
     
     <h3 class="h2graphics">Heights of the Berhend Trees</h3>
-      <div style="width: 1800px; white-space: nowrap; overflow-x: scroll;">
+      
        <div id="heightgraph">
-      <svg width="12000" height="670">
+           <svg xmlns="http://www.w3.org/2000/svg"
+               width="17000" height="800" viewBox="0 0 13000 700"
+               preserveAspectRatio="xMinYMin meet">
     <g transform="translate(50, 600)">
-        <line x1="100" y1="0" x2="19425" y2="0" stroke="black"/>
+        <line x1="100" y1="0" x2="17000" y2="0" stroke="black"/>
         <line x1="100" y1="0" x2="100" y2="-500" stroke="black"/>
         <g>
             <line x1="96" y1="--5" x2="106" y2="--5" stroke="black"/>
@@ -829,15 +830,16 @@
             <text x="10" y="16630" transform="rotate(-90, 0, 0)">Bristlecone Pine</text>
             <line x1="16725" y1="10" x2="16725" y2="-10" stroke="black"/>
         </g>
-        <text x="400" y="50">Common Names</text>
-        <text x="0" y="-150">Height (ft)</text>
+        <text x="400" y="50" stroke="black">Common Names</text>
+        <text x="100" y="50" transform="rotate(-90, 0, 0)" stroke="black">Height (ft)</text>
     </g>
 </svg>
     </div>
-        </div>
+        
       <h3 class="h2graphics">Elevations of the Berhend Trees</h3>
-      <div style="width: 1800px; white-space: nowrap; overflow-x: scroll;">
-          <svg width="12000" height="800">
+      <div id="elevgraph">
+          <svg xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMinYMin meet" width="12000" height="800" viewBox="0 0 13000 700">
     <g transform="translate(50, 750)">
         <line x1="100" y1="0" x2="19425" y2="0" stroke="black"/>
         <line x1="100" y1="0" x2="100" y2="-700" stroke="black"/>
@@ -1647,8 +1649,8 @@
             <text x="10" y="16630" transform="rotate(-90, 0, 0)">Bristlecone Pine</text>
             <line x1="16725" y1="10" x2="16725" y2="-10" stroke="black"/>
         </g>
-        <text x="400" y="50">Common Names</text>
-        <text x="100" y="50" transform="rotate(-90, 0, 0)">Elevation (ft)</text>
+        <text x="400" y="50" stroke="black">Common Names</text>
+        <text x="100" y="50" transform="rotate(-90, 0, 0)" stroke="black">Elevation (ft)</text>
     </g>
 </svg></div>
       
@@ -1657,12 +1659,17 @@
     <!--ged: I need to figure out how to put the network on our webpage-->
     <div id="networkSection">
       <h3>Interactive Network Graphs</h3>
-      <div id="treeOrgins">
-        <script src="Visuals-Network-SVGs/treeOrigins/web_session/networks.js"> </script>
-        <script src="Visuals-Network-SVGs/treeOrigins/web_session/.js"> </script>
-        <script src="Visuals-Network-SVGs/treeOrigins/web_session/.js"></script>
-        <script src="Visuals-Network-SVGs/treeOrigins/web_session//scripts/main.js"></script>
-      </div>
+     <!-- <div><h3>Origin Network</h3>
+          <img src="Networks-SVGs/networks/originNetwork.svg" alt="Origin Network"/>        
+</div> -->
+       <div id="originNetwork"> 
+           <div id ="cy">
+            <script src="web_session/networks.js"> </script>
+            <script src="web_session/styles.js"> </script>
+            <script src="web_session/scripts/vendor.js"></script>
+            <script src="web_session/scripts/main.js"></script>
+        </div>  
+       </div>  
     </div>
   </body>
 </html>
