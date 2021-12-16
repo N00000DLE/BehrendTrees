@@ -20,9 +20,9 @@
                 <section id="toc">
                     <h2>Table of Contents</h2>
                     <ul>
-                        <xsl:apply-templates select="$artColl//newspaperArticle" mode="toc">
+                          <xsl:apply-templates select="$artColl//newspaperArticle" mode="toc"> 
                            
-                        </xsl:apply-templates>   
+                        </xsl:apply-templates>  
                     </ul>
                 </section>
                 <section id="fullText"> 
@@ -35,7 +35,7 @@
     
     <!--Templates in toc mode for the table of contents -->
     <xsl:template match="newspaperArticle" mode="toc">
-       <div class="issueDate"> <a href="#{descendant::issueDate}"><xsl:apply-templates select="descendant::issueDate"/></a></div>
+       <li class="issueDateTOC"> <a href="#{descendant::issueDate}"><xsl:apply-templates select="descendant::issueDate"/></a></li>
     </xsl:template>
     
 
@@ -47,7 +47,7 @@
         <div class= "artTitle" id="{@titleId}">Title: <xsl:apply-templates/> </div>
     </xsl:template>
     <xsl:template match="issueDate">
-        Issue Date: <xsl:apply-templates/>
+        <div class="issueDate">Issue Date: <xsl:apply-templates/></div>
     </xsl:template>
     
     <xsl:template match="author">
