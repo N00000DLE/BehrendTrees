@@ -4,6 +4,7 @@ body
     background-color: #AFBCB5;
     font-family: Sans-serif;
     margin: 0;
+    
 }
 #navbanner {
     background-color: #5f7a6b;
@@ -108,6 +109,7 @@ body
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  width: 100%;
 }
 
 .dropdown-content a {
@@ -167,12 +169,20 @@ h3 {
     background: #4d5d53;;
     color: white;
 }
-.dropdown-content a:hover {
-background-color: #8db600;}
+.dropdown-content a:hover{
+    background-color: #8db600;
+   
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
 
-.dropdown:hover .dropbtn {background-color: #66b032;}
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #66b032;
+    
+}
 
 #cy {
      width: 65vw;
@@ -180,10 +190,20 @@ background-color: #8db600;}
      position:absolute;
      margin:auto;
      border-style:double;
+     justify-content: center;
  }
 #originNetwork {
-    margin:auto;
+    margin: 25px;
     padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 500px;
+    
+}
+#statusNetwork {
+    margin: 25px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 500px;
     
 }
 

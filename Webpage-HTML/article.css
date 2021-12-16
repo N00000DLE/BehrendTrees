@@ -53,6 +53,7 @@ body
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  width: 100%;
 }
 
 .dropdown-content a {
@@ -213,9 +214,27 @@ articleContainer{
    font-size: 20px;
    font-style: italic;
 }
-
-
-
+#cy {
+     width: 65vw;
+     height: 75vh;
+     position:absolute;
+     margin:auto;
+     border-style:double;
+     justify-content: center;
+ }
+#leafNetwork {
+    margin: 25px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 500px;
+    
+}
+.about-section {
+  padding: 10px;
+  text-align: center;
+  background-color: #4d5d53;
+  color: white;
+}
 
 
 
