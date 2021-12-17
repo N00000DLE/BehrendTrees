@@ -4,16 +4,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Table of Behrend Trees</title>
         <link rel="stylesheet" type="text/css" href="treeBookScroll.css"/>
+        <link rel="stylesheet" type="text/css" href="btrees.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
         <script src="scrollevent.js">/**/</script>
     </head>
     <body>
+        <div id="navbanner">
+            <div id="navbar">
+                <img src="Assets/btrees_logo.png" id="logo" alt="btree logo" />
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="campusMap.html">Campus Map</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Meet the Trees</button>
+                            <div class="dropdown-content">
+                                <a href="visualizations.html">Visuals</a>
+                                <a href="treeList.html">Master Tree Sheet</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Arboretum Articles</button>
+                            <div class="dropdown-content">
+                                <a href="artOutput.html">Article Viewpoint</a>
+                                <a href="artOrganizations.html">Organizations</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">About</button>
+                            <div class="dropdown-content">
+                                <a href="about.html">The Team</a>
+                                <a href="sources.html">Sources</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <button id="scrollToTop">
             <i class="material-icons">arrow_upward</i>
         </button>
-        <h1>Meet the Trees</h1><!--ebb: Trying this as a set of tables with headings on the left: 
-   Also: setting a dropdown list of trees to select from.
-   -->
+        <h1>Meet the Trees</h1>
+          <h3>How to Use:</h3>
+        <p>When searching a tree you can only use 1 search bar at the time, either the common name or the scienific name. You can choose to use the drop down menu or type a tree name yourself.</p>
+        <p>You MUST delete the text after each search or it will not work with your next search.</p>
         <label for="commonChoice">Choose the common name of a tree: </label>
         <input id="commonChoice" list="common-names"/>
         <datalist id="common-names">
@@ -267,7 +309,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>70 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -281,11 +323,8 @@
                 <th>Description</th>
                 <td>The scarlet oak’s acorns provide a food source for gray squirrels, mice, deer, wild turkey and other birds. Their taproot system can make the scarlet oak difficult to transplant These trees can thrive in acidic soil, and survive droughts much better than other trees.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
+        
         <table id="tree-2">
             <tr>
                 <th>Common Name</th>
@@ -309,7 +348,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>30 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -323,11 +362,7 @@
                 <th>Description</th>
                 <td>The Flowering Dogwood is known as one of the most beautiful North American trees with early spring flowers and red fruit. Its hard wood is extremely shock-resistant and useful for making woven items. It is also made into spools, small pulleys, mallet heads, and jeweler's blocks. Indians used the aromatic bark and roots as a remedy for malaria and extracted a red dye from the roots.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-3">
             <tr>
                 <th>Common Name</th>
@@ -351,7 +386,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>150 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -365,11 +400,7 @@
                 <th>Description</th>
                 <td>The baldcypress tree is the classic tree of southern swamps. There, in its native habitat, it displays a peculiar habit of raising conical "knees" from its roots. The function of these growths is something of a mystery, although some believe it is a way to help the roots get oxygen. This tree dwells in swamps because it out-competes most other trees on such sites. To the surprise of many, the baldcypress does quite well when planted in the right soil in yards or along streets and is a beautiful specimen tree. It has been grown successfully in cities as far north as Milwaukee and on dry Texas hills.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-4">
             <tr>
                 <th>Common Name</th>
@@ -393,7 +424,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>35 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -407,11 +438,7 @@
                 <th>Description</th>
                 <td>Parrotia persica ( Persian Ironwood ) is a deciduous tree in the family Hamamelidaceae , the sole species in the genus Parrotia but closely related to the genus Hamamelis (Witch-hazels).</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-5">
             <tr>
                 <th>Common Name</th>
@@ -435,7 +462,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>50 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -449,11 +476,7 @@
                 <th>Description</th>
                 <td>Norway maples have very shallow roots and produce a great deal of shade which makes it difficult for grass and other plants to grow in the understory below. Additionally, they are prolific seed producers and are now invading forests and forest edges.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-6">
             <tr>
                 <th>Common Name</th>
@@ -477,7 +500,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>40 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -491,11 +514,7 @@
                 <th>Description</th>
                 <td>The wood of eastern hophornbeam is very close grained, strong, heavy, and exceedingly hard. It is used to make tool handles, wedges for directional felling of trees, and firewood, although it is incredibly difficult to cut down.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-7">
             <tr>
                 <th>Common Name</th>
@@ -519,7 +538,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>70 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -533,11 +552,7 @@
                 <th>Description</th>
                 <td>The Kentucky coffeetree is not related to coffee shrubs. The beans of the tree were eaten, after roasting, in the Meskwaki (Fox), Ho-Chunk (Winnebago) and Pawnee Native American cultures. The Meskwaki also drank the roasted ground seeds in a hot beverage similar to coffee. The beans must be roasted before consuming because they are toxic to humans in a raw state.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-8">
             <tr>
                 <th>Common Name</th>
@@ -561,7 +576,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>30 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -575,11 +590,7 @@
                 <th>Description</th>
                 <td>The Flowering Dogwood is known as one of the most beautiful North American trees with early spring flowers and red fruit. Its hard wood is extremely shock-resistant and useful for making woven items. It is also made into spools, small pulleys, mallet heads, and jeweler's blocks. Indians used the aromatic bark and roots as a remedy for malaria and extracted a red dye from the roots.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-9">
             <tr>
                 <th>Common Name</th>
@@ -603,7 +614,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>90 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -617,11 +628,7 @@
                 <th>Description</th>
                 <td>The sap can be used to make maple syrup, though it's not as high quality as that of sugar maples. Its wood is used for inexpensive furniture, firewood and railroad ties.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-10">
             <tr>
                 <th>Common Name</th>
@@ -645,7 +652,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>60 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -659,11 +666,7 @@
                 <th>Description</th>
                 <td>ACCOLADE is derived from a hybrid elm (Ulmus japonica x Ulmus wilsoniana) that was planted in 1924 at the Morton Arboretum in Lisle, Illinois. Demonstrates very good resistance to Dutch elm disease (DED), and elm leaf beetle.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-11">
             <tr>
                 <th>Common Name</th>
@@ -687,7 +690,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>25 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -701,11 +704,7 @@
                 <th>Description</th>
                 <td>"This dark-leaved tree has bronze-purple, wavy margined leaves and cascading branches. Fall color is yellow, then orange-brown.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-12">
             <tr>
                 <th>Common Name</th>
@@ -729,7 +728,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>100 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -743,11 +742,7 @@
                 <th>Description</th>
                 <td>Eastern hemlock is the state tree of Pennsylvania.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-13">
             <tr>
                 <th>Common Name</th>
@@ -771,7 +766,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>20 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -785,11 +780,7 @@
                 <th>Description</th>
                 <td>"This is a flowering tree or multi-stemmed shrub with a vase-shaped habit in the early years but eventually maturing to a more rounded form. Bloom occurs in late spring."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-14">
             <tr>
                 <th>Common Name</th>
@@ -813,7 +804,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>75 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -827,11 +818,7 @@
                 <th>Description</th>
                 <td>This is an anconical-shaped evergreen tree with stiff horizontal branches and short stiff needles. In nature, the needles are often green, but many specimens produce blue-green needles.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-16">
             <tr>
                 <th>Common Name</th>
@@ -855,7 +842,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>60 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -869,11 +856,7 @@
                 <th>Description</th>
                 <td>Fraser fir is monoecious, meaning that both male and female cones (strobili) occur on the same tree.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-17">
             <tr>
                 <th>Common Name</th>
@@ -897,7 +880,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>25 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -911,11 +894,7 @@
                 <th>Description</th>
                 <td>This tree is characterized by its resplendent white flowers, which bloom in May or June. The tree also has small olive-like fruit, which develops in August or September.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-18">
             <tr>
                 <th>Common Name</th>
@@ -939,7 +918,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>180 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -953,11 +932,7 @@
                 <th>Description</th>
                 <td>Eastern white pine is the provincial tree of Ontario and the state tree of Maine and Michigan.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-19">
             <tr>
                 <th>Common Name</th>
@@ -981,7 +956,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>50 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -995,11 +970,7 @@
                 <th>Description</th>
                 <td>The Norway spruce is one of the most widely planted spruces, both in and outside of its native range, and one of the most economically important coniferous species in Europe. It is used as an ornamental tree in parks and gardens. It is also widely planted for use as a Christmas tree.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-20">
             <tr>
                 <th>Common Name</th>
@@ -1023,7 +994,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>15 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1037,11 +1008,7 @@
                 <th>Description</th>
                 <td>John Bartram was appointed Royal Botanist for North America by King George III in 1765. In that same year, John Bartram and his son William discovered franklinia growing in a 2-3 acre tract along the banks of the Altamaha River in southeastern Georgia. Franklinia has never been observed growing in any other place than along the Altamaha River. In a return trip in 1773, William Bartram collected seed from this site and brought it back to the Bartram's garden in Philadelphia where the tree was successfully grown. This tree has been extinct in the wild since 1803.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-21">
             <tr>
                 <th>Common Name</th>
@@ -1065,7 +1032,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>35 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1079,11 +1046,7 @@
                 <th>Description</th>
                 <td>"This tree typically grows 40-60' tall with upright-arching branching and a rounded spreading crown. Fruit is like a hybrid between a nut and a berry. They are a versatile, power packed food. In general, they are sweet, tasty, and crunchy."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-22">
             <tr>
                 <th>Common Name</th>
@@ -1107,7 +1070,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>50 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1121,11 +1084,7 @@
                 <th>Description</th>
                 <td>"This tree producies small, round 1/2"" to 1"" cones. It has a pyramidal shape in youth, maturing into a more rounded crown. The bright green, feathery leaves turn orange-brown or reddish-brown in the fall"</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-23">
             <tr>
                 <th>Common Name</th>
@@ -1149,7 +1108,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>125 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1163,11 +1122,7 @@
                 <th>Description</th>
                 <td>"A young bald cypress is symmetrical and pyramidal. As it matures, it develops a coarse wide-spreading head. Its tapering trunk is usually 100' tall. They shed their needlelike leaves in the fall. Their fall colors are tan, brown, and fiery orange."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-24">
             <tr>
                 <th>Common Name</th>
@@ -1191,7 +1146,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>100 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1205,11 +1160,7 @@
                 <th>Description</th>
                 <td>This tree has long cane shaped leaves with hooked teeth at the edge of the leaf. The leaf is dull/ matte in texture. The tree reaches a height of 50'- 75'</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-25">
             <tr>
                 <th>Common Name</th>
@@ -1233,7 +1184,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>30 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1247,11 +1198,7 @@
                 <th>Description</th>
                 <td>"A small tree, growing up to 33' in height. The fruit is 1Ð2"" in diameter, usually rather flattened, and dark red to maroon in colour."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-26">
             <tr>
                 <th>Common Name</th>
@@ -1275,7 +1222,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>83 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1289,11 +1236,7 @@
                 <th>Description</th>
                 <td>" This tree has somewhat leathery, fan-shaped, rich green leaves. Leaves turn bright yellow in fall. Tree grows 50'- 80' tall"</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-27">
             <tr>
                 <th>Common Name</th>
@@ -1317,7 +1260,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>100 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1331,11 +1274,7 @@
                 <th>Description</th>
                 <td>"This tree has summer leaves that are dark green with a high-gloss appearance, but the fall foliage turns many shades of yellow, orange, bright red, purple or scarlet that may appear on the same branch. Bark matures to medium gray and resembles alligator hide. Grows 30'-50' high."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-28">
             <tr>
                 <th>Common Name</th>
@@ -1359,7 +1298,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>85 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1373,11 +1312,7 @@
                 <th>Description</th>
                 <td>This tree has a thick gray-brown trunk. The bark is ridged and has a scaly appearance. The twigs of the tree are red-brown in color and the foliage is dark green.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-29">
             <tr>
                 <th>Common Name</th>
@@ -1401,7 +1336,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>6 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1415,11 +1350,7 @@
                 <th>Description</th>
                 <td>"This tree has fragrant white spring flowers, shiny reddish-brown bark, and edible scarlet fruit. It typically grows to a height of 6Ð10' and a spread about 15' at maturity."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-30">
             <tr>
                 <th>Common Name</th>
@@ -1443,7 +1374,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>50 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1457,11 +1388,7 @@
                 <th>Description</th>
                 <td>Norway maples have very shallow roots and produce a great deal of shade which makes it difficult for grass and other plants to grow in the understory below. Additionally, they are prolific seed producers and are now invading forests and forest edges.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-31">
             <tr>
                 <th>Common Name</th>
@@ -1485,7 +1412,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>70 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1499,11 +1426,7 @@
                 <th>Description</th>
                 <td>"Mature trees have dark grey or brown bark with broad, shiny strips on the trunk's ridges. Its leaves are dark green on both sides, with seven to eleven sharp lobes. "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-32">
             <tr>
                 <th>Common Name</th>
@@ -1527,7 +1450,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>140 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1541,11 +1464,7 @@
                 <th>Description</th>
                 <td>This tree has the deepest purple foliage of any purple-leafed beech with richly colored foliage that retains its dark purple color throughout the summer months.ÊIt grows 40'-50'.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-33">
             <tr>
                 <th>Common Name</th>
@@ -1569,7 +1488,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>100 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1583,11 +1502,7 @@
                 <th>Description</th>
                 <td>Wildfire Black Gum has forest green foliage which emerges red in spring. The glossy pointy leaves turn an outstanding crimson in the fall. Tree reaches a height of 50'.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-34">
             <tr>
                 <th>Common Name</th>
@@ -1611,7 +1526,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>125 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1625,11 +1540,7 @@
                 <th>Description</th>
                 <td>"Bur Oak is a large, deciduous tree with a very wide, open crown. Usually wider than tall, the tree can exceed 100' in height and width. The massive trunk supports heavy, horizontal limbs and rough, deep-ridged bark."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-35">
             <tr>
                 <th>Common Name</th>
@@ -1653,7 +1564,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>115 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1667,11 +1578,7 @@
                 <th>Description</th>
                 <td>"This tree provides brilliant fall color, with leaves turning vibrant shades of yellow, orange, red and purple. Yields long-stemmed, woody, burr-like fruit that is approximately 1?"" in diameter. Grows in a pyramidal shape, becoming more oval or rounded with age."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-36">
             <tr>
                 <th>Common Name</th>
@@ -1695,7 +1602,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>55 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1709,11 +1616,7 @@
                 <th>Description</th>
                 <td>"This tree is a small, slow-growing, pyramidal, deciduous tree native to the mountains of Japan and the Korean peninsula. Specimens in the wild can reach 50-60' tall, but in cultivation typically mature over time to 20-40' tall."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-37">
             <tr>
                 <th>Common Name</th>
@@ -1737,7 +1640,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>120 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1751,11 +1654,7 @@
                 <th>Description</th>
                 <td>"This tree is a large evergreen tree that reaches heights of 130'. It has ascending limbs, and a rounded, spreading crown. "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-38">
             <tr>
                 <th>Common Name</th>
@@ -1779,7 +1678,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>20 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1793,11 +1692,7 @@
                 <th>Description</th>
                 <td>"This tree grows 15- 20 ft. The blooms are followed by an intense maroon foliage that matures to a reddish green then turns red, orange, and purple in the fall. The glossy, persistent red fruit are an excellent food source for birds "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-39">
             <tr>
                 <th>Common Name</th>
@@ -1821,7 +1716,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>148 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1835,11 +1730,7 @@
                 <th>Description</th>
                 <td>"This tree grows 70-80' in height and attain diameters of 2 to 4'. Mature trees have a deeply furrowed gray- brown to nearly black bark. The brown to orange- brown twigs are stout, with large, shield shaped, conspicuous leaf scars"</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-40">
             <tr>
                 <th>Common Name</th>
@@ -1863,7 +1754,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>20 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1877,11 +1768,7 @@
                 <th>Description</th>
                 <td>"This tree is a rounded, deciduous tree which typically grows 15-20' tall with a similar spread. Red buds open to slightly fragrant, single white flowers in spring. Flowers are followed by masses of small, orange-red crabapples"</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-41">
             <tr>
                 <th>Common Name</th>
@@ -1905,7 +1792,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>105 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1919,11 +1806,7 @@
                 <th>Description</th>
                 <td>"The Yellow Buckeye has thick bark, yellow spring blooms, and striking orange fall color. It grows 60-75' tall. This tree actually gets its name from the whitish scar found on each brown seed. It is said to give the seed the appearance of a deer's eye."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-42">
             <tr>
                 <th>Common Name</th>
@@ -1947,7 +1830,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>30 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -1961,11 +1844,7 @@
                 <th>Description</th>
                 <td>The Flowering Dogwood is known as one of the most beautiful North American trees with early spring flowers and red fruit. Its hard wood is extremely shock-resistant and useful for making woven items. It is also made into spools, small pulleys, mallet heads, and jeweler's blocks. Indians used the aromatic bark and roots as a remedy for malaria and extracted a red dye from the roots.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-45">
             <tr>
                 <th>Common Name</th>
@@ -1989,7 +1868,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>25 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2003,11 +1882,7 @@
                 <th>Description</th>
                 <td>"Trees typically grow 20' in height with a similar spread and have ascending branches and a rounded shape. Leaves are alternate, simple, broadly heart-shaped and 3 to 5"" high and wide. Leaves emerge reddish, turning green as they expand."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-46">
             <tr>
                 <th>Common Name</th>
@@ -2031,7 +1906,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>85 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2045,11 +1920,7 @@
                 <th>Description</th>
                 <td>"This tree features glossy, dark green leaves that are 3Ð6"" long with 5 lobes. Yields acorns that are nearly round and ?"" long . It grows 70'-90' tall with diameters between 2' and 3'."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-47">
             <tr>
                 <th>Common Name</th>
@@ -2073,7 +1944,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>70 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2087,11 +1958,7 @@
                 <th>Description</th>
                 <td>"This tree takes on a dense, oval to pyramidal shape. Generally grows to heights of 50 to 75' with a width of 40 to 60'."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-48">
             <tr>
                 <th>Common Name</th>
@@ -2115,7 +1982,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>45 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2129,11 +1996,7 @@
                 <th>Description</th>
                 <td>"This tree features leathery leaves that are 2Ð4"" long, maintain their green color year-round, and are sharply tipped on the margins. Yields red, berry-like fruit. Average of 50' tall"</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-49">
             <tr>
                 <th>Common Name</th>
@@ -2157,7 +2020,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>50 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2171,11 +2034,7 @@
                 <th>Description</th>
                 <td>This tree has a rounded top and drooping branches. Tree typically grow up to 30' in height and 20' in spread.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-50">
             <tr>
                 <th>Common Name</th>
@@ -2199,7 +2058,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>60 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2213,11 +2072,7 @@
                 <th>Description</th>
                 <td>"This tree features heart-shaped leaves that are lopsided at the base, usually 2Ð3"" long. Leaf color shifts from light green to glossy dark green to yellow throughout the seasons. Yields nutlike fruit."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-51">
             <tr>
                 <th>Common Name</th>
@@ -2241,7 +2096,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>98 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2255,11 +2110,7 @@
                 <th>Description</th>
                 <td>"This tree has medium to dark-green leaves that turn yellow, burnt orange, and red in the fall. This tree grows 60' to 75' and spreads 40' to 50'."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-52">
             <tr>
                 <th>Common Name</th>
@@ -2283,7 +2134,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>55 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2297,11 +2148,7 @@
                 <th>Description</th>
                 <td>This tree has broad leaves and are considered one of the best shade trees. They produce fruit in the form of acorns. They reach a mature height of 50 to 70'.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-54">
             <tr>
                 <th>Common Name</th>
@@ -2325,7 +2172,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>150 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2339,11 +2186,7 @@
                 <th>Description</th>
                 <td>"This tree is tall with trunks that grow very straight. Average height is 100'. The bark of young trees is gray and smooth, becoming reddish brown and scaly with age."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-55">
             <tr>
                 <th>Common Name</th>
@@ -2367,7 +2210,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>65 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2381,11 +2224,7 @@
                 <th>Description</th>
                 <td>"This tree is readily identified by its massively-ridged dark gray-brown bark. It grows 50 to 60' tall. The leaves are 4 to 6"" long. Fall color varies from red to orange to yellow-brown."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-56">
             <tr>
                 <th>Common Name</th>
@@ -2409,7 +2248,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>75 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2423,11 +2262,7 @@
                 <th>Description</th>
                 <td>"This tree typically grows 60-90' tall. The bark on its large trunk is colored light grayish brown. The leaves are 3-8"" long and are glossy green above with a pale green underside, changing to golden yellow in the fall."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-57">
             <tr>
                 <th>Common Name</th>
@@ -2451,7 +2286,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>130 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2465,11 +2300,7 @@
                 <th>Description</th>
                 <td>This tree may range from 70-130' in height and 4-7' in diameter. The leaves are sail-like shaped with long flat stems they have a tendency to tremble and flutter from even the slightest breeze</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-58">
             <tr>
                 <th>Common Name</th>
@@ -2493,7 +2324,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>250 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2507,11 +2338,7 @@
                 <th>Description</th>
                 <td>" This tree has long, flat, spirally arranged needles that grow directly from the branch and completely surround it. These trees can grow up to 250' in height and 6' in diameter. "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-60">
             <tr>
                 <th>Common Name</th>
@@ -2535,7 +2362,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>70 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2549,11 +2376,7 @@
                 <th>Description</th>
                 <td>This is a fast-growing tree with fragrant spring flowers. The thornless honeylocust is native from Pennsylvania to Nebraska and south to Texas. The first scientific observations of this species were made in 1700. The tree derives the name "Honey" from the sweet, honey-like substance found in its pods. The Cherokees in Tennessee made bows from the tree's durable and strong wood. It has also long been a favorite for fence posts.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-61">
             <tr>
                 <th>Common Name</th>
@@ -2577,7 +2400,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>65 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2591,11 +2414,7 @@
                 <th>Description</th>
                 <td>This tree has leaves that are 15"" long that turn bright yellow to brown in the fall. It grows about 160' in height. Nuts found on the tree have a bitter taste and are about an inch in length. Bitternut hickory is probably the most abundant and most uniformly distributed of all the hickories. It grows throughout the eastern United States from southwestern</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-62">
             <tr>
                 <th>Common Name</th>
@@ -2619,7 +2438,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>70 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2633,11 +2452,7 @@
                 <th>Description</th>
                 <td>"The leaves of American Elm are alternate, simple, and have doubly toothed margins. Elms are loved for their graceful, stately shape, with branches like spreading fountains, and green leaves that turn gold in fall. Sadly, the American elm (Ulmus americana) can no longer be recommended because it is vulnerable to a devastating pathogen called Dutch elm disease.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-63">
             <tr>
                 <th>Common Name</th>
@@ -2661,7 +2476,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>80 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2675,11 +2490,7 @@
                 <th>Description</th>
                 <td>The Atlantic white cedar has fan-like sprays of scaly, flattened, green or bluish-green leaves. Young trees have needle-like leaves. The tree tapers to a point, giving it a cone-like shape. It has small, rounded, light blue cones and tiny, green or reddish-yellow flowers that appear in March-April. Its bark is reddish-brown. The Atlantic white cedar can grow to 75 feet tall.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-64">
             <tr>
                 <th>Common Name</th>
@@ -2703,7 +2514,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>70 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2717,11 +2528,7 @@
                 <th>Description</th>
                 <td>Elm trees have oval-shaped leaves with saw-toothed edges and are pointy at the end. The tree can grow up to 80'. Before the onset of Dutch elm disease, American elm was one of the most common street and shade trees across much of the United States.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-65">
             <tr>
                 <th>Common Name</th>
@@ -2745,7 +2552,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>25 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2759,11 +2566,7 @@
                 <th>Description</th>
                 <td>This tree has slender and flexible branches that lead them to gracefully weep their long pink leaves. This tree grows 20 to 30' tall. Prunus pendula is an ornamental weeping cherry tree that has been cultivated in Japan for many centuries. Their slender and flexible branches lead them to gracefully weep, sometimes almost kissing the ground. Once developed, the branches become firm and stiff.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-66">
             <tr>
                 <th>Common Name</th>
@@ -2787,7 +2590,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>60 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2801,11 +2604,7 @@
                 <th>Description</th>
                 <td>The fall leaves on this tree turn vibrant shades of yellow, orange, red and purple. Yields burr-like fruit that is approximately 1?"" in diameter. The tree grows 60 to 75'. The Sweetgum tree is native to the southeastern United States and a member of a genus made up of only six species. The others are found only in Asia. American sweetgum seeds are eaten by eastern goldfinches, purple finches, sparrows, mourning doves, northern bobwhites and wild turkeys. Small mammals such as chipmunks, red squirrels and gray squirrels also enjoy the fruits and seeds.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-67">
             <tr>
                 <th>Common Name</th>
@@ -2829,7 +2628,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>60 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2843,11 +2642,7 @@
                 <th>Description</th>
                 <td>This tree is conical-shaped with stiff horizontal branches and short stiff needles. The tree grows 50-75' in height. It is a commonly used tree in Midwest landscapes. In nature the needles are often green, but many specimens produce blue-green needles.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-68">
             <tr>
                 <th>Common Name</th>
@@ -2871,7 +2666,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>20 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2885,11 +2680,7 @@
                 <th>Description</th>
                 <td>This tree can be a small tree or large shrub with a broadly spreading crown. The leaves stay a vibrant red all year long. The tree grows 15 to 25' tall. The Japanese word "momiji" is sometimes applied to this tree in its native land. The word is said to have two meanings, both of them appropriate for the description of this wonderful tree: "baby's hands" and "becomes crimson leaves." 'Atropurpureum' means dark purple.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-69">
             <tr>
                 <th>Common Name</th>
@@ -2913,7 +2704,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>35 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2927,11 +2718,7 @@
                 <th>Description</th>
                 <td>This cherry can grow 30-40'. It has very showy pink flowers that bloom in clusters of 3-5 in April. Named after a mountain in Japan, the Kanzan (Kwanzan) cherry tree is native to China, Japan and Korea. The original name is 'Sekiyama,' but it is rarely used. Introduced to America in 1903, it was made famous by the glorious floral displays at the annual Cherry Blossom Festival in Washington, D.C.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-70">
             <tr>
                 <th>Common Name</th>
@@ -2955,7 +2742,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>40 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -2969,11 +2756,7 @@
                 <th>Description</th>
                 <td>The yellowwood grows 30-50'. It has smooth bark, large hanging clusters of fragrant white flowers, and clear yellow fall color. Yellowwood grows throughout Eastern Kentucky, but is most common along the Kentucky River palisades in the Bluegrass region. It produces clusters of white pea-like flowers in Spring.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-71">
             <tr>
                 <th>Common Name</th>
@@ -2997,7 +2780,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>50 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3011,11 +2794,7 @@
                 <th>Description</th>
                 <td>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the European horse chestnut with white flowers and an eastern Nrth American native with red ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above and silvery below that turn bright yellow in fall. "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-72">
             <tr>
                 <th>Common Name</th>
@@ -3039,7 +2818,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>28 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3053,11 +2832,7 @@
                 <th>Description</th>
                 <td>Japanese Umbrella Pine is named for its elegant shape and cascading green needles. It usually grows to 25' and is a slow grower. Japanese umbrella trees (Sciadopitys verticillata) are small, strikingly beautiful trees that never fail to draw attention. Called “koya-maki” in Japan, the tree is one of Japan’s five sacred trees. These richly textured conifers are rare and expensive in nurseries because they grow slowly and it takes a long time to grow a sapling large enough to sell. In the landscape, it can take 100 years for a sapling to reach mature size.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-73">
             <tr>
                 <th>Common Name</th>
@@ -3081,7 +2856,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>12 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3095,11 +2870,7 @@
                 <th>Description</th>
                 <td>"This pine only grows to about 12'. Weeping white pine trees have smooth trunks covered with silvery-gray bark. As they age, the foliage covers the trunks all the way to the ground. The needles of a weeping white pine are evergreen and smell good. They are blue or blue-green."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-74">
             <tr>
                 <th>Common Name</th>
@@ -3123,7 +2894,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>90 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3137,11 +2908,7 @@
                 <th>Description</th>
                 <td>"This oak can grow to 90'. Bark is grayish-black, broken into deep grooves, becoming ridged and rough-plated near the base.. The leaves upper surface is dark green &amp; shiny while the lower surface is paler with light brown matted hairs. Leaves often droop and turn reddish-brown in fall."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-75">
             <tr>
                 <th>Common Name</th>
@@ -3165,7 +2932,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>40 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3179,11 +2946,7 @@
                 <th>Description</th>
                 <td>"The Osage Orange grows to be 30-50'. Leaf blades are dark green, smooth and waxy above; paler green with a few hairs beneath. The color turns translucent yellow in the fall. Large fruits appear on female trees. Its wood was once in demand for making hubs and wheel rims for horse drawn wagons. "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-76">
             <tr>
                 <th>Common Name</th>
@@ -3207,7 +2970,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>125 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3221,11 +2984,7 @@
                 <th>Description</th>
                 <td>"Korean pine grows to mature heights of 100'. Bark is gray-brown and smooth, becoming gray-black, scaly, and peeling on larger trees."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-77">
             <tr>
                 <th>Common Name</th>
@@ -3249,7 +3008,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>45 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3263,11 +3022,7 @@
                 <th>Description</th>
                 <td>This highly coveted tree is truly one-of-a-kind. The Blue Atlas Cedar can be found in its natural habit in the Atlas Mountains in northwest Africa. The tree’s silvery blue to bluish-green needles, about 1 1/2” long, can be stiff and clustered. Once it’s started to hit its stride, the Blue Atlas produces barrel-shaped male cones that are about 2-3” long on the lower branches; browning, from green, over a period of two years. Like with any needled evergreen it will shed from time to time, but this occurence is knothing to worry about.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-78">
             <tr>
                 <th>Common Name</th>
@@ -3291,7 +3046,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>65 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3305,11 +3060,7 @@
                 <th>Description</th>
                 <td>The Paper Birch grows to a height of around 60 ft'. It develops a smooth white bark that curls and peels. The leaves turn bright yellow in the fall. The Paper Birch is a short lived species of Birch. It is native to northern North America and is often referred to as the Paper Birch.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-79">
             <tr>
                 <th>Common Name</th>
@@ -3333,7 +3084,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>30 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3347,11 +3098,7 @@
                 <th>Description</th>
                 <td>"This Birch has chalky white bark. It is fast growing to a height of 20-40' . It yeild shiny, dark green leaves that turn yellow in the fall. Betula populifolia, commonly called gray birch, is a short-lived, narrow-columnar, suckering, deciduous tree that typically grows to 20-40’ tall. It most often appears in a multi-trunked form, but also grows with a single trunk. It is native primarily from Southeastern Canada to Virginia, with a scattering of plants extending westward to Illinois. It typically occurs in both dry and wet soils. This tree is noted for (1) its non-peeling chalky white bark with dark chevron trunk patches appearing below each branch base and (2) its long-pointed triangular green leaves. "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-80">
             <tr>
                 <th>Common Name</th>
@@ -3375,7 +3122,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>30 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3389,11 +3136,7 @@
                 <th>Description</th>
                 <td>"This Hawthorn can grow 25-35'. Gray stems have glossy dark green leaves that turn purple to red in fall. Thorns can be present. Fragrant, 5-petaled, white flowers bloom in May. Flowers are followed by small red fruits that ripen in September and usually persist on the tree well into winter. The fruit is sometimes called a haw. "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-13">
             <tr>
                 <th>Common Name</th>
@@ -3417,7 +3160,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>55 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3431,11 +3174,7 @@
                 <th>Description</th>
                 <td>"Shingle oak is native to Illinois and to part of the Chicago region. Grows more than 40'. Leaves are dark green in summer, changing to yellow-brown in fall. Leaves persisting through the entire winter."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-14">
             <tr>
                 <th>Common Name</th>
@@ -3459,7 +3198,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>148 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3473,11 +3212,7 @@
                 <th>Description</th>
                 <td>The Black Walnut grows to a height of 50Ð75'. Yields a ripened nut crop in early to mid-autumn.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-15">
             <tr>
                 <th>Common Name</th>
@@ -3501,7 +3236,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>11 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3515,11 +3250,7 @@
                 <th>Description</th>
                 <td>"Flower of Kent grows to about 15'. This is the tree Isaac Newton saw an apple fall to ground from, inspiring his laws of universal gravitation. The apple is pear-shaped, mealy, and sub-acid, and of generally poor quality by today's standards."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-16">
             <tr>
                 <th>Common Name</th>
@@ -3543,7 +3274,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>25 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3557,11 +3288,7 @@
                 <th>Description</th>
                 <td>The Paperbark Maple grows slowly to about 25'. Soft green leaves turn scarlet in fall. The papery sheets of bark peel to reveal brown new bark over time</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-25">
             <tr>
                 <th>Common Name</th>
@@ -3585,7 +3312,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>65 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3599,11 +3326,7 @@
                 <th>Description</th>
                 <td>The Paper Birch grows to a height of around 60 ft'. It develops a smooth white bark that curls and peels. The leaves turn bright yellow in the fall. The Paper Birch is a short lived species of Birch. It is native to northern North America and is often referred to as the Paper Birch.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-26">
             <tr>
                 <th>Common Name</th>
@@ -3627,7 +3350,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>20 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3641,11 +3364,7 @@
                 <th>Description</th>
                 <td>"This tree is a rounded, deciduous tree which typically grows 15-20' tall with a similar spread. Red buds open to slightly fragrant, single white flowers in spring. Flowers are followed by masses of small, orange-red crabapples"</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-27">
             <tr>
                 <th>Common Name</th>
@@ -3669,7 +3388,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>100 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3683,11 +3402,7 @@
                 <th>Description</th>
                 <td>Wildfire Black Gum has forest green foliage which emerges red in spring. The glossy pointy leaves turn an outstanding crimson in the fall. Tree reaches a height of 50'.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-28">
             <tr>
                 <th>Common Name</th>
@@ -3711,7 +3426,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>60 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3725,11 +3440,7 @@
                 <th>Description</th>
                 <td>This pine can grow up to 35-50'. The foliage of blue needles is presented in tufts at the branch tips. It has brownish-red cones that open when ripe.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-29">
             <tr>
                 <th>Common Name</th>
@@ -3753,7 +3464,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>115 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3767,11 +3478,7 @@
                 <th>Description</th>
                 <td>"This tree grows to a height of 40Ð50'. Features simple leaves that are dark yellowish green, and 4Ð6"" in length. Fall color varies from yellow to orangish-brown to brown."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-31">
             <tr>
                 <th>Common Name</th>
@@ -3795,7 +3502,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>25 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3809,11 +3516,7 @@
                 <th>Description</th>
                 <td>"The Redbud grows to about 20'. It is valued for its scarlet-purple color to new foliage, maturing to maroon. Flowers on bare branches occur between winter and spring",</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-32">
             <tr>
                 <th>Common Name</th>
@@ -3837,7 +3540,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>35 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3851,11 +3554,7 @@
                 <th>Description</th>
                 <td>The birch grows 40 to 50'. The leaves are dark green with a serrated margin. They turn yellow in the fall.,</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-33">
             <tr>
                 <th>Common Name</th>
@@ -3879,7 +3578,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>125 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3893,11 +3592,7 @@
                 <th>Description</th>
                 <td>The bur oak grows to a height of 70Ð80'. Yields acorns that are larger than most. Lives for more than 200Ð300 years</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-34">
             <tr>
                 <th>Common Name</th>
@@ -3921,7 +3616,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>60 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3935,11 +3630,7 @@
                 <th>Description</th>
                 <td>"The red pine grows 65-100'. The leaves are needle-like, dark yellow-green and in fascicles of two. The bark is thick and gray-brown at the base of the tree, but thin, flaky and bright orange-red in the upper crown",</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-35">
             <tr>
                 <th>Common Name</th>
@@ -3963,7 +3654,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>50 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -3977,11 +3668,7 @@
                 <th>Description</th>
                 <td>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the European horse chestnut with white flowers and an eastern Nrth American native with red ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above and silvery below that turn bright yellow in fall. "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-36">
             <tr>
                 <th>Common Name</th>
@@ -4005,7 +3692,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>50 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4019,11 +3706,7 @@
                 <th>Description</th>
                 <td>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the European horse chestnut with white flowers and an eastern Nrth American native with red ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above and silvery below that turn bright yellow in fall. "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-38">
             <tr>
                 <th>Common Name</th>
@@ -4047,7 +3730,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>20 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4061,11 +3744,7 @@
                 <th>Description</th>
                 <td>"This is a flowering tree or multi-stemmed shrub with a vase-shaped habit in the early years but eventually maturing to a more rounded form. Bloom occurs in late spring."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-39">
             <tr>
                 <th>Common Name</th>
@@ -4089,7 +3768,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>25 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4103,11 +3782,7 @@
                 <th>Description</th>
                 <td>"This tree grows to a height of 20'Ð30'. Blooms in a April with of rosy pink flowers. Leaves emerge a reddish color, turning dark green as summer approaches and then yellow in the fall."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-40">
             <tr>
                 <th>Common Name</th>
@@ -4131,7 +3806,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>180 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4145,11 +3820,7 @@
                 <th>Description</th>
                 <td>Eastern white pine is the provincial tree of Ontario and the state tree of Maine and Michigan.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-41">
             <tr>
                 <th>Common Name</th>
@@ -4173,7 +3844,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>25 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4187,11 +3858,7 @@
                 <th>Description</th>
                 <td>"This tree grows to a height of 10Ð20'. Produces creamy white flowers 2Ð3"" in diameter that carry a light lemon scent. Yields clusters of red fruit that attracts wildlife."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-42">
             <tr>
                 <th>Common Name</th>
@@ -4215,7 +3882,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>90 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4229,11 +3896,7 @@
                 <th>Description</th>
                 <td>The sap can be used to make maple syrup, though it's not as high quality as that of sugar maples. Its wood is used for inexpensive furniture, firewood and railroad ties.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-43">
             <tr>
                 <th>Common Name</th>
@@ -4257,7 +3920,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>33 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4271,11 +3934,7 @@
                 <th>Description</th>
                 <td>This tree can range from 6 to 30'. Leaves are long and broad and resemble mittens or paws.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-44">
             <tr>
                 <th>Common Name</th>
@@ -4299,7 +3958,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>33 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4313,11 +3972,7 @@
                 <th>Description</th>
                 <td>"This tree grows to a height of 45Ð50'. Provides superior fall color, with leaves turning vibrant shades of orange and red. Is often the first to color up in the autumn."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-45">
             <tr>
                 <th>Common Name</th>
@@ -4341,7 +3996,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>70 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4355,11 +4010,7 @@
                 <th>Description</th>
                 <td>"The River Birch grows to a height of 40Ð70'. Features glossy green leaves that are 2Ð3"" long and somewhat triangular. They naturally grow along riverbanks. Bark will curl and peel."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-46">
             <tr>
                 <th>Common Name</th>
@@ -4383,7 +4034,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>16 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4397,11 +4048,7 @@
                 <th>Description</th>
                 <td>"This tree grows to a height of 10'Ð20'. Produces creamy white flowers 2Ð3"" in diameter that carry a light lemon scent. Yields clusters of red fruit that attracts wildlife."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-47">
             <tr>
                 <th>Common Name</th>
@@ -4425,7 +4072,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>82 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4439,11 +4086,7 @@
                 <th>Description</th>
                 <td>The Butternut grows to a height of 40Ð60'. Yields a ripened nut crop in late October 7-10 years after planting.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-48">
             <tr>
                 <th>Common Name</th>
@@ -4467,7 +4110,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>83 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4481,11 +4124,7 @@
                 <th>Description</th>
                 <td>"This tree grows 60-80'. Greenish yellow flowers appear in late spring. Flowers are followed by long, flattened, dark purplish-brown seedpods that mature in late summer. Seedpods contain a sweet gummy substance that gives honey locust its common name. Skyline¨ is a thornless variety with a stronger upright growth form, few seed pods, and excellent yellow fall color."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-49">
             <tr>
                 <th>Common Name</th>
@@ -4509,7 +4148,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>82 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4523,11 +4162,7 @@
                 <th>Description</th>
                 <td>"The London Planetree grows to a height of 75Ð100'. Produces inconspicuous red flowers in April. Bark has red-brown scales that flake to reveal green, white and creamy yellow."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-50">
             <tr>
                 <th>Common Name</th>
@@ -4551,7 +4186,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>70 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4565,11 +4200,7 @@
                 <th>Description</th>
                 <td>"Mature trees have dark grey or brown bark with broad, shiny strips on the trunk's ridges. Its leaves are dark green on both sides, with seven to eleven sharp lobes. "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-51">
             <tr>
                 <th>Common Name</th>
@@ -4593,7 +4224,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>250 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4607,11 +4238,7 @@
                 <th>Description</th>
                 <td>" This tree has long, flat, spirally arranged needles that grow directly from the branch and completely surround it. These trees can grow up to 250' in height and 6' in diameter. "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-52">
             <tr>
                 <th>Common Name</th>
@@ -4635,7 +4262,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>25 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4649,11 +4276,7 @@
                 <th>Description</th>
                 <td>"Trees typically grow 20' in height with a similar spread and have ascending branches and a rounded shape. Leaves are alternate, simple, broadly heart-shaped and 3 to 5"" high and wide. Leaves emerge reddish, turning green as they expand."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-53">
             <tr>
                 <th>Common Name</th>
@@ -4677,7 +4300,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>25 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4691,11 +4314,7 @@
                 <th>Description</th>
                 <td>Witchhazel grows to a height of 15Ð30'. Produces fragrant yellow flowers anytime from October through December.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-54">
             <tr>
                 <th>Common Name</th>
@@ -4719,7 +4338,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>50 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4733,11 +4352,7 @@
                 <th>Description</th>
                 <td>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the European horse chestnut with white flowers and an eastern Nrth American native with red ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above and silvery below that turn bright yellow in fall. "</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-55">
             <tr>
                 <th>Common Name</th>
@@ -4761,7 +4376,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>75 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4775,11 +4390,7 @@
                 <th>Description</th>
                 <td>"The Cucumber tree grows 60-75'. The hardiest of all magnolias, the leaves are deep-green in summer and yellow-brown in fall. Flowers are greenish or greenish-white in color. They are followed by a cucumber-like fruit which turns from green to red. The flowers and fruit are often missed because they occur at the top of the tree."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-56">
             <tr>
                 <th>Common Name</th>
@@ -4803,7 +4414,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>60 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4817,11 +4428,7 @@
                 <th>Description</th>
                 <td>Fraser fir is monoecious, meaning that both male and female cones (strobili) occur on the same tree.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-57">
             <tr>
                 <th>Common Name</th>
@@ -4845,7 +4452,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>50 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4859,11 +4466,7 @@
                 <th>Description</th>
                 <td>The Norway spruce is one of the most widely planted spruces, both in and outside of its native range, and one of the most economically important coniferous species in Europe. It is used as an ornamental tree in parks and gardens. It is also widely planted for use as a Christmas tree.</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
         <table id="tree-911-58">
             <tr>
                 <th>Common Name</th>
@@ -4887,7 +4490,7 @@
             </tr>
             <tr>
                 <th>Height</th>
-                <td/>
+                <td>30 ft.</td>
             </tr>
             <tr>
                 <th>Seed Type</th>
@@ -4901,10 +4504,6 @@
                 <th>Description</th>
                 <td>"This pine grows slowly to about 20'. Irregular, sweeping branches display tight bundles of short dark green needles and purplish-brown cones. Native to the mountain regions of the southwestern United States."</td>
             </tr>
-            <tr class="deco">
-                <td/>
-                <img src="leaf_breaker.png" alt="decorative leaf"/>
-            </tr>
-        </table>
+        </table> <img src="leaf_breaker.png" alt="breaker image of a leaf"/>
     </body>
 </html>
