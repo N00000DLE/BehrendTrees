@@ -45,6 +45,7 @@ Garrett started exploring Leaflet JS, but it would have involved added layers of
 
 <img src="btreesMap.png" alt="KML placemarker displaying weird special characters from source descriptions" width="80%"/>
 
+We see exactly the same problems with character encoding in the entries on the searchable Master Tree List page. If you or future students return to this project, we should really try to correct that. 
 
 ### Arboretum Articles
 Grace developed a well-designed reading view of the Behrend Beacon articles mentioning organizations involved in the arboretum. There's a separate page <https://btrees.newtfire.org/artOrganizations.html> listing the organizations as something *almost* an index, and it would be nice to see that made clickable: On click of a paragraph listed in the organization table, link directly into the article to the point of that paragraph.
