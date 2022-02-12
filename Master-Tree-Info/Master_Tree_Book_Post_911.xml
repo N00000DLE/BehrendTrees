@@ -1,39 +1,388 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<entry>NEW SINCE 9.11.2020,,,,,,,,</entry>
-<entry num="13">,Shingle Oak,Quercus imbricaria,D,"Shingle oak is native to Illinois and to part of the Chicago region. Grows more than 40'. Leaves are dark green in summer, changing to yellow-brown in fall. Leaves persisting through the entire winter.",-79.98748,42.119287,307.2369</entry>
-<entry num="14">,Black Walnut 2,Juglans nigra,D,The Black Walnut grows to a height of 50Ð75'. Yields a ripened nut crop in early to mid-autumn.,-79.987515,42.119245,307.5167</entry>
-<entry num="15">,Flower of Kent,Malus pumila,D,"Flower of Kent grows to about 15'. This is the tree Isaac Newton saw an apple fall to ground from, inspiring his laws of universal gravitation. The apple is pear-shaped, mealy, and sub-acid, and of generally poor quality by today's standards.",-79.986891,42.11933,307.2652</entry>
-<entry num="16">,Paperbark Maple,Acer griseum,D,The Paperbark Maple grows slowly to about 25'. Soft green leaves turn scarlet in fall. The papery sheets of bark peel to reveal brown new bark over time,-79.986506,42.119127,307.3884</entry>
-<entry num="25">,Paper Birch 2,Betula papyrifera,D,"The Paper Birch grows to a height of 50Ð70'. Develops a smooth white bark that curls and peels (once mature). Provides bright yellow fall color.""",-79.982751,42.119973,338.2622</entry>
-<entry num="26">,Snowdrift Crabapple 2,Malus 'SNwdrift,D,"This tree grows to a height of 15Ð20. Features glossy, dark green leaves that turn yellow in the fall. Blooms in a profusion of snowy white blossoms in April or May.",,42.120175,280.2051</entry>
-<entry num="27">,Wildfire Black Gum 2,Nyssa sylvatica,D,"This tree grows to a height of 50'. It produces bold red new foliage that matures to dark green, then a fiery scarlet in fall",-79.982174,42.119578,286.6892</entry>
-<entry num="28">,Blue Japanese White Pine,Pinus parviflora 'Glauca,C,This pine can grow up to 35-50'. The foliage of blue needles is presented in tufts at the branch tips. It has brownish-red cones that open when ripe.,-79.982749,42.11961,285.4994</entry>
-<entry num="29">,Chinkapin Oak,Quercus muehlenbergii,D,"This tree grows to a height of 40Ð50'. Features simple leaves that are dark yellowish green, and 4Ð6"" in length. Fall color varies from yellow to orangish-brown to brown.",-79.982688,42.120004,285.0451</entry>
-<entry num="31">,Forest Pansy Redbud,Cercis canadensis,D,"The Redbud grows to about 20'. It is valued for its scarlet-purple color to new foliage, maturing to maroon. Flowers on bare branches occur between winter and spring",,42.120568,283.6172</entry>
-<entry num="32">,Single Stem Asain White Birch,Betula pendula,D,The birch grows 40 to 50'. The leaves are dark green with a serrated margin. They turn yellow in the fall.,,42.12073,288.4364</entry>
-<entry num="33">,Bur Oak,Quercus macrocarpa,D,The bur oak grows to a height of 70Ð80'. Yields acorns that are larger than most. Lives for more than 200Ð300 years,-79.981902,42.120801,288.6333</entry>
-<entry num="34">,Red Pine,Pinus resiNsa,C,"The red pine grows 65-100'. The leaves are needle-like, dark yellow-green and in fascicles of two. The bark is thick and gray-brown at the base of the tree, but thin, flaky and bright orange-red in the upper crown",,42.120933,290.3104</entry>
-<entry num="35">,Ruby Horse Chestnut 2,Aesculus carnea,D,"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the European horse chestnut with white flowers and an eastern North American native with red ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above and silvery below that turn bright yellow in fall.Ê",-79.981004,42.121009,291.9296</entry>
-<entry num="36">,Ruby Horse Chestnut 3,Aesculus carnea,D,"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the European horse chestnut with white flowers and an eastern Nrth American native with red ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above and silvery below that turn bright yellow in fall.Ê",,42.120798,292.6469</entry>
-<entry num="38">,Kousa Dogwood 2,Cornus kousa,D,"This tree grows to a height of 15'-25'. Blooms MayÐJune, with white bracts surrounding small, greeinish-yellow flowers.",-79.977407,42.120537,312.0039</entry>
-<entry num="39">,Eastern Redbud,Cercis canadensis,D,"This tree grows to a height of 20'Ð30'. Blooms in a April with of rosy pink flowers. Leaves emerge a reddish color, turning dark green as summer approaches and then yellow in the fall.",-79.977545,42.120425,313.4502</entry>
-<entry num="40">,White Pine 2,Pinus strobus,C,"The Eastern White Pine grows to a height of 50Ð80'. ÊFeatures long, slender, blue-green needles, sometimes reaching 5"" in length. Is widely used as a Christmas tree.",-79.977489,42.120415,314.0017</entry>
-<entry num="41">,Northern Sweetbay Magnolia,Magnolia virginiana,D,"This tree grows to a height of 10Ð20'. Produces creamy white flowers 2Ð3"" in diameter that carry a light lemon scent. Yields clusters of red fruit that attracts wildlife.",-79.977818,42.120198,315.7569</entry>
-<entry num="42">,Red Maple 2,Acer rubrum,D,The Red Maple grows to a height of 40Ð60. Produces red clusters of small flowers winter to spring.,-79.978571,42.120502,310.3149</entry>
-<entry num="43">,English Hawthorn,Crataegus Iaevigata,D,This tree can range from 6 to 30'. Leaves are long and broad and resemble mittens or paws.,-79.97978,42.119993,311.7366</entry>
-<entry num="44">,Red Sunset Maple,Acer rubrumÊ,D,"This tree grows to a height of 45Ð50'. Provides superior fall color, with leaves turning vibrant shades of orange and red. Is often the first to color up in the autumn.",-79.980086,42.119961,312.066</entry>
-<entry num="45">,Heritage River Birch,Betula nigra,D,"The River Birch grows to a height of 40Ð70'. Features glossy green leaves that are 2Ð3"" long and somewhat triangular. They naturally grow along riverbanks. Bark will curl and peel.",-79.980507,42.11919,321.5021</entry>
-<entry num="46">,Sweetbay Magnolia 'Santa Rose',MagNlia virginiana,D,"This tree grows to a height of 10'Ð20'. Produces creamy white flowers 2Ð3"" in diameter that carry a light lemon scent. Yields clusters of red fruit that attracts wildlife.",-79.98048,42.118591,328.4021</entry>
-<entry num="47">,Butternut,Juglans cinerea,D,The Butternut grows to a height of 40Ð60'. Yields a ripened nut crop in late October 7-10 years after planting.,-79.976374,42.121901,305.4567</entry>
-<entry num="48">,Skyline Honey Locust,Gleditsia triacanthos f.,D,"This tree grows 60-80'. Greenish yellow flowers appear in late spring. Flowers are followed by long, flattened, dark purplish-brown seedpods that mature in late summer. Seedpods contain a sweet gummy substance that gives honey locust its common name. Skyline¨ is a thornless variety with a stronger upright growth form, few seed pods, and excellent yellow fall color.",-79.976638,42.121694,305.3604</entry>
-<entry num="49">,London Planetree,Platanus x acerifolia,D,"The London Planetree grows to a height of 75Ð100'. Produces inconspicuous red flowers in April. Bark has red-brown scales that flake to reveal green, white and creamy yellow.",-79.977103,42.120858,309.9282</entry>
-<entry num="50">,Northern Red Oak 2,Quercus rubra,D,"ÊMature trees have dark grey or brown bark with broad, shiny strips on the trunk's ridges. Its leaves areÊdark green on both sides, withÊseven to eleven sharp lobes.Ê",-79.982754,42.115897,344.514</entry>
-<entry num="51">,Douglas Fir 2,Pseudotsuga menziesii,C,"ÊThis tree has long, flat, spirally arranged needles that grow directly from the branch and completely surround it. These trees can grow up to 250' in height and 6' in diameter.Ê",-79.982973,42.118961,318.6682</entry>
-<entry num="52">,Eastern Redbud 2,Cercis canadensis,D,"This tree typically grows  20' in height with a similar spread and have gracefully ascending branches and a rounded shape. Eastern redbud leaves are alternate, simple, broadly heart-shaped and 3 to 5"" high and wide. Leaves emerge reddish, turning green as they expand.",-79.984081,42.118441,319.9111</entry>
-<entry num="53">,Common Witchhazel,Hamamelis virginiana,C,Witchhazel grows to a height of 15Ð30'. Produces fragrant yellow flowers anytime from October through December.,-79.983595,42.119918,315.4172</entry>
-<entry num="54">,Ruby Horse Chestnut 4,Aesculus carnea,D,"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the European horse chestnut with white flowers and an eastern Nrth American native with red ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above and silvery below that turn bright yellow in fall.Ê",-79.98674,42.123363,307.954</entry>
-<entry num="55">,Cucumbertree,MagNlia acuminata,D,"The Cucumber tree grows 60-75'. The hardiest of all magnolias, the leaves are deep-green in summer and yellow-brown in fall. Flowers are greenish or greenish-white in color. They are followed by a cucumber-like fruit which turns from green to red. The flowers and fruit are often missed because they occur at the top of the tree.",-79.985563,42.124148,303.9987</entry>
-<entry num="56">,Fraser Fir 2,Abies fraseri,C,This is an uniformly pyramid-shaped tree which reaches a maximum height of about 80' and a diameter of 1-1.5'. Strong branches are turned slightly upward which gives the tree a compact appearance.,-79.980631,42.121882,303.5491</entry>
-<entry num="57">,Norway Spruce 2,Picea abies,C,"This is a tree with long, cylindrical cones that hang like ornamentsÊagainst the dark green foliage. Tend to be 50 to 80' highÊ",-79.980912,42.1222,302.4481</entry>
-<entry num="58">,Bristlecone Pine,Balfourianae,C,"This pine grows slowly to about 20'. Irregular, sweeping branches display tight bundles of short dark green needles and purplish-brown cones. Native to the mountain regions of the southwestern United States.",-79.980987,42.122191,301.2438</entry>
-
+<btrees>
+    <entry num="13">
+        <cname>Shingle Oak</cname>
+        <sname>Quercus imbricaria</sname>
+        <treeType>Decidous</treeType>
+        <desc>"Shingle oak is native to Illinois and to part of the Chicago region. Grows more than
+            40'. Leaves are dark green in summer, changing to yellow-brown in fall. Leaves
+            persisting through the entire winter."</desc>
+        <long>-79.98748</long>
+        <lat>42.119287</lat>
+        <elev>307.2369</elev>
+    </entry>
+    <entry num="14">
+        <cname>Black Walnut 2</cname>
+        <sname>Juglans nigra</sname>
+        <treeType>Decidous</treeType>
+        <desc>The Black Walnut grows to a height of 50Ð75'. Yields a ripened nut crop in early to
+            mid-autumn.</desc>
+        <long>-79.987515</long>
+        <lat>42.119245</lat>
+        <elev>307.5167</elev>
+    </entry>
+    <entry num="15">
+        <cname>Flower of Kent</cname>
+        <sname>Malus pumila</sname>
+        <treeType>Decidous</treeType>
+        <desc>"Flower of Kent grows to about 15'. This is the tree Isaac Newton saw an apple fall to
+            ground from, inspiring his laws of universal gravitation. The apple is pear-shaped,
+            mealy, and sub-acid, and of generally poor quality by today's standards."</desc>
+        <long>-79.986891</long>
+        <lat>42.11933</lat>
+        <elev>307.2652</elev>
+    </entry>
+    <entry num="16">
+        <cname>Paperbark Maple</cname>
+        <sname>Acer griseum</sname>
+        <treeType>Decidous</treeType>
+        <desc>The Paperbark Maple grows slowly to about 25'. Soft green leaves turn scarlet in fall.
+            The papery sheets of bark peel to reveal brown new bark over time</desc>
+        <long>-79.986506</long>
+        <lat>42.119127</lat>
+        <elev>307.3884</elev>
+    </entry>
+    <entry num="25">
+        <cname>Paper Birch 2</cname>
+        <sname>Betula papyrifera</sname>
+        <treeType>Decidous</treeType>
+        <desc>"The Paper Birch grows to a height of 50Ð70'. Develops a smooth white bark that curls
+            and peels (once mature). Provides bright yellow fall color."""</desc>
+        <long>-79.982751</long>
+        <lat>42.119973</lat>
+        <elev>338.2622</elev>
+    </entry>
+    <entry num="26">
+        <cname>Snowdrift Crabapple 2</cname>
+        <sname>Malus 'SNwdrift</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree grows to a height of 15Ð20. Features glossy, dark green leaves that turn
+            yellow in the fall. Blooms in a profusion of snowy white blossoms in April or
+            May.",</desc>
+        <lat>42.120175</lat>
+        <elev>280.2051</elev>
+    </entry>
+    <entry num="27">
+        <cname>Wildfire Black Gum 2</cname>
+        <sname>Nyssa sylvatica</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree grows to a height of 50'. It produces bold red new foliage that matures to
+            dark green, then a fiery scarlet in fall"</desc>
+        <long>-79.982174</long>
+        <lat>42.119578</lat>
+        <elev>286.6892</elev>
+    </entry>
+    <entry num="28">
+        <cname>Blue Japanese White Pine</cname>
+        <sname>Pinus parviflora 'Glauca</sname>
+        <treeType>Coniferous</treeType>
+        <desc>This pine can grow up to 35-50'. The foliage of blue needles is presented in tufts at
+            the branch tips. It has brownish-red cones that open when ripe.</desc>
+        <long>-79.982749</long>
+        <lat>42.11961</lat>
+        <elev>285.4994</elev>
+    </entry>
+    <entry num="29">
+        <cname>Chinkapin Oak</cname>
+        <sname>Quercus muehlenbergii</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree grows to a height of 40Ð50'. Features simple leaves that are dark yellowish
+            green, and 4Ð6"" in length. Fall color varies from yellow to orangish-brown to
+            brown."</desc>
+        <long>-79.982688</long>
+        <lat>42.120004</lat>
+        <elev>285.0451</elev>
+    </entry>
+    <entry num="31">
+        <cname>Forest Pansy Redbud</cname>
+        <sname>Cercis canadensis</sname>
+        <treeType>Decidous</treeType>
+        <desc>"The Redbud grows to about 20'. It is valued for its scarlet-purple color to new
+            foliage, maturing to maroon. Flowers on bare branches occur between winter and
+            spring",</desc>
+        <lat>42.120568</lat>
+        <elev>283.6172</elev>
+    </entry>
+    <entry num="32">
+        <cname>Single Stem Asain White Birch</cname>
+        <sname>Betula pendula</sname>
+        <treeType>Decidous</treeType>
+        <desc>The birch grows 40 to 50'. The leaves are dark green with a serrated margin. They turn
+            yellow in the fall.,</desc>
+        <lat>42.12073</lat>
+        <elev>288.4364</elev>
+    </entry>
+    <entry num="33">
+        <cname>Bur Oak</cname>
+        <sname>Quercus macrocarpa</sname>
+        <treeType>Decidous</treeType>
+        <desc>The bur oak grows to a height of 70Ð80'. Yields acorns that are larger than most.
+            Lives for more than 200Ð300 years</desc>
+        <long>-79.981902</long>
+        <lat>42.120801</lat>
+        <elev>288.6333</elev>
+    </entry>
+    <entry num="34">
+        <cname>Red Pine</cname>
+        <sname>Pinus resiNsa</sname>
+        <treeType>Coniferous</treeType>
+        <desc>"The red pine grows 65-100'. The leaves are needle-like, dark yellow-green and in
+            fascicles of two. The bark is thick and gray-brown at the base of the tree, but thin,
+            flaky and bright orange-red in the upper crown",</desc>
+        <lat>42.120933</lat>
+        <elev>290.3104</elev>
+    </entry>
+    <entry num="35">
+        <cname>Ruby Horse Chestnut 2</cname>
+        <sname>Aesculus carnea</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the
+            European horse chestnut with white flowers and an eastern North American native with red
+            ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above
+            and silvery below that turn bright yellow in fall.Ê"</desc>
+        <long>-79.981004</long>
+        <lat>42.121009</lat>
+        <elev>291.9296</elev>
+    </entry>
+    <entry num="36">
+        <cname>Ruby Horse Chestnut 3</cname>
+        <sname>Aesculus carnea</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the
+            European horse chestnut with white flowers and an eastern Nrth American native with red
+            ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above
+            and silvery below that turn bright yellow in fall.Ê",</desc>
+        <lat>42.120798</lat>
+        <elev>292.6469</elev>
+    </entry>
+    <entry num="38">
+        <cname>Kousa Dogwood 2</cname>
+        <sname>Cornus kousa</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree grows to a height of 15'-25'. Blooms MayÐJune, with white bracts
+            surrounding small, greeinish-yellow flowers."</desc>
+        <long>-79.977407</long>
+        <lat>42.120537</lat>
+        <elev>312.0039</elev>
+    </entry>
+    <entry num="39">
+        <cname>Eastern Redbud</cname>
+        <sname>Cercis canadensis</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree grows to a height of 20'Ð30'. Blooms in a April with of rosy pink flowers.
+            Leaves emerge a reddish color, turning dark green as summer approaches and then yellow
+            in the fall."</desc>
+        <long>-79.977545</long>
+        <lat>42.120425</lat>
+        <elev>313.4502</elev>
+    </entry>
+    <entry num="40">
+        <cname>White Pine 2</cname>
+        <sname>Pinus strobus</sname>
+        <treeType>Coniferous</treeType>
+        <desc>"The Eastern White Pine grows to a height of 50Ð80'. ÊFeatures long, slender,
+            blue-green needles, sometimes reaching 5"" in length. Is widely used as a Christmas
+            tree."</desc>
+        <long>-79.977489</long>
+        <lat>42.120415</lat>
+        <elev>314.0017</elev>
+    </entry>
+    <entry num="41">
+        <cname>Northern Sweetbay Magnolia</cname>
+        <sname>Magnolia virginiana</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree grows to a height of 10Ð20'. Produces creamy white flowers 2Ð3"" in
+            diameter that carry a light lemon scent. Yields clusters of red fruit that attracts
+            wildlife."</desc>
+        <long>-79.977818</long>
+        <lat>42.120198</lat>
+        <elev>315.7569</elev>
+    </entry>
+    <entry num="42">
+        <cname>Red Maple 2</cname>
+        <sname>Acer rubrum</sname>
+        <treeType>Decidous</treeType>
+        <desc>The Red Maple grows to a height of 40Ð60. Produces red clusters of small flowers
+            winter to spring.</desc>
+        <long>-79.978571</long>
+        <lat>42.120502</lat>
+        <elev>310.3149</elev>
+    </entry>
+    <entry num="43">
+        <cname>English Hawthorn</cname>
+        <sname>Crataegus Iaevigata</sname>
+        <treeType>Decidous</treeType>
+        <desc>This tree can range from 6 to 30'. Leaves are long and broad and resemble mittens or
+            paws.</desc>
+        <long>-79.97978</long>
+        <lat>42.119993</lat>
+        <elev>311.7366</elev>
+    </entry>
+    <entry num="44">
+        <cname>Red Sunset Maple</cname>
+        <sname>Acer rubrumÊ</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree grows to a height of 45Ð50'. Provides superior fall color, with leaves
+            turning vibrant shades of orange and red. Is often the first to color up in the
+            autumn."</desc>
+        <long>-79.980086</long>
+        <lat>42.119961</lat>
+        <elev>312.066</elev>
+    </entry>
+    <entry num="45">
+        <cname>Heritage River Birch</cname>
+        <sname>Betula nigra</sname>
+        <treeType>Decidous</treeType>
+        <desc>"The River Birch grows to a height of 40Ð70'. Features glossy green leaves that are
+            2Ð3"" long and somewhat triangular. They naturally grow along riverbanks. Bark will curl
+            and peel."</desc>
+        <long>-79.980507</long>
+        <lat>42.11919</lat>
+        <elev>321.5021</elev>
+    </entry>
+    <entry num="46">
+        <cname>Sweetbay Magnolia 'Santa Rose'</cname>
+        <sname>MagNlia virginiana</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree grows to a height of 10'Ð20'. Produces creamy white flowers 2Ð3"" in
+            diameter that carry a light lemon scent. Yields clusters of red fruit that attracts
+            wildlife."</desc>
+        <long>-79.98048</long>
+        <lat>42.118591</lat>
+        <elev>328.4021</elev>
+    </entry>
+    <entry num="47">
+        <cname>Butternut</cname>
+        <sname>Juglans cinerea</sname>
+        <treeType>Decidous</treeType>
+        <desc>The Butternut grows to a height of 40Ð60'. Yields a ripened nut crop in late October
+            7-10 years after planting.</desc>
+        <long>-79.976374</long>
+        <lat>42.121901</lat>
+        <elev>305.4567</elev>
+    </entry>
+    <entry num="48">
+        <cname>Skyline Honey Locust</cname>
+        <sname>Gleditsia triacanthos f.</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree grows 60-80'. Greenish yellow flowers appear in late spring. Flowers are
+            followed by long, flattened, dark purplish-brown seedpods that mature in late summer.
+            Seedpods contain a sweet gummy substance that gives honey locust its common name.
+            Skyline¨ is a thornless variety with a stronger upright growth form, few seed pods, and
+            excellent yellow fall color."</desc>
+        <long>-79.976638</long>
+        <lat>42.121694</lat>
+        <elev>305.3604</elev>
+    </entry>
+    <entry num="49">
+        <cname>London Planetree</cname>
+        <sname>Platanus x acerifolia</sname>
+        <treeType>Decidous</treeType>
+        <desc>"The London Planetree grows to a height of 75Ð100'. Produces inconspicuous red flowers
+            in April. Bark has red-brown scales that flake to reveal green, white and creamy
+            yellow."</desc>
+        <long>-79.977103</long>
+        <lat>42.120858</lat>
+        <elev>309.9282</elev>
+    </entry>
+    <entry num="50">
+        <cname>Northern Red Oak 2</cname>
+        <sname>Quercus rubra</sname>
+        <treeType>Decidous</treeType>
+        <desc>"ÊMature trees have dark grey or brown bark with broad, shiny strips on the trunk's
+            ridges. Its leaves areÊdark green on both sides, withÊseven to eleven sharp
+            lobes.Ê"</desc>
+        <long>-79.982754</long>
+        <lat>42.115897</lat>
+        <elev>344.514</elev>
+    </entry>
+    <entry num="51">
+        <cname>Douglas Fir 2</cname>
+        <sname>Pseudotsuga menziesii</sname>
+        <treeType>Coniferous</treeType>
+        <desc>"ÊThis tree has long, flat, spirally arranged needles that grow directly from the
+            branch and completely surround it. These trees can grow up to 250' in height and 6' in
+            diameter.Ê"</desc>
+        <long>-79.982973</long>
+        <lat>42.118961</lat>
+        <elev>318.6682</elev>
+    </entry>
+    <entry num="52">
+        <cname>Eastern Redbud 2</cname>
+        <sname>Cercis canadensis</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree typically grows 20' in height with a similar spread and have gracefully
+            ascending branches and a rounded shape. Eastern redbud leaves are alternate, simple,
+            broadly heart-shaped and 3 to 5"" high and wide. Leaves emerge reddish, turning green as
+            they expand."</desc>
+        <long>-79.984081</long>
+        <lat>42.118441</lat>
+        <elev>319.9111</elev>
+    </entry>
+    <entry num="53">
+        <cname>Common Witchhazel</cname>
+        <sname>Hamamelis virginiana</sname>
+        <treeType>Coniferous</treeType>
+        <desc>Witchhazel grows to a height of 15Ð30'. Produces fragrant yellow flowers anytime from
+            October through December.</desc>
+        <long>-79.983595</long>
+        <lat>42.119918</lat>
+        <elev>315.4172</elev>
+    </entry>
+    <entry num="54">
+        <cname>Ruby Horse Chestnut 4</cname>
+        <sname>Aesculus carnea</sname>
+        <treeType>Decidous</treeType>
+        <desc>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the
+            European horse chestnut with white flowers and an eastern Nrth American native with red
+            ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above
+            and silvery below that turn bright yellow in fall.Ê"</desc>
+        <long>-79.98674</long>
+        <lat>42.123363</lat>
+        <elev>307.954</elev>
+    </entry>
+    <entry num="55">
+        <cname>Cucumbertree</cname>
+        <sname>MagNlia acuminata</sname>
+        <treeType>Decidous</treeType>
+        <desc>"The Cucumber tree grows 60-75'. The hardiest of all magnolias, the leaves are
+            deep-green in summer and yellow-brown in fall. Flowers are greenish or greenish-white in
+            color. They are followed by a cucumber-like fruit which turns from green to red. The
+            flowers and fruit are often missed because they occur at the top of the tree."</desc>
+        <long>-79.985563</long>
+        <lat>42.124148</lat>
+        <elev>303.9987</elev>
+    </entry>
+    <entry num="56">
+        <cname>Fraser Fir 2</cname>
+        <sname>Abies fraseri</sname>
+        <treeType>Coniferous</treeType>
+        <desc>This is an uniformly pyramid-shaped tree which reaches a maximum height of about 80'
+            and a diameter of 1-1.5'. Strong branches are turned slightly upward which gives the
+            tree a compact appearance.</desc>
+        <long>-79.980631</long>
+        <lat>42.121882</lat>
+        <elev>303.5491</elev>
+    </entry>
+    <entry num="57">
+        <cname>Norway Spruce 2</cname>
+        <sname>Picea abies</sname>
+        <treeType>Coniferous</treeType>
+        <desc>"This is a tree with long, cylindrical cones that hang like ornamentsÊagainst the dark
+            green foliage. Tend to be 50 to 80' highÊ"</desc>
+        <long>-79.980912</long>
+        <lat>42.1222</lat>
+        <elev>302.4481</elev>
+    </entry>
+    <entry num="58">
+        <cname>Bristlecone Pine</cname>
+        <sname>Balfourianae</sname>
+        <treeType>Coniferous</treeType>
+        <desc>"This pine grows slowly to about 20'. Irregular, sweeping branches display tight
+            bundles of short dark green needles and purplish-brown cones. Native to the mountain
+            regions of the southwestern United States."</desc>
+        <long>-79.980987</long>
+        <lat>42.122191</lat>
+        <elev>301.2438</elev>
+    </entry>
+</btrees>

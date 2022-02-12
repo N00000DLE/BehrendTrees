@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../articleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<newspaperArticle>
+    <meta>
+        <publisher>The Behrend Beacon</publisher>
+        <issueDate>2007-03-30</issueDate>
+        <issuePage>2</issuePage>
+    </meta>
+    <body>
+        <header>
+            <title titleId="2007-03-30">Task force works towards a greener Behrend</title><author>Jessica Samol</author>
+           
+        </header>
+        <p n="1">Penn State Behrend's campus is ecologically committed to protecting and conserving the environment. In 2001, <org>The Greener Behrend Task Force</org> formed to
+            address sustainability issues on campus. The purpose of the <org>Greener Behrend
+            Task Force</org> is to promote a campus community at Behrend that is educated and
+            involved in maintaining a responsible relationship with the natural resources of
+            the earth.</p>
+        
+        <p n="2">Members of the <org>Greener Behrend Task Force</org> are committed to building respect
+            for the environment and are developing and implementing strategies for campus
+            practice and policies. In addition, the task force is addressing seven main issues
+            at Behrend, which include reducing energy use and promoting cleaner fuels, using
+            water in a conservative and respectable manner, minimizing solid and liquid
+            waste, increasing the healthfulness of food and reducing its waste, protecting natural areas, incorporating "green" practices into the construction and renovation of
+            facilities, and promoting ecological stewardship within the college community.</p>
+        
+        <p n="3">The Greener Behrend Task Force is making great efforttoward creating a more
+            environmentally friendly and sustainable environment. In 2003, the creation of
+            the <org>Arboretum at Behrend</org> brought a much greener scene to the campus. More
+            than 200 species oftrees are represented in the Arboretum, making it a haven by 
+            local environmentalists for its interesting trees. Senior Associate <person>Dean, Dr. Robert
+            Light</person> said, "The faculty and staff have further developedthe Arboretum at Penn State
+            Behrend which works with the ground crew to make the campus a place recognized
+            for its education, research, and outreach related to its trees and plantings." In addition, <person>Light</person> said, "The faculty and staff have established a Landscape Committee that
+            works with the grounds crew to beautify specific sites on campus".</p>
+        
+        <p n="4">The task force has also been successful in incorporating the use of geothermal
+            heating in residence halls and reclaiming heat from the Junker Center pool area to use
+            in other parts of the building. In addition, automatic heating and cooling setbacks are
+            being utilized when buildings are not in use, and automatic light shutoff has been
+            installed in classrooms and parking lots when they are not in use. Among other
+            promising efforts to reduce energy use, <person>Light</person> said, "They are working with housing
+            to promote the installation of"low-flow" showerheads in residence halls, and working 
+            with housekeeping to maintain the college's activerecycling program."</p>
+        
+        <p n="5">Educating the Behrend community about sustainability is a vital asset to create a
+            more knowledgeable and environmentally friendly campus. "We need the faculty,
+            staff, and students to realize how important becoming sustainable is, not only on
+            campus, but in general. The entire community must drive sustainability efforts and
+            not wait or rely on a few to push the program," <person>Light</person> said.</p>
+        
+        <p n="6"><org>The Greener Behrend Task Force</org> is integrating sustainability topics into the curricular offerings throughout the college as part of their education campaign. The
+            community can become more involved in creating a more sustainable environment
+            by "Learningmore about sustainable issues and working with college leaders to promote environmentally friendly ideas," <person>Light</person> said. With future plans for the task
+            force, Behrend will continue to stand as a role model for other institutions by promoting a greener environment.</p>
+    </body>
+</newspaperArticle>

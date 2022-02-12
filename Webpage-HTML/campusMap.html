@@ -1,391 +1,64 @@
 <!DOCTYPE html>
 <html>
-	<link rel="stylesheet" type="text/css" href="campusMap.css">
-    <head><title>Behrend Trees </title></head>
+    <head>
+        <title>Tree Map</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="btrees.css"/>
+        <link rel="stylesheet" type="text/css" href="campusMap.css"/>
+
+    </head>
     <body>
-  <h1>Master Tree Sheet</h1>
-        <table><!--Wait, how do I make an HTML table? See https://www.w3schools.com/html/html_tables.asp :)
-            (: Tables should have a row at the top with special <th>..</th> cells inside for table headings:)-->
-            <tr>
-                <th>Common Name</th>
-                <th>Scientific Name</th>
-                <th>Description</th>
-            </tr>
-            <tr>
-                <td>Scarlet Oak</td>
-                <td>Quercus coccinea</td>
-                <td>" This tree is large with a rounded, open habit which eventually matures to 70' tall. Leaves are 3-6"" long and deeply cut with bristle-tipped, pointed lobes. Foliage is a glossy green in summer turning to scarlet in fall."</td>
-            </tr>
-            <tr>
-                <td>Flowering Dogwood</td>
-                <td>Cornus florida</td>
-                <td>"This tree is a multi-branched shrub or small tree, characterized by a rounded crown and horizontal branches that spread wider than its height. Typically 15' to 50' tall. Bark on mature trees is broken into small square blocks that give the stem an ÒalligatorÓ appearance."</td>
-            </tr>
-            <tr>
-                <td>Common Bald Cypress</td>
-                <td>Taxodium distichum</td>
-                <td>This tree are long-lived and slow-growing. A mature tree develops a coarse wide-spreading head. It grows to about 100' tall.</td>
-            </tr>
-            <tr>
-                <td>Persian Ironwood</td>
-                <td>Parrotia persica</td>
-                <td>"This tree is a small upright tree or large, rounded, multi-stemmed shrub. The oblong green leaves turn various shades of red, orange and yellow in the fall, often persisting into the winter months. "</td>
-            </tr>
-            <tr>
-                <td>Norway Maple</td>
-                <td>Acer plataNides</td>
-                <td>"This tree reaches a height of 40-50 ft. The leaves are dark green, simple, opposite, 4Ó-7Ó wide with 5 lobes. The mature tree has a rounded crown of dense foliage and the bark is grayish-black and furrowed."</td>
-            </tr>
-            <tr>
-                <td>Eastern Hophornbeam</td>
-                <td>Ostrya virginiana</td>
-                <td>"This tree grows 20 to 35 ft tall and is naturally found in dry, rocky forests. The leaves are alternate with a doubly toothed margin and fuzzy stem. The bark is smooth and reddish brown."</td>
-            </tr>
-            <tr>
-                <td>Kentucky Coffee Tree</td>
-                <td>Gymnocladus dioicus</td>
-                <td>The Kentucky Coffee Tree grows to a height of 60Ð75' and produces clusters of greenish-white flowers that bloom at the same time leaves are maturing.</td>
-            </tr>
-            <tr>
-                <td>Flowering Dogwood 2</td>
-                <td>Cornus florida</td>
-                <td>"This is a multi-branched shrub or small tree, characterized by a rounded crown and horizontal branches that spread wider than its height. Typically ranges 15' to 50' tall. Bark on mature trees is broken into small square blocks that give the stem an ÒalligatorÓ appearance."</td>
-            </tr>
-            <tr>
-                <td>Red Maple</td>
-                <td>Acer rubrum</td>
-                <td>"Red maples are fast-growing trees that usually reach 60-90'. Flowers, fruit, twigs and autumn leaves are red"</td>
-            </tr>
-            <tr>
-                <td>Accolade Elm</td>
-                <td>U. davidiana var. japonica</td>
-                <td>" This elm is a vase shaped tree that typically grows to 50-60' tall and 25-40' wide. Glossy, ovate-elliptic, dark green leaves have toothed margins and asymetrical bases."</td>
-            </tr>
-            <tr>
-                <td>Purple Fountain Weeping Beech</td>
-                <td>Fagus sylvatica</td>
-                <td>"This dark-leaved tree has bronze-purple, wavy margined leaves and cascading branches. Fall color is yellow, then orange-brown. Grows 15 to 30'."</td>
-            </tr>
-            <tr>
-                <td>Eastern Hemlock</td>
-                <td>Tsuga canadensis</td>
-                <td>"This tree is one of the more shade-tolerant evergreens that resembles a large Christmas tree with its broadly pyramidal, pendulous branches and fine, dark-green needles on widely spaced branches. The tree has abundant brown cones that hang from branches."</td>
-            </tr>
-            <tr>
-                <td>Kousa Dogwood</td>
-                <td>Cornus kousa</td>
-                <td>"This is a flowering tree or multi-stemmed shrub that typically grows 15-30' tall, with a vase-shaped habit in the early years but eventually maturing to a more rounded form. Bloom occurs in late spring."</td>
-            </tr>
-            <tr>
-                <td>Blue Spruce 2</td>
-                <td>Picea pungens</td>
-                <td>"This is an anconical-shaped evergreen tree with stiff horizontal branches and short stiff needles. In nature, the needles are often green, but many specimens produce blue-green needles."</td>
-            </tr>
-            <tr>
-                <td>Fraser Fir</td>
-                <td>Abies fraseri</td>
-                <td>This is a uniformly pyramid-shaped tree which reaches a maximum height of about 80'. Strong branches are turned slightly upward which gives the tree a compact appearance.</td>
-            </tr>
-            <tr>
-                <td>White Fringe </td>
-                <td>Chionanthus virginicus</td>
-                <td>" This tree is characterized by its resplendent white flowers, which bloom in May or June. The tree also has small olive-like fruit, which develops in August or September."</td>
-            </tr>
-            <tr>
-                <td>White Pine</td>
-                <td>Pinus strobus</td>
-                <td>"This tree can reach 150' in height and up to 40"" in diameter. Its evergreen needles are in clusters of 5, soft, flexible, 2 1/2 to 5 inches long, and bluish-green in appearance."</td>
-            </tr>
-            <tr>
-                <td>Norway Spruce</td>
-                <td>Picea abies</td>
-                <td>"This is a large, pyramidal tree with long, cylindrical cones that hang like ornaments against the dark green foliage. Tends to be 50'-80' high "</td>
-            </tr>
-            <tr>
-                <td>Lost Franklinia</td>
-                <td>Franklinia alatamaha</td>
-                <td>"This is a small tree or large shrub growing 15- 20' high and 10-15' feet wide. It has elongated, dark green leaves that turn red, orange, or pink in the fall."</td>
-            </tr>
-            <tr>
-                <td>Hackberry</td>
-                <td>Celtis occidentalis</td>
-                <td>"This tree typically grows 40-60' tall with upright-arching branching and a rounded spreading crown. Fruit is like a hybrid between a nut and a berry. They are a versatile, power packed food. In general, they are sweet, tasty, and crunchy."</td>
-            </tr>
-            <tr>
-                <td>Dawn Redwood</td>
-                <td>Metasequoia</td>
-                <td>"This tree producies small, round 1/2"" to 1"" cones. It has a pyramidal shape in youth, maturing into a more rounded crown. The bright green, feathery leaves turn orange-brown or reddish-brown in the fall"</td>
-            </tr>
-            <tr>
-                <td>Bald Cypress</td>
-                <td>Taxodium distichum</td>
-                <td>"A young bald cypress is symmetrical and pyramidal. As it matures, it develops a coarse wide-spreading head. Its tapering trunk is usually 100' tall. They shed their needlelike leaves in the fall. Their fall colors are tan, brown, and fiery orange."</td>
-            </tr>
-            <tr>
-                <td>American Chestnut</td>
-                <td>Fagaceae</td>
-                <td>This tree has long cane shaped leaves with hooked teeth at the edge of the leaf. The leaf is dull/ matte in texture. The tree reaches a height of 50'- 75'</td>
-            </tr>
-            <tr>
-                <td>Persimmon</td>
-                <td>Diospyros kaki</td>
-                <td>"A small tree, growing up to 33' in height. The fruit is 1Ð2"" in diameter, usually rather flattened, and dark red to maroon in colour."</td>
-            </tr>
-            <tr>
-                <td>Ginkgo</td>
-                <td>Ginkgo biloba</td>
-                <td>" This tree has somewhat leathery, fan-shaped, rich green leaves. Leaves turn bright yellow in fall. Tree grows 50'- 80' tall"</td>
-            </tr>
-            <tr>
-                <td> Black Gum</td>
-                <td>Nyssa sylvatica</td>
-                <td>"This tree has summer leaves that are dark green with a high-gloss appearance, but the fall foliage turns many shades of yellow, orange, bright red, purple or scarlet that may appear on the same branch. Bark matures to medium gray and resembles alligator hide. Grows 30'-50' high."</td>
-            </tr>
-            <tr>
-                <td>Pecan</td>
-                <td>Carya illiNinensis</td>
-                <td>This tree has a thick gray-brown trunk. The bark is ridged and has a scaly appearance. The twigs of the tree are red-brown in color and the foliage is dark green.</td>
-            </tr>
-            <tr>
-                <td>Nanking (Manchu) Cherry</td>
-                <td>Prunus tomentosa</td>
-                <td>"This tree has fragrant white spring flowers, shiny reddish-brown bark, and edible scarlet fruit. It typically grows to a height of 6Ð10' and a spread about 15' at maturity."</td>
-            </tr>
-            <tr>
-                <td>Norway Maple 2</td>
-                <td>Acer platanoides</td>
-                <td>" This tree reaches a height of 40'-50'. The leaves are dark green, simple, opposite, 4Ó-7Ó wide with 5 lobes. The mature tree has a rounded crown of dense foliage and the bark is grayish-black and furrowed."</td>
-            </tr>
-            <tr>
-                <td>Northern Red Oak</td>
-                <td>Quercus rubra</td>
-                <td>" Mature trees have dark grey or brown bark with broad, shiny strips on the trunk's ridges. Its leaves are dark green on both sides, with seven to eleven sharp lobes. "</td>
-            </tr>
-            <tr>
-                <td>River's Purple Beech</td>
-                <td>Fagus sylvatica ÔRiversiiÕ</td>
-                <td>This tree has the deepest purple foliage of any purple-leafed beech with richly colored foliage that retains its dark purple color throughout the summer months.ÊIt grows 40'-50'.</td>
-            </tr>
-            <tr>
-                <td>Wildfire Black Gum </td>
-                <td>Nyssa sylvatica 'Wildfire'</td>
-                <td>Wildfire Black Gum has forest green foliage which emerges red in spring. The glossy pointy leaves turn an outstanding crimson in the fall. Tree reaches a height of 50'.</td>
-            </tr>
-            <tr>
-                <td>Bur Oak</td>
-                <td>Quercus macrocarpa</td>
-                <td>"Bur Oak is a large, deciduous tree with a very wide, open crown. Usually wider than tall, the tree can exceed 100' in height and width. The massive trunk supports heavy, horizontal limbs and rough, deep-ridged bark."</td>
-            </tr>
-            <tr>
-                <td>American Sweetgum</td>
-                <td>Liquidambar styraciflua</td>
-                <td>"This tree provides brilliant fall color, with leaves turning vibrant shades of yellow, orange, red and purple. Yields long-stemmed, woody, burr-like fruit that is approximately 1?"" in diameter. Grows in a pyramidal shape, becoming more oval or rounded with age."</td>
-            </tr>
-            <tr>
-                <td>Japanese Stewartia</td>
-                <td>Stewartia pseudocamellia</td>
-                <td>"This tree is a small, slow-growing, pyramidal, deciduous tree native to the mountains of Japan and the Korean peninsula. Specimens in the wild can reach 50-60' tall, but in cultivation typically mature over time to 20-40' tall."</td>
-            </tr>
-            <tr>
-                <td>Loblolly Pine</td>
-                <td>Pinus taeda</td>
-                <td>"This tree is a large evergreen tree that reaches heights of 130'. It has ascending limbs, and a rounded, spreading crown. "</td>
-            </tr>
-            <tr>
-                <td>Prairiefire Flowering Crabapple</td>
-                <td>Malus 'Prairifire'</td>
-                <td>"This tree grows 15- 20 ft. The blooms are followed by an intense maroon foliage that matures to a reddish green then turns red, orange, and purple in the fall. The glossy, persistent red fruit are an excellent food source for birds "</td>
-            </tr>
-            <tr>
-                <td>Black Walnut</td>
-                <td>Juglans nigra</td>
-                <td>"This tree grows 70-80' in height and attain diameters of 2 to 4'. Mature trees have a deeply furrowed gray- brown to nearly black bark. The brown to orange- brown twigs are stout, with large, shield shaped, conspicuous leaf scars"</td>
-            </tr>
-            <tr>
-                <td>Snowdrift Crabapple</td>
-                <td>Malus 'Snowdrift'</td>
-                <td>"This tree is a rounded, deciduous tree which typically grows 15-20' tall with a similar spread. Red buds open to slightly fragrant, single white flowers in spring. Flowers are followed by masses of small, orange-red crabapples"</td>
-            </tr>
-            <tr>
-                <td>Yellow Buckeye</td>
-                <td>Aesculus flava</td>
-                <td>"The Yellow Buckeye has thick bark, yellow spring blooms, and striking orange fall color. It grows 60-75' tall. This tree actually gets its name from the whitish scar found on each brown seed. It is said to give the seed the appearance of a deer's eye."</td>
-            </tr>
-            <tr>
-                <td>Flowering Dogwood 3</td>
-                <td>Cornus florida</td>
-                <td>"This is a multi-branched shrub or small tree, characterized by a rounded crown and horizontal branches that spread wider than its height. Typically ranges 15'-50' tall. Bark on mature trees is broken into small square blocks that give the stem an ÒalligatorÓ appearance."</td>
-            </tr>
-            <tr>
-                <td>Eastern Redbud</td>
-                <td>Cercis canadensis</td>
-                <td>"Trees typically grow 20' in height with a similar spread and have ascending branches and a rounded shape. Leaves are alternate, simple, broadly heart-shaped and 3 to 5"" high and wide. Leaves emerge reddish, turning green as they expand."</td>
-            </tr>
-            <tr>
-                <td>Pin Oak </td>
-                <td>Quercus palustris</td>
-                <td>"This tree features glossy, dark green leaves that are 3Ð6"" long with 5 lobes. Yields acorns that are nearly round and ?"" long . It grows 70'-90' tall with diameters between 2' and 3'."</td>
-            </tr>
-            <tr>
-                <td>Copper Beech</td>
-                <td>Fagus sylvatica</td>
-                <td>"This tree takes on a dense, oval to pyramidal shape. Generally grows to heights of 50 to 75' with a width of 40 to 60'."</td>
-            </tr>
-            <tr>
-                <td>American Holly</td>
-                <td>Ilex opaca</td>
-                <td>"This tree features leathery leaves that are 2Ð4"" long, maintain their green color year-round, and are sharply tipped on the margins. Yields red, berry-like fruit. Average of 50' tall"</td>
-            </tr>
-            <tr>
-                <td>Sourwood</td>
-                <td>Oxydendrum arboreum</td>
-                <td>This tree has a rounded top and drooping branches. Tree typically grow up to 30' in height and 20' in spread.</td>
-            </tr>
-            <tr>
-                <td>Littleleaf Linden</td>
-                <td>Tilia cordata</td>
-                <td>"This tree features heart-shaped leaves that are lopsided at the base, usually 2Ð3"" long. Leaf color shifts from light green to glossy dark green to yellow throughout the seasons. Yields nutlike fruit."</td>
-            </tr>
-            <tr>
-                <td>Sugar Maple</td>
-                <td>Acer saccharum</td>
-                <td>"This tree has medium to dark-green leaves that turn yellow, burnt orange, and red in the fall. This tree grows 60' to 75' and spreads 40' to 50'."</td>
-            </tr>
-            <tr>
-                <td>English Oak</td>
-                <td>Quercus robur</td>
-                <td>This tree has broad leaves and are considered one of the best shade trees. They produce fruit in the form of acorns. They reach a mature height of 50 to 70'.</td>
-            </tr>
-            <tr>
-                <td>Western Tamarack (Larch)</td>
-                <td>Larix occidentalis</td>
-                <td>"This tree is tall with trunks that grow very straight. Average height is 100'. The bark of young trees is gray and smooth, becoming reddish brown and scaly with age."</td>
-            </tr>
-            <tr>
-                <td>Chestnut Oak</td>
-                <td>Quercus prinus</td>
-                <td>"This tree is readily identified by its massively-ridged dark gray-brown bark. It grows 50 to 60' tall. The leaves are 4 to 6"" long. Fall color varies from red to orange to yellow-brown."</td>
-            </tr>
-            <tr>
-                <td>Tulip Tree</td>
-                <td>Liriodendron tulipifera</td>
-                <td>"This tree typically grows 60-90' tall. The bark on its large trunk is colored light grayish brown. The leaves are 3-8"" long and are glossy green above with a pale green underside, changing to golden yellow in the fall."</td>
-            </tr>
-            <tr>
-                <td>Plains Cottonwood</td>
-                <td>Populus deltoides</td>
-                <td>This tree may range from 70-130' in height and 4-7' in diameter. The leaves are sail-like shaped with long flat stems they have a tendency to tremble and flutter from even the slightest breeze</td>
-            </tr>
-            <tr>
-                <td>Douglas Fir</td>
-                <td>Pseudotsuga menziesii</td>
-                <td>" This tree has long, flat, spirally arranged needles that grow directly from the branch and completely surround it. These trees can grow up to 250' in height and 6' in diameter. "</td>
-            </tr>
-            <tr>
-                <td>Thornless Honeylocust</td>
-                <td>Gleditsia triacanthos</td>
-                <td>"This is a fast-growing tree with fragrant spring flowers. Its delicate, open silhouette lets grass grow underneath. Tiny leaflets turn yellow or yellow-green in fall. Grows to 30' to 70'."</td>
-            </tr>
-            <tr>
-                <td>Bitternut Hickory</td>
-                <td>Carya cordiformis</td>
-                <td>"This tree has leaves that are 15"" long that turn bright yellow to brown in the fall. It grows about 160' in height. Nuts found on the tree have a bitter taste and are about an inch in length"</td>
-            </tr>
-            <tr>
-                <td>American Elm</td>
-                <td>Ulmus americana</td>
-                <td>"The leaves of American Elm are alternate, simple, and have doubly toothed margins. They are oval to elliptic and are 4 to 6 inches long. The tree grows 60 to 80'."</td>
-            </tr>
-            <tr>
-                <td>Atlantic White Cedar</td>
-                <td>Thuja occidentalis</td>
-                <td>"This tree has bark that is pale brown, stringy and fibrous in appearance, sometimes shredding. It has fan-like branches and scaly leaves. This tree grows about 50' tall"</td>
-            </tr>
-            <tr>
-                <td>American Elm 2</td>
-                <td>Ulmus americana</td>
-                <td>Elm trees have oval-shaped leaves with saw-toothed edges and are pointy at the end. The tree can grow up to 80'.</td>
-            </tr>
-            <tr>
-                <td>Weeping Japanese Cherry</td>
-                <td>Prunus subhirtella</td>
-                <td>This tree has slender and flexible branches that lead them to gracefully weep their long pink leaves. This tree grows 20 to 30' tall</td>
-            </tr>
-            <tr>
-                <td>American Sweetgum 2</td>
-                <td>Liquidambar styraciflua</td>
-                <td>"The fall leaves on this tree turn vibrant shades of yellow, orange, red and purple. Yields burr-like fruit that is approximately 1?"" in diameter. The tree grows 60 to 75'."</td>
-            </tr>
-            <tr>
-                <td>Blue Spruce</td>
-                <td>Picea pugenus</td>
-                <td>This tree is conical-shaped with stiff horizontal branches and short stiff needles. The tree grows 50-75' in height</td>
-            </tr>
-            <tr>
-                <td>Japanese Red Maple</td>
-                <td>Aceraceae</td>
-                <td>This tree can be a small tree or large shrub with a broadly spreading crown. The leaves stay a vibrant red all year long. The tree grows 15 to 25' tall</td>
-            </tr>
-            <tr>
-                <td>Kwanzan Cherry</td>
-                <td>Cultivar</td>
-                <td>This cherry can grow 30-40'. It has very showy pink flowers that bloom in clusters of 3-5 in April.</td>
-            </tr>
-            <tr>
-                <td>Yellowwood</td>
-                <td>Cladrastis kentukea</td>
-                <td>"The yellowwood grows 30-50'. It has smooth bark, large hanging clusters of fragrant white flowers, and clear yellow fall color."</td>
-            </tr>
-            <tr>
-                <td>Ruby Horse Chestnut</td>
-                <td>Aesculus carnea</td>
-                <td>"This tree is a clone of a hybrid horse chestnut, resulting from a cross between the European horse chestnut with white flowers and an eastern Nrth American native with red ones.ÊIt can grow 40-60'. It has gray-green bark and leaves which are dark green above and silvery below that turn bright yellow in fall. "</td>
-            </tr>
-            <tr>
-                <td>Japanese Umbrella Pine</td>
-                <td>Sciadopitys verticillata</td>
-                <td>Japanese Umbrella Pine is named for its elegant shape and cascading green needles. It usually grows to 25' and is a slow grower.</td>
-            </tr>
-            <tr>
-                <td>Weeping White Pine</td>
-                <td>Pinus strobus 'Pendula</td>
-                <td>"This pine only grows to about 12'. Weeping white pine trees have smooth trunks covered with silvery-gray bark. As they age, the foliage covers the trunks all the way to the ground. The needles of a weeping white pine are evergreen and smell good. They are blue or blue-green."</td>
-            </tr>
-            <tr>
-                <td>Spanish Oak</td>
-                <td>Quercus falcata</td>
-                <td>"This oak can grow to 90'. Bark is grayish-black, broken into deep grooves, becoming ridged and rough-plated near the base.. The leaves upper surface is dark green &amp; shiny while the lower surface is paler with light brown matted hairs. Leaves often droop and turn reddish-brown in fall."</td>
-            </tr>
-            <tr>
-                <td>Osage Orange</td>
-                <td>Maclura pomifera</td>
-                <td>"The Osage Orange grows to be 30-50'. Leaf blades are dark green, smooth and waxy above; paler green with a few hairs beneath. The color turns translucent yellow in the fall. Large fruits appear on female trees. Its wood was once in demand for making hubs and wheel rims for horse drawn wagons. "</td>
-            </tr>
-            <tr>
-                <td>Korean Pine</td>
-                <td>Pinus koraiensis</td>
-                <td>"Korean pine grows to mature heights of 100'. Bark is gray-brown and smooth, becoming gray-black, scaly, and peeling on larger trees."</td>
-            </tr>
-            <tr>
-                <td>Blue Atlas Cedar</td>
-                <td>Cedrus atlantica</td>
-                <td>This cedar is slow growing; reaches 40 to 60'. The evergreen needles are a light blue gray color. The Blue Atlas Cedar is native to the Atlas Mountains.</td>
-            </tr>
-            <tr>
-                <td>Paper Birch</td>
-                <td>Betula papyrifera</td>
-                <td>The Paper Birch grows to a height of 50Ð70'. It develops a smooth white bark that curls and peels. The leaves turn bright yellow in the fall</td>
-            </tr>
-            <tr>
-                <td>White Spire Birch</td>
-                <td>Betula populifolia</td>
-                <td>"This Birch has chalky white bark. It is fast growing to a height of 20-40' . It yeild shiny, dark green leaves that turn yellow in the fall."</td>
-            </tr>
-            <tr>
-                <td>Winter King Hawthorn</td>
-                <td>Crataegus viridis</td>
-                <td>"This Hawthorn can grow 25-35'. Gray stems have glossy dark green leaves that turn purple to red in fall. Thorns can be present. Fragrant, 5-petaled, white flowers bloom in May. Flowers are followed by small red fruits that ripen in September and usually persist on the tree well into winter. The fruit is sometimes called a haw. "</td>
-            </tr>
-        </table>
+        <div id="navbanner">
+            <div id="navbar">
+                <img src="Assets/btrees_logo.png" id="logo" alt="btree logo"/>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="campusMap.html">Campus Map</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Meet the Trees</button>
+                            <div class="dropdown-content">
+                                <a href="visualizations.html">Visuals</a>
+                                <a href="treeList.html">Master Tree Sheet</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Arboretum Articles</button>
+                            <div class="dropdown-content">
+                                <a href="artOutput.html">Article Viewpoint</a>
+                                <a href="artOrganizations.html">Organizations</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">About</button>
+                            <div class="dropdown-content">
+                                <a href="about.html">The Team</a>
+                                <a href="sources.html">Sources</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="about">
+            <h1>Behrend Tree Map</h1>
+            <p>Click tree locations to learn about the various trees on Behrend's campus!</p>
+        </div>
+        <div class="disclaimer">
+            <p>*The images on the map are not our own, and may not exactly represent the trees of Penn State Behrend*</p>
+        </div>
+        <div class="container">
+            <iframe class="responsive-iframe" src="https://www.google.com/maps/d/u/0/embed?mid=1z6C8VfCt-KPPsEd1oIJo-6hR8mt6_Li2"></iframe>
+        </div>
     </body>
 </html>

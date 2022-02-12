@@ -1,7 +1,10 @@
-body {
-    background-color: #d0d4d4;
+body 
+
+{
+    background-color: #AFBCB5;
     font-family: Sans-serif;
     margin: 0;
+    
 }
 #navbanner {
     background-color: #5f7a6b;
@@ -11,7 +14,7 @@ body {
 #navbar {
     width: 90%;
     margin: auto;
-    padding: 5px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,12 +22,18 @@ body {
 #navbar ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 15px;
+  
 }
 #navbar ul li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    padding: 16px;
+    position: relative;
+    
+}
+#navbar a:hover {
+    background-color: #66b032;
 }
 #logo{
     width:50px;
@@ -32,26 +41,32 @@ body {
     padding: 10px 0;
     align-items: center;
 }
-#bannerimage{
+.bannerimage{
     width: 100%;
     height: 30%;
     display: block;
+    position: relative;
+    text-align: center;
 }
-#imageslider {
+
+.imagebanner {
    width: 100%;
    display: block;
-   text-align:center;  
-   
-}
-#webtitle{
+   text-align:center;
+   position: relative;
+   }
+.webtitle{
    text-align:center;
    width:100%; 
    position: absolute;
-   top: 35%;
+    top: 50%;
+   left: 50%;
    color: white;
    text-transform: uppercase;
+   transform: translate(-50%, -50%);
    Text-shadow: 2px 2px black;
-   font-size:75px;
+   font-size:58px;
+   font-weight: bold;
 }
 #content {
     padding: 40px;
@@ -64,6 +79,148 @@ body {
     color: #2f3e46;
     font-size: 21px;
 }
+
+.about-section {
+  padding: 10px;
+  text-align: center;
+  background-color: #4d5d53;
+  color: white;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-transform: uppercase;
+  font-family: Sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a9ba9d;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100%;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+svg {
+    padding: 50px 50px;
+}
+
+h2 {
+    color: grey;
+    text-align: center;
+}
+
+button {
+    background-color: #5f7a6b; /* Green */
+    color: white;
+}
+
+.sep {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;  
+    background-color: #e6e8e8;
+    padding: 30px 10px;
+}
+
+h3 {
+    color: #5f7a6b;
+    text-align: center;
+}
+
+.heading {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.disclaimer {
+    text-align: center;
+    font-size: 10px;
+}
+
+
+#infographic {
+   display: block;
+   padding-left: 50px;
+}
+
+#visscroll {
+ overflow-x: scroll;
+}
+
+.h2graphics{
+    background: #4d5d53;;
+    color: white;
+}
+.dropdown-content a:hover{
+    background-color: #8db600;
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #66b032;
+    
+}
+
+#cy {
+     width: 65vw;
+     height: 75vh;
+     position:absolute;
+     margin:auto;
+     border-style:double;
+     justify-content: center;
+ }
+#originNetwork {
+    margin: 25px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 500px;
+    
+}
+#statusNetwork {
+    margin: 25px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 500px;
+    
+}
+
+#heightgraph {
+    margin: auto;
+    width: 100%;
+    white-space: nowrap; 
+    overflow-x: scroll;
+}
+#elevgraph{
+    margin: auto;
+    width: 100%;
+    white-space: nowrap; 
+    overflow-x: scroll;
+    }
+    
+
 
     
     

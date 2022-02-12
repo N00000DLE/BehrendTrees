@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../articleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<newspaperArticle>
+    <meta>
+        <publisher>The Behrend Beacon</publisher>
+        <issueDate>2003-02-28</issueDate>
+        <issuePage>1</issuePage>
+    </meta>
+    <body>
+        <header>
+            <title titleId="2003-02-28">Behrend Declared Arboretum</title>
+            <author>Jen Henderson</author>
+        </header>
+        <p n="1"><org>The Greener Behrend Task Force</org> has
+            great ideas on keeping the campus
+            environmentally preserved. This group
+            of people, alongwith many others, has
+            helped to further develop Behrend
+            environmentally. These changes have
+            led the campus to be offered
+            membership in the <org>American
+            Association of Botanical Gardens and
+            Arboreta</org>.</p>
+        <p n="2">The campus is now known as an
+            arboretum and will be fully inducted in
+            a ceremony that will take place on April
+            23</p>
+        <p n="3">Throughout the campus's 725 acres
+            there are a variety of diverse trees in
+            remote locations and in various buildings. The Behrend campus has at least
+            one of each of the 50 states' trees.
+            Pennsylvania's tree, the eastern hemlock, are located all over, including the
+            other side of the Studio Theatre. The
+            state tree ofHawaii is located inside the
+            Kochel Building, in an attempt to keep
+            it alive and healthy</p>
+        <p n="4">While most trees are located throughout our campus, some are inside, and
+            others grow in the green house which
+            is located behind the <person>Otto Behrend</person>
+            building.</p>
+        <p n="5">Dr. Thomas Wortman, special
+            projects assistant to the provost and
+            dean, along with Dr. Robert Light, associate provost and dean, lead the task
+            force at Behrend. <person>Wortman</person> is very
+            proud of what has been done with the
+            surroundings thus far and believes the
+            original owners would be too.</p>
+        <p n="6">He is especially proud of "how we
+            maintain the beauty and integrity of
+            this setting and how we've acted responsibly towards the Behrends' gift
+            to us. Frankly I think the Behrend
+            family would be pretty proud of what
+            we have done here, they would he
+            happythat we are conserving the sort
+            ofthings that they gave us fifty five
+            years ago."</p>
+        <p n="7"><person>Sam Marvit</person> is a freshman student who is 
+            also actively involved with the task force.</p>
+        <p n="8">"It gives students a chance to he involved simply with consen ation because it is a crisis today in America,
+            mainly because we use most of the
+            world's resources," said <person>Mary</person> it
+            "Hopefully we can take one step at
+            making it less of a crisis and working
+            with nature as opposed towards working against nature, 
+            which is most often happening."</p>
+        <p n="9">Marvit has done this work before
+            and believes that this is a wonderful
+            chance for students to get invoked.
+            "It's great for students because it also
+            prepares them for what the world may be like in future 
+            times once conservation grows more rapidly, as it is now.
+            I've been involved with a lot of conservation groups, outdoor
+            groups, environmentalist groups, and thought that this would 
+            just be one more to help."</p>
+        <p n="10">The Behrend campus being named an arboretum benefits 
+            everyone involved.  "It gives us the opportunity to have an 
+            organized effort toward using this natural environment here,
+            specifically our trees and our other botanical resources."
+            said <person>Wortman.</person> "It also is a reach out to the
+            community so our students can then
+            interact with the other people and the
+            things around them."</p>
+        <p n="11">Earth Day is April 22 and the task
+            force along with student activities and
+            organizations are working towards setting up a day of events to celebrate.
+            There will be educational activities on
+            sustainability issues and open stage
+            performances. Area school children
+            will be invited to take tours ofthe campus to see why it has been chosen to be
+            called an arboretum. The final details
+            for this event will be available within
+            the next few weeks</p>
+        <p n="12">Last year, Eco-mugs were introduced
+            and this year will be no exception.
+            Housing and Food services will bring
+            the mugs back, but redesigned to keep
+            the idea fresh. This program seemed
+            to be very successful last year.</p>
+        <p n="13">On April 23, a ceremony will be held
+            inducting the Behrend campus as an arboretum. There are three arboretums in
+            <org>Erie County: the Erie Zoological Society</org> and the <org>Lake Erie Arboretum and
+            Frontier Park</org>, along with the Behrend
+            campus. Behrend's arboretum is very
+            large and spread out over heavily
+            wooded areas in the gorge, managed areas, wild areas, such as on top ofthe
+            ski hill, meadow, and grassland.</p>
+        <p n="14">Three hundred various species have
+            been identified thus far and experts are
+            still performing research on this
+            project. It can prove to be difficult due
+            to the time and knowledge needed to
+            work on this process. The group is also
+            looking to make a pamphlet showing
+            where the various trees are located
+            throughout the campus.</p>
+        <p n="15">Other members of the task force involved in these projects include: Dr.
+            <person>Edwin C. Masteller</person>, <person>R. Thomas Guth</person>,
+            landscape supervisor, <person>Dr. Zachary
+            Irwin</person>, associate professor of political
+            science, <person>Dr. Paul Barney</person>, lecturer in biology, <person>Dr. Roger Knacke</person>, director of
+            the School of Science, <person>Dr. Michael
+            Campbell</person>, associate professor of biology, along with Wortman and Light.
+            Many of the original ideas for these
+            projects originated from <person>Masteller</person>, who
+            is now retired.</p>
+        <p n="16">The Task Force is focusing on
+            sustainability. This entails living
+            within means and using the resources
+            that Earth provides. The Task Force's
+            seven main issues include: reducing energy use, conserving water, minimizing waste, increasing the healthiness of
+            food and reducing its waste, protecting and preserving natural areas, using
+            "green" practices, and promoting ecological stewardship within the community.</p>
+        <p n="17">The mission of the arboretum is to
+            conserve and promote the legacy ofthe
+            campus' unique natural botanical resources through: advancement of related education, outreach, research, and
+            conservation efforts; documentation
+            and enhancement of the campus' botanical diversity; and the maintenance
+            of the campus' inspirational woodland setting. Their vision
+            is that it will be recognized as an important education, outreach
+            research, and conservation resource.
+        </p>
+        <p n="18">When asked if he is looking for others to aid in this project, <person>Marvit</person> said,
+            "I've used publicity towards conservation, but I believe that we shouldn't try
+            to recruit people, we aren't an army.
+            At the same time people should want
+            to work with us, we are only improving the area and where students live and
+            study.</p>
+        <p n="19">"We are trying to keep up with national
+            standards of conservation and a lot of
+            other universities are probably a lot better than we are, as good as it seems.
+            But what we are doing isn't novel at
+            all, it is like everyone else. It's in no
+            way radical. It's just about conservation."</p>
+        <p n="20">In response Wortman said, "The
+            ideas are hardly radical, it's very mainstream. It's about conservingthe beauty
+            and the biodiversity, it's not about making political statements.</p>
+        <p n="21">"Arboretum is certainly a work in
+            progress, it's not somethingthat comes
+            in a box and you open it up and then
+            you have arboretum. Arboretum requires the efforts of a whole lot of
+            people and it changes, sometimes day
+            to day. It's a dynamic thing, rather than
+            a static one."</p>
+        <p n="22">Everyone
+            on the Behrend campus should be
+            proud of what the Greener Behrend
+            Task Force has done for the campus.
+            "If we believe so strongly in our trees
+            to become an arboretum, then students
+            are probably the most critical part of
+            that," said Wortman.</p>
+    </body>
+</newspaperArticle>

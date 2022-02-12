@@ -2,40 +2,135 @@
 <html>
     <head>
         <title>Behrend Trees </title>
-        <link rel="stylesheet" type="text/css" href="btrees.css">
+        <link rel="stylesheet" type="text/css" href="btrees.css" />
     </head>
     <body>
         <div id="navbanner">
             <div id="navbar">
-                <img src="Assets/temp_tree_logo.jpg" id="logo" alt="btree logo">
+                <img src="Assets/btrees_logo.png" id="logo" alt="btree logo" />
                 <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
                     <li>
                         <a href="campusMap.html">Campus Map</a>
                     </li>
                     <li>
-                        <a href="arboretumArticles.html">Arboretum Articles</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">Meet the Trees</button>
+                            <div class="dropdown-content">
+                                <a href="visualizations.html">Visuals</a>
+                                <a href="treeList.html">Master Tree Sheet</a>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <a href="about.html">The Team</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">Arboretum Articles</button>
+                            <div class="dropdown-content">
+                                <a href="artOutput.html">Article Viewpoint</a>
+                                <a href="artOrganizations.html">Organizations</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">About</button>
+                            <div class="dropdown-content">
+                                <a href="about.html">The Team</a>
+                                <a href="sources.html">Sources</a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
-        <div id="imageslider">
-            <img src="Assets/tree_top_banner.jpg" id="bannerimage" alt="temp tree banner">
-            <h1 id="webtitle">Penn State Behrend Trees</h1>
-            <!--ged: eventually we will have a slide show of different photos from 
+        <div class="imagebanner">
+            <img src="Assets/background1.jpg" class="bannerimage" alt="tree banner" />
+            <div class="webtitle">Penn State Behrend Trees</div>
+        </div>
+        <!--ged: eventually we will have a slide show of different photos from 
             around Behrend campus. I am open to other ideas maybe
             we could have some various trees as well. -->
-        </div>
         <div id="content">
             <div id="goal">
                 <h1>Our Goal</h1>
                 <p>Our Inspiration for the project was the nature that surrounds Penn State
                     Behrend.We want to try to encompass the natural beauty that Penn State's
                     Arboretum and trees have to offer. The Arboretum not only captures unique tree
-                    species from around the world, it can be used to follow the history of Behrend.
-                </p>
+                    species from around the world, it can be used to follow the history of Behrend. </p>
+                <h1>Navigating Our Site</h1>
+                <div class="sep">
+                    <h3>The Campus Tree Map</h3>
+                    <p>The campus map shows most of the trees located around the Penn State Campus.
+                        You can see the locations of the trees as well as information on them. More
+                        detailed information on individual trees can be accessed on the 'Meet the
+                        Trees' page. </p>
+                    <form action="campusMap.html">
+                        <button>Campus Tree Map</button>
+                    </form>
+                </div>
+                <div class="sep">
+                    <h3>Meet the Trees</h3>
+                    <p>Meet the Trees is a detailed list including a lot of education information on
+                        the trees around campus. Using the search options at the top you can search
+                        up specific trees on campus by their common name and scientific name. </p>
+                    <form action="treeList.html">
+                        <button>Meet the Trees</button>
+                    </form>
+                </div>
+                <div class="sep">
+                    <h3>Visualizations</h3>
+                    <p>The visualizations page includes a lot of interesting graphics involving the
+                        trees on campus. You can use the page to visualize the trees heights,
+                        origins and more. Some of the graphics will even be interactive, that way
+                        you can view what you are interested in. </p>
+                    <form action="visualizations.html">
+                        <button>Data Visualizations</button>
+                    </form>
+                </div>
+                <div class="sep">
+                    <h3>Arboretum Articles</h3>
+                    <p>Arboretum Articles is an page dedicated to news articles addressing the trees
+                        around campus. It includes visualizations including these mentions as well. </p>
+                    <form action="arboretumArticles.html">
+                        <button>Arboretum Articles</button>
+                    </form>
+                </div>
+                <div class="sep">
+                    <h3>Meet the Team</h3>
+                    <p>Come learn about the team behind the site. This power team of 3 students
+                        created this site from the bottom up using a variety of different techniques
+                        and skills. </p>
+                    <form action="about.html">
+                        <button>The Team</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="networkSection">
+            <div class="about-section">
+                <h3 class="h2graphics">Interactive Network Graph</h3>
+                <div>This network displays the relationship between the tree type and the
+                    conservation status of each tree relative to the United States.</div>
+                <div>Disclaimer: If a tree has double lines it comes from 2 various regions within
+                    the same continent. For example a tree could be from Northeastern North America
+                    as well as Southern North America </div>
+                <div>
+                    <h3 class="h2graphics">Legend</h3>
+                    <div>Orange lines = Coniferous</div>
+                    <div>Blue lines = Deciduous </div>
+                    <div>Green Circle Nodes = Common Tree Names </div>
+                    <div>Light Pink Square Nodes = Stage of Conservation Status </div>
+                </div>
+            </div>
+            <div id="statusNetwork">
+                <div id="cy">
+                    <script src="web_session_status/networks.js"> </script>
+                    <script src="web_session_status/styles.js"> </script>
+                    <script src="web_session_status/scripts/vendor.js"></script>
+                    <script src="web_session_status/scripts/main.js"></script>
+                </div>
             </div>
         </div>
     </body>

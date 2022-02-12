@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../articleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<newspaperArticle>
+    <meta>
+        <publisher>The Behrend Beacon</publisher>
+        <issueDate>2003-04-18</issueDate>
+        <issuePage>3</issuePage>
+    </meta>
+    <body>
+        <header>
+            <title titleId="2003-04-18">Behrend dedicated as arboretum</title><author>Katie Zellars</author> </header>
+        <p n="1">The Behrend campus will officially be dedicated as an arboretum, a place where
+            trees are grown for scientific and educational purposes, and a member of the
+                <org>American Association of Botanical Gardens and Arboreta</org>. The ceremony will
+            be on Wednesday at 10:15 a.m. in the Glenhill Circle. in conjunction with Earth Day
+            activities.</p>
+        <p n="2">"It formalizes and recognizes a lot of the good things we've done already," said
+                <person>Dr. Thomas Wortman</person>, special projects assistant to the dean and head
+            of the <org>Greener Behrend Task Force</org>. "It also gives us some pretty dramatic
+            opportunities for education and research."</p>
+        <p n="3">The campus prides itself that at least one state tree from every state is located
+            on its 725 acres.</p>
+        <p n="4"><person>Dr. Jack Burke</person> and the <org>Greener Behrend Task Force</org> will
+            host the ceremony. Speakers will include <person>Wortman</person>; <person>Dr. Zachary
+                Irwin</person>, associate professor of political science and <org>Landscape
+                Committee</org> member; and <person>Donna Mindek</person>, Harborcreek Supervisor
+            and member of the township's <org>Bicentennial Committee</org>.</p>
+        <p n="5">Community members and Klein Elementary third graders, who will participate in
+            activities before the ceremony, will attend the dedication. Refreshments will be served
+            afterwards and tree guides will be given.</p>
+        <p n="6">Students and professors think the campus becoming an arboretum is a great thing and
+            agree that the campus is really a beautiful one. Sophomore Mindy Schwartz thinks that
+            the arboretum will be great for education.</p>
+        <p n="7">"It gives you a chance to learn about trees that are in your own backyard," said
+            Schwartz.</p>
+        <p n="8">"I think it's really good that we're doing it," said ecology professor Pamela
+            Silver. "A lot of people have worked really long and hard to achieve that status."</p>
+        <p n="9">The goal of establishing the campus as a national arboretum has been going on for
+            only a year but the college has been dedicated to preserving and expanding its natural
+            library for years.</p>
+        <p n="10">Even before <person>Mary Behrend</person> donated the original 400 acres to Penn
+            State, the Behrends added East Asian and other exotic trees into the native
+            landscape.</p>
+        <p n="11"><person>Wortman</person> says at least 300 species and subspecies of trees are on
+            campus. It would be nearly impossible to categorize all the different kinds of trees
+            with all the hybrids that have developed but it is one of their goals, which will be
+            included into class curriculum.</p>
+        <p n="12">Other goals for the arboretum include research and grant funding. It will also
+            highly involve the community.</p>
+        <p n="13">"We are part of a group of education institutions around us and we live in a
+            region, state, country, and a world that we cannot ignore," says
+                <person>Wortman</person>. "An arboretum is part of that thinking."</p>
+    </body>
+</newspaperArticle>

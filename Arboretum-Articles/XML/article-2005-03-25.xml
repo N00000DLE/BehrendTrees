@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../articleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<newspaperArticle>
+    <meta>
+        <publisher>The Behrend Beacon</publisher>
+        <issueDate>2005-03-25</issueDate>
+        <issuePage>1</issuePage>
+    </meta>
+    <body>
+        <header><title titleId="2005-03-25">Campus foliage overlooked</title><author>Amanda Charney</author>
+        </header>
+        <p n="4">Few students realize the amount of land Behrend claims as its own or the num ber of
+            species of trees on campus or even that Behrend is now a recognized arbore tum. Even
+            less is the number of students aware of what an arboretum is exactly. It was not until
+            recently, April 23, 2003, that the college was recognized for its extensive collection
+            of greenery.</p>
+        <p n="1">Behrend officially carries the title of an arboretum. An arboretum typically refers to a
+            place where an extensive variety of woody plants are cultivated for scientific,
+            educational and ornamental purposes.</p>
+        <p n="2">With 725 total acres, Behrend is home to more than 175 different categories of trees.
+            Part of this can be attributed to the significant contribution of land to the col lege
+            from <person>Mary Behrend</person>.</p>
+        <p n="3">"I knew there were a lot of trees," said <person>Ruth Hoetzl</person>, BIOL 06. "I just
+            never real ized that we had so many different kinds of trees on campus; without them we
+            would die!"</p>
+        <p n="4">The fact that Behrend is now considered an arboretum can be attributed to one professor
+            emeritus of biology, <person>Dr. Edwin Masteller</person>. <person>Masteller</person>
+            worked for many years so that Behrend would become a place to admire and learn about
+            different plant life. After the dedication, faculty of the <org>Biology Department</org>
+            gathered to create a website that would guide students and the public to learning about
+            the trees on campus</p>
+        <p n="5">The website, which can be accessed at http://bio.bd.psu.edu/plant_web/, includes a
+            Virtual Tree Tour, labeled plants arranged in alphabetical order of com mon names (also
+            with thumbnail image preview), a list of the trees organized by plant family and a
+            collection of plant photographs from all over campus.</p>
+        <p n="6">The tour is a replication of a campus map with numbers indicating where certain tree
+            species can be located around the university. The numbers on the map are each linked to
+            their own web page about that particular tree.</p>
+        <p n="7">Each tree's web page includes photographs of the whole tree, the leaves, flow ers (if
+            existing) and the little black identification signs (again, if existing), as well as a
+            description of the tree and links to obtain more information.</p>
+        <p n="8">This website is far from complete, however, as there are currently 67 trees pre sented on
+            the virtual tour and over 175 varieties of tree on campus. Nonetheless, additions to the
+            website will continue as Behrend's Arboretum con tinues to grow.</p>
+        <p n="9">Plans for the future include an herbarium or a collection of dried plants mount ed,
+            labeled and systematically arranged for use in scientific study that will enhance
+            education, outreach, research and conservation efforts on university property. </p>
+    </body>
+</newspaperArticle>
